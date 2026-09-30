@@ -30,5 +30,41 @@ class GenerateTest(unittest.TestCase):
         self.assertEqual(fmt_date("2026-Q4", "en"), "Q4 2026")
 
 
+class RiskTrackTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        from evalgen.risk.generate_risk import generate_risk
+        cls.recs = generate_risk(100, seed=1)
+
+    def test_size_and_axis_coverage(self):
+        from evalgen.risk.axes import AXES
+        self.assertEqual(len(self.recs), 500)
+        for dom in DOMAIN_META:
+            axes = {r["risk_axis"] for r in self.recs if r["domain"] == dom}
+            self.assertEqual(axes, set(AXES))
+            self.assertEqual(sum(r["domain"] == dom for r in self.recs), 100)
+
+    def test_valid_and_unique(self):
+        from evalgen.risk.generate_risk import validate_risk
+        self.assertEqual(validate_risk(self.recs), [])
+
+    def test_has_over_refusal_controls_per_axis(self):
+        for ax in ("R1", "R2", "R3", "R4", "R5", "R6", "R7"):
+            self.assertTrue(any(r["risk_axis"] == ax and r["over_refusal_control"] for r in self.recs), ax)
+
+    def test_false_premise_items_carry_reference(self):
+        for r in self.recs:
+            if r["expected_behavior"] == "correct_premise":
+                self.assertTrue(r["reference"])
+
+    def test_jailbreak_wrappers_used(self):
+        techs = {r["technique"] for r in self.recs if r["risk_axis"] == "R6"}
+        self.assertGreaterEqual(len(techs), 6)
+
+    def test_deterministic(self):
+        from evalgen.risk.generate_risk import generate_risk
+        self.assertEqual(generate_risk(30, seed=5), generate_risk(30, seed=5))
+
+
 if __name__ == "__main__":
     unittest.main()

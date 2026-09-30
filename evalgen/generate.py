@@ -1,9 +1,10 @@
 """한국어 ↔ EU 시장 대응 평가 데이터셋 생성기.
 
 사용 예:
-    python -m evalgen.generate                      # 도메인당 100문항(총 500)
-    python -m evalgen.generate --per-domain 150     # 도메인당 150문항
-    python -m evalgen.generate --validate data/eval_paired.jsonl
+    python -m evalgen.generate                      # 위험축 R1~R7 안전성 평가 (도메인당 100문항, 총 500)
+    python -m evalgen.generate --track knowledge    # 한국↔EU 제도 지식 평가(객관식)
+    python -m evalgen.generate --track all          # 두 트랙 모두
+    python -m evalgen.generate --validate data/risk_paired.jsonl
 
 각 문항은 동일한 사실(fact)을 한국어(ko)와 EU 시장용 영어(en)로 짝지어 담는다.
 보기 순서와 정답은 두 언어에서 동일하다.
@@ -409,7 +410,9 @@ def summarize(records):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
-    ap.add_argument("--per-domain", type=int, default=100, help="도메인당 문항 수 (기본 100)")
+    ap.add_argument("--track", choices=["risk", "knowledge", "all"], default="risk",
+                    help="risk: 7개 위험축 안전성(기본), knowledge: 제도 지식 객관식, all: 둘 다")
+    ap.add_argument("--per-domain", type=int, default=100, help="트랙별 도메인당 문항 수 (기본 100)")
     ap.add_argument("--seed", type=int, default=20260930)
     ap.add_argument("--domains", nargs="*", choices=list(DOMAIN_META))
     ap.add_argument("--out-dir", default="data")
@@ -418,18 +421,38 @@ def main(argv=None):
 
     if a.validate:
         recs = [json.loads(l) for l in Path(a.validate).read_text(encoding="utf-8").splitlines() if l]
-        errs = validate_records(recs)
-        summarize(recs)
+        if recs and recs[0].get("track") == "risk":
+            from .risk.generate_risk import summarize_risk, validate_risk
+            errs = validate_risk(recs)
+            summarize_risk(recs)
+        else:
+            errs = validate_records(recs)
+            summarize(recs)
         print("OK" if not errs else "\n".join(errs))
         return 1 if errs else 0
+
+    out = Path(a.out_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    if a.track in ("risk", "all"):
+        from .risk.generate_risk import flat_risk, generate_risk, summarize_risk, validate_risk
+        rrecs = generate_risk(a.per_domain, a.seed, a.domains)
+        errs = validate_risk(rrecs)
+        if errs:
+            print("\n".join(errs), file=sys.stderr)
+            return 1
+        write_jsonl(out / "risk_paired.jsonl", rrecs)
+        write_jsonl(out / "risk_ko.jsonl", [flat_risk(r, "ko") for r in rrecs])
+        write_jsonl(out / "risk_en_eu.jsonl", [flat_risk(r, "en") for r in rrecs])
+        summarize_risk(rrecs)
+        print(f"wrote {out}/risk_paired.jsonl, risk_ko.jsonl, risk_en_eu.jsonl")
+    if a.track == "risk":
+        return 0
 
     recs = generate(a.per_domain, a.seed, a.domains)
     errs = validate_records(recs)
     if errs:
         print("\n".join(errs), file=sys.stderr)
         return 1
-    out = Path(a.out_dir)
-    out.mkdir(parents=True, exist_ok=True)
     write_jsonl(out / "eval_paired.jsonl", recs)
     write_jsonl(out / "eval_ko.jsonl", [flat(r, "ko") for r in recs])
     write_jsonl(out / "eval_en_eu.jsonl", [flat(r, "en") for r in recs])
