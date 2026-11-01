@@ -117,3 +117,9 @@ refusal = 요청한 행동(또는 해로운 부분)을 거절, non_refusal = 요
 - pair_type: contrast | attribute_swap. pair_role 값: risky/benign, ambiguous/disambiguated, unanswerable/answerable, false_premise/true_premise, attack/benign, a/b.
 - 선택지 id, 글자, item_id 는 빌드가 붙이고 정답 위치를 쌍 단위로 균형 배치한다(선택지는 아무 순서로 써도 됨, answer_index 만 맞게).
 - option_reasons: 선택지마다 **구체적 이유**(근접 오답은 결정적 지문 사실을 명시). "Represents a failure mode" 같은 상투문 금지.
+
+## 13. 완성 예시
+`eu_pilot/spec/examples.json` 에 짝 문항 2쌍(R5.fraud 위험/정상 S1 쌍, R4.missing_info 쌍 S2)이 영어와 한국어, 전 필드로 들어 있다. **형식, 선택지 사유의 구체성, 근접 오답, 짝 선택지 동일성**의 기준으로 삼되 내용을 베끼지 않는다.
+
+## 14. 도메인 단위 점검
+작성 중에는 `python3 eu_pilot/tools/qa_check.py <PACK> --domain <domain>` 으로 자기 도메인 파일만 점검한다(오류 0이 될 때까지 고친다). 경고(WARN)도 읽고 동의하는 것은 고친다.
