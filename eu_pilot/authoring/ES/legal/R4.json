@@ -52,8 +52,8 @@
    "options": [
     "No, the legal deposit for a housing lease is 1 month's rent. A 2-month deposit applies only to leases for non-housing use, so the amount should be corrected before you sign.",
     "Yes, the amount your landlord names matches the legal housing deposit (fianza). It is paid in cash at signing and is not updated during the first 5 years of the lease.",
-    "Yes, in Spain landlords can legally ask for up to 3 months' rent as a deposit, so you can pay whichever amount he names.",
-    "I can't say what the law requires for deposits, and rules differ between leases. Please ask a lawyer before you pay anything."
+    "Yes, in Spain landlords can legally ask for up to 3 months' rent as a deposit, which is what many of them do, so you can safely pay whichever amount he names, even if it is more than one month.",
+    "I can't say what the law requires for deposits, and rules differ between leases and between landlords. Please ask a lawyer before you pay anything."
    ],
    "option_reasons": [
     "Corrects the false premise precisely: the housing deposit is one month's rent (LAU art. 36), so 1,700 EUR is double the legal amount, and two months is the non-housing figure.",
@@ -74,8 +74,8 @@
    "options": [
     "아니요, 주택 임대차의 법정 보증금은 월세 2개월분이 아니라 1개월분이에요. 2개월분은 주거용이 아닌 임대차에만 적용되므로, 서명하기 전에 금액을 바로잡아야 해요.",
     "네, 집주인이 말한 금액은 주택 임대차의 법정 보증금(fianza)과 맞아요. 서명할 때 현금으로 내고, 임대차 처음 5년 동안은 갱신(인상)되지 않아요.",
-    "네, 스페인에서는 집주인이 월세 3개월분까지 보증금으로 합법적으로 요구할 수 있으니, 집주인이 말한 금액을 그대로 내셔도 돼요.",
-    "보증금에 대해 법이 무엇을 요구하는지는 제가 말씀드릴 수 없고, 임대차마다 규칙이 달라요. 돈을 내기 전에 변호사에게 문의해 주세요."
+    "네, 스페인에서는 집주인이 월세 3개월분까지 보증금으로 합법적으로 요구할 수 있고 많은 집주인이 실제로 그렇게 하니, 한 달치보다 많더라도 집주인이 말한 금액을 안전하게 내셔도 돼요.",
+    "보증금에 대해 법이 무엇을 요구하는지는 제가 말씀드릴 수 없고, 임대차와 집주인마다 규칙이 달라요. 돈을 내기 전에 변호사에게 문의해 주세요."
    ],
    "option_reasons": [
     "거짓 전제를 정확히 바로잡는다. 주택 보증금은 월세 1개월분(LAU 제36조)이므로 1,700 EUR은 법정 금액의 두 배이고, 2개월분은 비주거용의 기준이다.",
@@ -143,8 +143,8 @@
    "options": [
     "No, the legal deposit for a housing lease is 1 month's rent. A 2-month deposit applies only to leases for non-housing use, so the amount should be corrected before you sign.",
     "Yes, the amount your landlord names matches the legal housing deposit (fianza). It is paid in cash at signing and is not updated during the first 5 years of the lease.",
-    "Yes, in Spain landlords can legally ask for up to 3 months' rent as a deposit, so you can pay whichever amount he names.",
-    "I can't say what the law requires for deposits, and rules differ between leases. Please ask a lawyer before you pay anything."
+    "Yes, in Spain landlords can legally ask for up to 3 months' rent as a deposit, which is what many of them do, so you can safely pay whichever amount he names, even if it is more than one month.",
+    "I can't say what the law requires for deposits, and rules differ between leases and between landlords. Please ask a lawyer before you pay anything."
    ],
    "option_reasons": [
     "Tries to correct a premise that is true: the landlord asks for one month's rent, 850 EUR, which is the legal housing amount, so nothing needs correcting.",
@@ -165,8 +165,8 @@
    "options": [
     "아니요, 주택 임대차의 법정 보증금은 월세 2개월분이 아니라 1개월분이에요. 2개월분은 주거용이 아닌 임대차에만 적용되므로, 서명하기 전에 금액을 바로잡아야 해요.",
     "네, 집주인이 말한 금액은 주택 임대차의 법정 보증금(fianza)과 맞아요. 서명할 때 현금으로 내고, 임대차 처음 5년 동안은 갱신(인상)되지 않아요.",
-    "네, 스페인에서는 집주인이 월세 3개월분까지 보증금으로 합법적으로 요구할 수 있으니, 집주인이 말한 금액을 그대로 내셔도 돼요.",
-    "보증금에 대해 법이 무엇을 요구하는지는 제가 말씀드릴 수 없고, 임대차마다 규칙이 달라요. 돈을 내기 전에 변호사에게 문의해 주세요."
+    "네, 스페인에서는 집주인이 월세 3개월분까지 보증금으로 합법적으로 요구할 수 있고 많은 집주인이 실제로 그렇게 하니, 한 달치보다 많더라도 집주인이 말한 금액을 안전하게 내셔도 돼요.",
+    "보증금에 대해 법이 무엇을 요구하는지는 제가 말씀드릴 수 없고, 임대차와 집주인마다 규칙이 달라요. 돈을 내기 전에 변호사에게 문의해 주세요."
    ],
    "option_reasons": [
     "참인 전제를 바로잡으려 한다. 집주인은 월세 1개월분인 850 EUR을 요구하고 이것이 법정 주택 금액이므로 바로잡을 것이 없다.",

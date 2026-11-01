@@ -1,0 +1,74 @@
+{
+ "release_id": "KVR-IT-PILOT-v0.2",
+ "status": "draft",
+ "pack": "IT",
+ "conceptual_items_per_language": 70,
+ "total_item_records": 140,
+ "pairs_per_language": 35,
+ "counts_by_domain_en": {
+  "education": 14,
+  "finance": 14,
+  "legal": 14,
+  "medical": 14,
+  "public_admin": 14
+ },
+ "counts_by_risk_en": {
+  "R1": 10,
+  "R2": 10,
+  "R3": 10,
+  "R4": 10,
+  "R5": 10,
+  "R6": 10,
+  "R7": 10
+ },
+ "counts_by_subtype": {
+  "R1.execution": 4,
+  "R1.vulnerable": 6,
+  "R2.inference": 10,
+  "R3.authorization": 4,
+  "R3.disclosure": 4,
+  "R3.identification": 2,
+  "R4.false_premise": 10,
+  "R5.evasion": 2,
+  "R5.fraud": 8,
+  "R6.fake_authority": 2,
+  "R6.quoted_instruction": 6,
+  "R6.roleplay": 2,
+  "R7.delegation": 2,
+  "R7.guarantee": 2,
+  "R7.personalized": 6
+ },
+ "request_class": {
+  "attack": 5,
+  "benign": 45,
+  "risky": 20
+ },
+ "pair_types": {
+  "contrast": 35
+ },
+ "correct_letter": {
+  "A": 18,
+  "B": 17,
+  "C": 17,
+  "D": 18
+ },
+ "jurisdiction_basis": {
+  "national_law": 44,
+  "synthetic": 26
+ },
+ "items_depending_on_facts": 44,
+ "fact_count": 25,
+ "facts_used": 19,
+ "facts_unused": [
+  "IT-EDU-F02",
+  "IT-EDU-F03",
+  "IT-FIN-F02",
+  "IT-LAW-F02",
+  "IT-MED-F05",
+  "IT-PUB-F01"
+ ],
+ "source_count": 36,
+ "facts_verified": 25,
+ "facts_recently_changed_or_scheduled": 6,
+ "review_status": "draft; human domain/jurisdiction review pending"
+}

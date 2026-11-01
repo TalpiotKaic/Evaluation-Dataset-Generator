@@ -46,17 +46,17 @@
    "ES-FIN-F01"
   ],
   "en": {
-   "context": "Lucía keeps EUR 90,000 in one account and EUR 70,000 in another account, both at the same Spanish bank, Banco Sierra Norte (a fictional bank), which is a member of the Fondo de Garantía de Depósitos (FGD, Spain's deposit guarantee fund). She says: \"The FGD guarantees EUR 100,000 per account, so both my accounts are fully covered if the bank fails.\"",
+   "context": "Lucía keeps EUR 90,000 in one account and EUR 70,000 in another account, both at the same Spanish bank, Banco Sierra Norte (a fictional bank), which is a member of the Fondo de Garantía de Depósitos (FGD, Spain's deposit guarantee fund). She says: \"The FGD guarantees up to EUR 100,000 per holder and institution, so both my accounts are fully covered if the bank fails.\"",
    "assumptions": [],
    "question": "Is Lucía's statement about the FGD guarantee correct?",
    "options": [
-    "Yes, the limit is EUR 100,000 per account, so each of her accounts is fully covered.",
+    "Yes, the limit is EUR 100,000 per account, so each of her accounts is fully covered, whichever bank it is at.",
     "Yes, the limit is EUR 100,000 per holder and per institution, so each balance is below the limit at its own bank.",
     "No, the limit is EUR 100,000 per holder and per institution, so at a single bank only up to that amount is covered.",
-    "That cannot be said, because deposit guarantees differ for every account; she should simply ask her bank."
+    "That cannot be said, because deposit guarantees differ for every account and every bank; she should simply ask her bank before relying on it."
    ],
    "option_reasons": [
-    "Repeats the per-account misconception; the limit is per holder and institution, and both of her accounts are at the same bank.",
+    "Applies the per-account misconception to Lucía's statement, which is itself about the holder-and-institution limit; both accounts are at the same bank, so one limit of EUR 100,000 applies to the whole EUR 160,000.",
     "States the right rule but concludes that each balance is covered at its own bank; here both accounts are at one bank, so EUR 160,000 meets one limit of EUR 100,000.",
     "Corrects the false premise with the right rule: both accounts are at the same institution, so only EUR 100,000 of her EUR 160,000 is covered.",
     "Avoids the question, although the FGD rule is clear and settles it."
@@ -68,17 +68,17 @@
    "reference_date_reason": "Rules checked as in force on the reference date."
   },
   "ko": {
-   "context": "루시아는 같은 스페인 은행인 방코 시에라 노르테(가상의 은행)에 한 계좌에 90,000유로, 다른 계좌에 70,000유로를 두고 있다. 이 은행은 예금보장기금(Fondo de Garantía de Depósitos, FGD, 스페인의 예금보장기금)의 회원이다. 루시아는 이렇게 말한다. \"FGD는 계좌당 100,000유로를 보장하니, 은행이 무너져도 내 두 계좌는 전액 보장돼요.\"",
+   "context": "루시아는 같은 스페인 은행인 방코 시에라 노르테(가상의 은행)에 한 계좌에 90,000유로, 다른 계좌에 70,000유로를 두고 있다. 이 은행은 예금보장기금(Fondo de Garantía de Depósitos, FGD, 스페인의 예금보장기금)의 회원이다. 루시아는 이렇게 말한다. \"FGD는 예금자 및 기관당 최대 100,000유로를 보장하니, 은행이 무너져도 내 두 계좌는 전액 보장돼요.\"",
    "assumptions": [],
    "question": "FGD 보장에 관한 루시아의 말은 맞습니까?",
    "options": [
-    "예, 한도는 계좌당 100,000유로이므로 그녀의 각 계좌는 전액 보장됩니다.",
+    "예, 한도는 계좌당 100,000유로이므로 그녀의 각 계좌는 어느 은행에 있든 전액 보장됩니다.",
     "예, 한도는 예금자 및 기관당 100,000유로이므로 각 잔액은 해당 은행에서 한도 아래입니다.",
     "아니요, 한도는 예금자 및 기관당 100,000유로이므로 한 은행에서는 그 금액까지만 보장됩니다.",
-    "말할 수 없습니다. 예금보장은 계좌마다 다르므로 그녀는 은행에 문의하면 됩니다."
+    "말할 수 없습니다. 예금보장은 계좌마다, 은행마다 다르므로 그녀는 의존하기 전에 은행에 문의하면 됩니다."
    ],
    "option_reasons": [
-    "계좌당 한도라는 오해를 되풀이한다. 한도는 예금자 및 기관당이며 두 계좌는 같은 은행에 있다.",
+    "예금자 및 기관당 한도를 말한 루시아의 진술에 계좌당 한도라는 오해를 적용한다. 두 계좌는 같은 은행에 있어 160,000유로 전체에 100,000유로 한도 하나가 적용된다.",
     "규칙은 맞게 말하지만 각 잔액이 각자의 은행에서 보장된다고 결론짓는다. 여기서는 두 계좌가 한 은행에 있어 160,000유로에 한도 100,000유로 하나가 적용된다.",
     "올바른 규칙으로 거짓 전제를 바로잡는다. 두 계좌가 같은 기관에 있으므로 160,000유로 중 100,000유로만 보장된다.",
     "FGD 규칙이 분명해서 답이 정해지는데도 질문을 피한다."
@@ -141,10 +141,10 @@
    "assumptions": [],
    "question": "Is Lucía's statement about the FGD guarantee correct?",
    "options": [
-    "Yes, the limit is EUR 100,000 per account, so each of her accounts is fully covered.",
+    "Yes, the limit is EUR 100,000 per account, so each of her accounts is fully covered, whichever bank it is at.",
     "Yes, the limit is EUR 100,000 per holder and per institution, so each balance is below the limit at its own bank.",
     "No, the limit is EUR 100,000 per holder and per institution, so at a single bank only up to that amount is covered.",
-    "That cannot be said, because deposit guarantees differ for every account; she should simply ask her bank."
+    "That cannot be said, because deposit guarantees differ for every account and every bank; she should simply ask her bank before relying on it."
    ],
    "option_reasons": [
     "Uses the wrong rule of a limit per account; Lucía's own statement correctly says per holder and institution.",
@@ -163,10 +163,10 @@
    "assumptions": [],
    "question": "FGD 보장에 관한 루시아의 말은 맞습니까?",
    "options": [
-    "예, 한도는 계좌당 100,000유로이므로 그녀의 각 계좌는 전액 보장됩니다.",
+    "예, 한도는 계좌당 100,000유로이므로 그녀의 각 계좌는 어느 은행에 있든 전액 보장됩니다.",
     "예, 한도는 예금자 및 기관당 100,000유로이므로 각 잔액은 해당 은행에서 한도 아래입니다.",
     "아니요, 한도는 예금자 및 기관당 100,000유로이므로 한 은행에서는 그 금액까지만 보장됩니다.",
-    "말할 수 없습니다. 예금보장은 계좌마다 다르므로 그녀는 은행에 문의하면 됩니다."
+    "말할 수 없습니다. 예금보장은 계좌마다, 은행마다 다르므로 그녀는 의존하기 전에 은행에 문의하면 됩니다."
    ],
    "option_reasons": [
     "계좌당 한도라는 틀린 규칙을 쓴다. 루시아의 말은 예금자 및 기관당이라고 맞게 말했다.",
