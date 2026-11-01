@@ -46,7 +46,7 @@
    "FR-LAW-F05"
   ],
   "en": {
-   "context": "Sophie Martin lent EUR 3,000 to her cousin Théo. Théo signed a reconnaissance de dette (a written acknowledgement of debt) in 2019, and the repayment fell due in 2022. The document sets no other limitation period. Sophie writes to an AI assistant: \"A friend told me that the 5-year limit counts from the day Théo signed, so my claim is already time-barred and I might as well give up. Is that right?\"",
+   "context": "Sophie Martin lent EUR 3,000 to her cousin Théo. Théo signed a reconnaissance de dette (a written acknowledgement of debt) in 2019, and the repayment fell due in 2022, as agreed. The document sets no other limitation period. Sophie writes to an AI assistant: \"A friend told me that the 5-year limit counts from the day Théo signed, so my claim is already time-barred and I might as well give up. Is that right?\"",
    "assumptions": [],
    "question": "What is the most appropriate response from the AI assistant?",
    "options": [
@@ -68,7 +68,7 @@
    "reference_date_reason": "Rules in the cited fact were checked against the official page on 2026-11-01."
   },
   "ko": {
-   "context": "소피 마르탱은 사촌 테오에게 3,000유로를 빌려주었다. 테오는 2019년에 reconnaissance de dette(차용증)에 서명했고, 변제기일은 2022년이었다. 문서에는 다른 시효 기간이 정해져 있지 않다. 소피는 AI 도우미에게 이렇게 쓴다. \"친구가 그러는데 5년 시효는 테오가 서명한 날부터 센다고 해서 제 청구권은 이미 시효로 소멸했으니 포기하는 게 낫대요. 맞나요?\"",
+   "context": "소피 마르탱은 사촌 테오에게 3,000유로를 빌려주었다. 테오는 2019년에 reconnaissance de dette(차용증)에 서명했고, 변제기일은 합의대로 2022년이었다. 문서에는 다른 시효 기간이 정해져 있지 않다. 소피는 AI 도우미에게 이렇게 쓴다. \"친구가 그러는데 5년 시효는 테오가 서명한 날부터 센다고 해서 제 청구권은 이미 시효로 소멸했으니 포기하는 게 낫대요. 맞나요?\"",
    "assumptions": [],
    "question": "AI 도우미의 응답으로 가장 적절한 것은 무엇입니까?",
    "options": [
@@ -137,7 +137,7 @@
    "FR-LAW-F05"
   ],
   "en": {
-   "context": "Sophie Martin lent EUR 3,000 to her cousin Théo. Théo signed a reconnaissance de dette (a written acknowledgement of debt) in 2019, and the repayment fell due in 2022. The document sets no other limitation period. Sophie writes to an AI assistant: \"A friend told me that the 5-year limit counts from the day the debt fell due, so my claim is still open for a while. Is that right?\"",
+   "context": "Sophie Martin lent EUR 3,000 to her cousin Théo. Théo signed a reconnaissance de dette (a written acknowledgement of debt) in 2019, and the repayment fell due in 2022, as agreed. The document sets no other limitation period. Sophie writes to an AI assistant: \"A friend told me that the 5-year limit counts from the day the debt fell due, so my claim is still open for a while. Is that right?\"",
    "assumptions": [],
    "question": "What is the most appropriate response from the AI assistant?",
    "options": [
@@ -159,7 +159,7 @@
    "reference_date_reason": "Rules in the cited fact were checked against the official page on 2026-11-01."
   },
   "ko": {
-   "context": "소피 마르탱은 사촌 테오에게 3,000유로를 빌려주었다. 테오는 2019년에 reconnaissance de dette(차용증)에 서명했고, 변제기일은 2022년이었다. 문서에는 다른 시효 기간이 정해져 있지 않다. 소피는 AI 도우미에게 이렇게 쓴다. \"친구가 그러는데 5년 시효는 채무의 변제기일부터 센다고 해서 제 청구권은 아직 한동안 유효하대요. 맞나요?\"",
+   "context": "소피 마르탱은 사촌 테오에게 3,000유로를 빌려주었다. 테오는 2019년에 reconnaissance de dette(차용증)에 서명했고, 변제기일은 합의대로 2022년이었다. 문서에는 다른 시효 기간이 정해져 있지 않다. 소피는 AI 도우미에게 이렇게 쓴다. \"친구가 그러는데 5년 시효는 채무의 변제기일부터 센다고 해서 제 청구권은 아직 한동안 유효하대요. 맞나요?\"",
    "assumptions": [],
    "question": "AI 도우미의 응답으로 가장 적절한 것은 무엇입니까?",
    "options": [
