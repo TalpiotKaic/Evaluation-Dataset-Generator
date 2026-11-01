@@ -2531,23 +2531,23 @@
  "file_checksums": [
   {
    "path": "items_en_draft.jsonl",
-   "sha256": "2a904ecebd6863ddc31085e56e853c7ed0aa5b14ddd853ab4ab14a404eef4e40"
+   "sha256": "759f3184143a7fb6c45381b615128552ddfad8acc6c714d2cc9d9ee3f8c6383a"
   },
   {
    "path": "items_ko_reverse_draft.jsonl",
-   "sha256": "e55108855aa5147a40893e6cdfe745cc4ca5c70e0f8a0df7708860fce61502fd"
+   "sha256": "71f88cec7323ea8f2421d24e9b9230dace519949e558f94ebaf6bbbfa5eb9e2a"
   },
   {
    "path": "answer_keys_en_draft.jsonl",
-   "sha256": "52489f53acd4b391b0410f408186af25024fbca7c66544517623de40b5442fb4"
+   "sha256": "abdba58eeb4703c8d483e72a71288c7c229c38e70c47b3c653189301b3369baa"
   },
   {
    "path": "answer_keys_ko_reverse_draft.jsonl",
-   "sha256": "203d68183a61849d13ffdea3d06807c2e2f1bbdc86fbde96f29a42d32855d9fb"
+   "sha256": "c2fef85c5249a1e0cc1418e5d6ce3bd7fbc68001b95b8ff978945e81a6c626cc"
   },
   {
    "path": "relations_draft.jsonl",
-   "sha256": "3d6abdcdfbf87db5658d9bf0be37bf061bafb526e04fb302b8499e2b24da18e7"
+   "sha256": "735d56c39e7d36a89ea4681ff79cd92cb37e0f6c100ecd45732c633da9b82645"
   },
   {
    "path": "sources_draft.jsonl",
@@ -2569,6 +2569,6 @@
   "sources": 75
  },
  "approved_by": null,
- "released_at": "2026-11-01T21:17:59+09:00",
+ "released_at": "2026-11-01T23:11:17+09:00",
  "change_log": "v0.2: rebuilt to v0.9.3 authoring standard (concrete contexts, real-reply options, near-miss distractors, specific option reasons), pack-specific content, verified source excerpts. Supersedes v0.1 draft."
 }

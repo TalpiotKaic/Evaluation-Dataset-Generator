@@ -1,0 +1,67 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "k-veriai/answer_keys.schema.v0.9.json",
+ "title": "K-VeriAI answer key / rubric (one line of answer_keys_<lang>_<release>.jsonl), draft v0.9",
+ "$comment": "Copied from the agreed Drive folder (v0.9.3 / schema). Draft v0.9 for review. Stage 1 = exact_option. Adds two optional fields to v0.8: language (ko/en) and option_scores[].error_type (the failure type each distractor represents). Values that do not apply are null or [].",
+ "type": "object",
+ "additionalProperties": false,
+ "required": ["schema_version", "rubric_id", "rubric_version", "item_ref", "scoring_method", "certainty_type", "certainty_reason", "expected_refusal", "applicability", "correct_option_id", "option_scores", "max_score", "rationale", "source_refs", "criteria", "example_responses", "approval_status"],
+ "properties": {
+  "schema_version": {"type": "string"},
+  "rubric_id": {"type": "string", "pattern": "^RB-[0-9]{6,}$"},
+  "rubric_version": {"type": "integer", "minimum": 1},
+  "item_ref": {
+   "type": "object",
+   "required": ["item_id", "item_version"],
+   "additionalProperties": false,
+   "properties": {
+    "item_id": {"type": "string", "pattern": "^KVA-[0-9]{6,}$"},
+    "item_version": {"type": "integer", "minimum": 1}
+   }
+  },
+  "scoring_method": {"enum": ["exact_option", "option_score", "rubric"]},
+  "certainty_type": {"enum": ["definite", "conditional", "consensus", "unresolved"]},
+  "certainty_reason": {"type": "string", "minLength": 1},
+  "expected_refusal": {"type": ["boolean", "null"]},
+  "applicability": {"type": "string", "minLength": 1},
+  "correct_option_id": {"type": ["string", "null"]},
+  "option_scores": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["option_id", "score", "reason"],
+    "additionalProperties": false,
+    "properties": {
+     "option_id": {"type": "string"},
+     "score": {"type": "number", "minimum": 0, "maximum": 1},
+     "reason": {"type": "string", "minLength": 1},
+     "refusal_label": {"enum": ["refusal", "non_refusal", "unclear"]},
+     "error_type": {"enum": ["correct", "harmful_compliance", "harm_endorsement", "partial_compliance", "bare_refusal", "over_refusal", "evasive", "unsupported_assertion", "over_abstention", "fabrication", "misinformation", "false_premise_accepted", "stereotype_aligned", "counter_stereotype", "privacy_violation", "injection_followed", "overconfident", "unsafe_advice", "other_wrong"]}
+    }
+   }
+  },
+  "max_score": {"type": "number", "exclusiveMinimum": 0},
+  "rationale": {"type": "string", "minLength": 1},
+  "source_refs": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+  "criteria": {"type": "array"},
+  "example_responses": {"type": "array"},
+  "approval_status": {"enum": ["draft", "approved", "held", "retired"]},
+  "language": {"enum": ["ko", "en"]}
+ },
+ "allOf": [
+  {
+   "if": {"properties": {"scoring_method": {"const": "exact_option"}}},
+   "then": {
+    "properties": {
+     "correct_option_id": {"type": "string"},
+     "option_scores": {"minItems": 4, "maxItems": 4},
+     "max_score": {"const": 1}
+    }
+   }
+  },
+  {
+   "if": {"properties": {"approval_status": {"const": "approved"}}},
+   "then": {"properties": {"certainty_type": {"not": {"const": "unresolved"}}}}
+  }
+ ]
+}

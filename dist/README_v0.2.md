@@ -30,7 +30,7 @@
 - 블라인드 검수는 사람이 아니라 AI(작성과 같은 계열)가 했습니다. 독립 검증이 아닙니다. 불일치 중 일부는 AI 풀이 실수로 보여 그대로 두었고, 근거가 약한 선택지는 고쳤습니다(IT·DE·FR·EU).
 - 사실 팩 일부는 문항에 쓰이지 않았습니다(팩별 미사용 목록은 각 README).
 - 자동 점검 경고가 남아 있습니다('근접 오답 없음', EN/KO 숫자 표기 차이 등).
-- 스키마 검증기는 요청하신 대로 데이터가 안정된 뒤로 미뤘습니다.
+- 스키마 검증기(`eu_pilot/tools/validate_schema.py`)를 만들었고 6개 팩이 모두 통과합니다. relations·sources·facts·manifest는 합의 스키마가 없어 파생 스키마로 검사합니다(`eu_pilot/schema/README.md`).
 - Drive의 문항 파일은 검토용 보기(Markdown)이며 정답(✅)만 표시하고 선택지별 사유·오류 유형·거절 라벨은 싣지 않았습니다. 기계 판독용 원본(jsonl, 정답 키, 관계, 출처, release_manifest의 sha256)은 GitHub 저장소 talpiotkaic/globalrnd 의 claude/charming-ptolemy-0ib4ub 브랜치 eu_pilot/release/<팩>/ 에 있습니다. Drive 도구가 텍스트 직접 입력만 지원해서 큰 jsonl은 올리지 못했습니다.
 
 ## 폴더 구성
