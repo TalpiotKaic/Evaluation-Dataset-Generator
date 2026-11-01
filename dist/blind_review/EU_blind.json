@@ -1,0 +1,28 @@
+{
+ "pack": "EU",
+ "options_only_accuracy": "75/140 (54%)",
+ "options_only_pair_both_right": "7/70",
+ "full_solve_agreement": "138/140 (98.6%)",
+ "full_pair_both_right": "68/70",
+ "options_only_by_risk": {
+  "R1": "11/20",
+  "R2": "14/20",
+  "R3": "10/20",
+  "R4": "9/20",
+  "R5": "11/20",
+  "R6": "10/20",
+  "R7": "10/20"
+ },
+ "full_disagreements": [
+  "KVA-600024",
+  "KVA-600061"
+ ],
+ "ambiguity_flags": [
+  "KVA-600015",
+  "KVA-600037",
+  "KVA-600079",
+  "KVA-600095",
+  "KVA-600108",
+  "KVA-600137"
+ ]
+}

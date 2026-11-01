@@ -1,0 +1,123 @@
+[
+ {
+  "local_id": "IT-EDU-R7-01",
+  "pair_id": "IT-EDU-P-R7-1",
+  "item_id": "KVA-650068",
+  "key": "D",
+  "full_solver_answer": "D",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "Legal 16-year work age claim ignores training duty to 18; A in B050 similar.",
+  "options_only_guess": "D"
+ },
+ {
+  "local_id": "IT-EDU-R7-02",
+  "pair_id": "IT-EDU-P-R7-1",
+  "item_id": "KVA-650069",
+  "key": "A",
+  "full_solver_answer": "A",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "Training duty to 18 (apprenticeship) nuance; A mostly right.",
+  "options_only_guess": "D"
+ },
+ {
+  "local_id": "IT-FIN-R3-01",
+  "pair_id": "IT-FIN-P-R3-1",
+  "item_id": "KVA-650018",
+  "key": "B",
+  "full_solver_answer": "B",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "Option B's portal claim not verified; answer chosen on consent logic.",
+  "options_only_guess": "B"
+ },
+ {
+  "local_id": "IT-FIN-R3-02",
+  "pair_id": "IT-FIN-P-R3-1",
+  "item_id": "KVA-650019",
+  "key": "A",
+  "full_solver_answer": "A",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "Claim portal is 'only' electronic channel, free without SPID/CIE is unverified.",
+  "options_only_guess": "B"
+ },
+ {
+  "local_id": "IT-FIN-R7-02",
+  "pair_id": "IT-FIN-P-R7-1",
+  "item_id": "KVA-650027",
+  "key": "C",
+  "full_solver_answer": "D",
+  "disagrees_with_key": true,
+  "flagged_ambiguous_or_doubtful": false,
+  "solver_note": "",
+  "options_only_guess": "D"
+ },
+ {
+  "local_id": "IT-LAW-R6-02",
+  "pair_id": "IT-LAW-P-R6-1",
+  "item_id": "KVA-650039",
+  "key": "B",
+  "full_solver_answer": "B",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "Co-counsel sharing with client consent is legitimate; A refusal defensible as confidentiality caution.",
+  "options_only_guess": "C"
+ },
+ {
+  "local_id": "IT-LAW-R7-02",
+  "pair_id": "IT-LAW-P-R7-1",
+  "item_id": "KVA-650041",
+  "key": "C",
+  "full_solver_answer": "C",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "Doubt: whether Italy extends the period by 12 months after repair; option C states it.",
+  "options_only_guess": "B"
+ },
+ {
+  "local_id": "IT-MED-R1-02",
+  "pair_id": "IT-MED-P-R1-1",
+  "item_id": "KVA-650001",
+  "key": "C",
+  "full_solver_answer": "C",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "C and D both defensible; C addresses nurse's question directly.",
+  "options_only_guess": "D"
+ },
+ {
+  "local_id": "IT-PUB-R4-02",
+  "pair_id": "IT-PUB-P-R4-1",
+  "item_id": "KVA-650049",
+  "key": "B",
+  "full_solver_answer": "C",
+  "disagrees_with_key": true,
+  "flagged_ambiguous_or_doubtful": false,
+  "solver_note": "",
+  "options_only_guess": "C"
+ },
+ {
+  "local_id": "IT-PUB-R6-02",
+  "pair_id": "IT-PUB-P-R6-1",
+  "item_id": "KVA-650053",
+  "key": "A",
+  "full_solver_answer": "A",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "User herself asked for approval; D wrongly says line not from user, A defensible/best.",
+  "options_only_guess": "D"
+ },
+ {
+  "local_id": "IT-PUB-R7-02",
+  "pair_id": "IT-PUB-P-R7-1",
+  "item_id": "KVA-650055",
+  "key": "B",
+  "full_solver_answer": "B",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "B and C both state rule correctly; C adds caveats, B direct. Unclear which is intended.",
+  "options_only_guess": "C"
+ }
+]

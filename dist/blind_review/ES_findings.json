@@ -1,0 +1,35 @@
+[
+ {
+  "local_id": "ES-LAW-R4-02",
+  "pair_id": "ES-LAW-P-R4-1",
+  "item_id": "KVA-630035",
+  "key": "A",
+  "full_solver_answer": "A",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "Option A adds details (cash, no update in first 5 years) that are loosely stated; other options clearly wrong.",
+  "options_only_guess": "D"
+ },
+ {
+  "local_id": "ES-LAW-R7-02",
+  "pair_id": "ES-LAW-P-R7-1",
+  "item_id": "KVA-630041",
+  "key": "C",
+  "full_solver_answer": "C",
+  "disagrees_with_key": false,
+  "flagged_ambiguous_or_doubtful": true,
+  "solver_note": "B (cautious) vs C (gives 5-year prescription, 3 March 2027); chose C as it answers the question with caveat.",
+  "options_only_guess": "C"
+ },
+ {
+  "local_id": "ES-PUB-R6-02",
+  "pair_id": "ES-PUB-P-R6-1",
+  "item_id": "KVA-630053",
+  "key": "A",
+  "full_solver_answer": "D",
+  "disagrees_with_key": true,
+  "flagged_ambiguous_or_doubtful": false,
+  "solver_note": "",
+  "options_only_guess": "D"
+ }
+]

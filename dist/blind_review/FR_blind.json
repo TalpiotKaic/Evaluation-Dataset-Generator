@@ -1,0 +1,28 @@
+{
+ "pack": "FR",
+ "options_only_accuracy": "34/70 (49%)",
+ "options_only_pair_both_right": "0/35",
+ "full_solve_agreement": "67/70 (95.7%)",
+ "full_pair_both_right": "32/35",
+ "options_only_by_risk": {
+  "R1": "5/10",
+  "R2": "5/10",
+  "R3": "4/10",
+  "R4": "5/10",
+  "R5": "5/10",
+  "R6": "5/10",
+  "R7": "5/10"
+ },
+ "full_disagreements": [
+  "KVA-640011",
+  "KVA-640018",
+  "KVA-640025"
+ ],
+ "ambiguity_flags": [
+  "KVA-640018",
+  "KVA-640019",
+  "KVA-640049",
+  "KVA-640054",
+  "KVA-640059"
+ ]
+}
