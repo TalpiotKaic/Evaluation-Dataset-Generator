@@ -1,0 +1,2482 @@
+{
+ "version": "0.2",
+ "packs": {
+  "EU": {
+   "items_per_cell": 4,
+   "domains": {
+    "medical": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      },
+      {
+       "subtype": "R2.exclusion",
+       "pair_type": "attribute_swap",
+       "roles": [
+        "a",
+        "b"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.missing_info",
+       "pair_type": "contrast",
+       "roles": [
+        "unanswerable",
+        "answerable"
+       ]
+      },
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R5.harmful_tools",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R6.fake_authority",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R7.verification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "finance": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      },
+      {
+       "subtype": "R2.exclusion",
+       "pair_type": "attribute_swap",
+       "roles": [
+        "a",
+        "b"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R3.over_extraction",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.missing_info",
+       "pair_type": "contrast",
+       "roles": [
+        "unanswerable",
+        "answerable"
+       ]
+      },
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R5.evasion",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R6.roleplay",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.guarantee",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "legal": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      },
+      {
+       "subtype": "R2.exclusion",
+       "pair_type": "attribute_swap",
+       "roles": [
+        "a",
+        "b"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R3.identification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.missing_info",
+       "pair_type": "contrast",
+       "roles": [
+        "unanswerable",
+        "answerable"
+       ]
+      },
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R5.evasion",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R6.task_conflict",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.guarantee",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R7.verification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "public_admin": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      },
+      {
+       "subtype": "R2.exclusion",
+       "pair_type": "attribute_swap",
+       "roles": [
+        "a",
+        "b"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R3.identification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.missing_info",
+       "pair_type": "contrast",
+       "roles": [
+        "unanswerable",
+        "answerable"
+       ]
+      },
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R5.evasion",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R6.fake_authority",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.delegation",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "education": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      },
+      {
+       "subtype": "R2.exclusion",
+       "pair_type": "attribute_swap",
+       "roles": [
+        "a",
+        "b"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R3.over_extraction",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.missing_info",
+       "pair_type": "contrast",
+       "roles": [
+        "unanswerable",
+        "answerable"
+       ]
+      },
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R5.harmful_tools",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R6.obfuscation",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.delegation",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      },
+      {
+       "subtype": "R7.verification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "AT": {
+   "items_per_cell": 2,
+   "domains": {
+    "medical": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "finance": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.fake_authority",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "legal": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.identification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.evasion",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.guarantee",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "public_admin": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "education": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.roleplay",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.delegation",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "DE": {
+   "items_per_cell": 2,
+   "domains": {
+    "medical": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "finance": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.fake_authority",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "legal": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.identification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.evasion",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.guarantee",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "public_admin": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "education": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.roleplay",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.delegation",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "ES": {
+   "items_per_cell": 2,
+   "domains": {
+    "medical": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "finance": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.fake_authority",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "legal": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.identification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.evasion",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.guarantee",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "public_admin": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "education": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.roleplay",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.delegation",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "FR": {
+   "items_per_cell": 2,
+   "domains": {
+    "medical": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "finance": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.fake_authority",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "legal": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.identification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.evasion",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.guarantee",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "public_admin": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "education": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.roleplay",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.delegation",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "IT": {
+   "items_per_cell": 2,
+   "domains": {
+    "medical": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "finance": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.fake_authority",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "legal": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.identification",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.evasion",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.guarantee",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "public_admin": {
+     "R1": [
+      {
+       "subtype": "R1.execution",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.disclosure",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.quoted_instruction",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.personalized",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    },
+    "education": {
+     "R1": [
+      {
+       "subtype": "R1.vulnerable",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R2": [
+      {
+       "subtype": "R2.inference",
+       "pair_type": "contrast",
+       "roles": [
+        "ambiguous",
+        "disambiguated"
+       ]
+      }
+     ],
+     "R3": [
+      {
+       "subtype": "R3.authorization",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R4": [
+      {
+       "subtype": "R4.false_premise",
+       "pair_type": "contrast",
+       "roles": [
+        "false_premise",
+        "true_premise"
+       ]
+      }
+     ],
+     "R5": [
+      {
+       "subtype": "R5.fraud",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ],
+     "R6": [
+      {
+       "subtype": "R6.roleplay",
+       "pair_type": "contrast",
+       "roles": [
+        "attack",
+        "benign"
+       ]
+      }
+     ],
+     "R7": [
+      {
+       "subtype": "R7.delegation",
+       "pair_type": "contrast",
+       "roles": [
+        "risky",
+        "benign"
+       ]
+      }
+     ]
+    }
+   }
+  }
+ },
+ "domain_prefix": {
+  "medical": "MED",
+  "finance": "FIN",
+  "legal": "LAW",
+  "public_admin": "PUB",
+  "education": "EDU"
+ }
+}
