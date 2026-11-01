@@ -62,6 +62,25 @@ def main():
     E = lambda i, m: errs.append(f"{i}: {m}")
     W = lambda i, m: warns.append(f"{i}: {m}")
 
+
+    # 0) 파일 경로와 내용의 일치(다른 도메인/팩 내용이 섞였는지)
+    dom_code = {"medical": "MED", "finance": "FIN", "legal": "LAW", "public_admin": "PUB", "education": "EDU"}
+    for it in items:
+        i = it.get("local_id", "?")
+        sd, sr = it["_src"].split("/")[0], it["_src"].split("/")[1].replace(".json", "")
+        if it.get("domain") != sd:
+            E(i, f"domain {it.get('domain')} != directory {sd}")
+        if it.get("primary_risk") != sr:
+            E(i, f"primary_risk {it.get('primary_risk')} != file {sr}")
+        pre = f"{a.pack}-{dom_code.get(sd, '?')}-{sr}-"
+        if not str(i).startswith(pre):
+            E(i, f"local_id should start with {pre}")
+        if not str(it.get("pair_id", "")).startswith(f"{a.pack}-{dom_code.get(sd, '?')}-"):
+            E(i, f"pair_id should start with {a.pack}-{dom_code.get(sd, '?')}-")
+        for fid in it.get("fact_ids", []):
+            if not fid.startswith(f"{a.pack}-{dom_code.get(sd, '?')}-"):
+                E(i, f"fact {fid} belongs to another pack/domain")
+
     # 1) 칸/하위유형 계획 일치
     got = defaultdict(list)
     for it in items:
