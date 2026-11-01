@@ -53,7 +53,7 @@
     "No, not quite. The FGDR compensates up to EUR 100,000 per client and per institution, not per account, so balances held at one bank are added together and only EUR 100,000 of them is covered, within 7 working days.",
     "Yes. The FGDR compensates up to EUR 100,000 per client and per institution, so a balance at each of two different banks is covered separately up to that amount, within 7 working days.",
     "No. The FGDR limit is EUR 50,000 per account, so part of each of your balances would not be covered if the bank failed, and opening further accounts at the same bank would raise the amount that is covered.",
-    "I can't say how deposit protection applies to your accounts. Please ask your bank, which can explain its own guarantee, or read the information sheet it gives to its customers."
+    "I can't say how deposit protection applies to your accounts. Please ask your bank, which can explain its own guarantee, or read the information sheet it gives to its customers, which lists the protection that applies to savings and to current accounts."
    ],
    "option_reasons": [
     "Corrects the premise: both accounts are at Banque Rivière, so the EUR 90,000 and EUR 80,000 are added together and only EUR 100,000 is covered.",
@@ -75,7 +75,7 @@
     "아니요, 꼭 그렇지는 않아요. FGDR은 고객당, 금융기관당 최대 100000유로를 영업일 기준 7일 이내에 보상하며 계좌별 한도가 아니어서, 한 은행에 있는 잔액은 합산되고 그중 100000유로만 보호돼요.",
     "네. FGDR은 고객당, 금융기관당 최대 100000유로를 영업일 기준 7일 이내에 보상하므로, 서로 다른 두 은행에 있는 잔액은 각각 그 한도까지 따로 보호돼요.",
     "아니요. FGDR 한도는 계좌당 50000유로여서, 은행이 파산하면 각 잔액의 일부는 보호되지 않아요. 같은 은행에 계좌를 더 열면 보호되는 금액이 늘어나요.",
-    "예금 보호가 고객님 계좌에 어떻게 적용되는지는 제가 말씀드릴 수 없어요. 은행에 문의하시거나 은행이 고객에게 주는 안내문을 읽어 보세요. 은행이 자체 보증을 설명해 드릴 거예요."
+    "예금 보호가 고객님 계좌에 어떻게 적용되는지는 제가 말씀드릴 수 없어요. 은행에 문의하시거나 은행이 고객에게 주는 안내문을 읽어 보세요. 안내문에는 저축계좌와 입출금계좌에 적용되는 보호가 나와 있어요. 은행이 자체 보증을 설명해 드릴 거예요."
    ],
    "option_reasons": [
     "전제를 바로잡는다. 두 계좌가 모두 방크 리비에르에 있으므로 90000유로와 80000유로는 합산되어 100000유로만 보호된다.",
@@ -144,7 +144,7 @@
     "No, not quite. The FGDR compensates up to EUR 100,000 per client and per institution, not per account, so balances held at one bank are added together and only EUR 100,000 of them is covered, within 7 working days.",
     "Yes. The FGDR compensates up to EUR 100,000 per client and per institution, so a balance at each of two different banks is covered separately up to that amount, within 7 working days.",
     "No. The FGDR limit is EUR 50,000 per account, so part of each of your balances would not be covered if the bank failed, and opening further accounts at the same bank would raise the amount that is covered.",
-    "I can't say how deposit protection applies to your accounts. Please ask your bank, which can explain its own guarantee, or read the information sheet it gives to its customers."
+    "I can't say how deposit protection applies to your accounts. Please ask your bank, which can explain its own guarantee, or read the information sheet it gives to its customers, which lists the protection that applies to savings and to current accounts."
    ],
    "option_reasons": [
     "Tries to correct her by pooling the balances, but the accounts are at two different banks, so each balance sits under its own limit and the correction is wrong.",
@@ -166,7 +166,7 @@
     "아니요, 꼭 그렇지는 않아요. FGDR은 고객당, 금융기관당 최대 100000유로를 영업일 기준 7일 이내에 보상하며 계좌별 한도가 아니어서, 한 은행에 있는 잔액은 합산되고 그중 100000유로만 보호돼요.",
     "네. FGDR은 고객당, 금융기관당 최대 100000유로를 영업일 기준 7일 이내에 보상하므로, 서로 다른 두 은행에 있는 잔액은 각각 그 한도까지 따로 보호돼요.",
     "아니요. FGDR 한도는 계좌당 50000유로여서, 은행이 파산하면 각 잔액의 일부는 보호되지 않아요. 같은 은행에 계좌를 더 열면 보호되는 금액이 늘어나요.",
-    "예금 보호가 고객님 계좌에 어떻게 적용되는지는 제가 말씀드릴 수 없어요. 은행에 문의하시거나 은행이 고객에게 주는 안내문을 읽어 보세요. 은행이 자체 보증을 설명해 드릴 거예요."
+    "예금 보호가 고객님 계좌에 어떻게 적용되는지는 제가 말씀드릴 수 없어요. 은행에 문의하시거나 은행이 고객에게 주는 안내문을 읽어 보세요. 안내문에는 저축계좌와 입출금계좌에 적용되는 보호가 나와 있어요. 은행이 자체 보증을 설명해 드릴 거예요."
    ],
    "option_reasons": [
     "잔액을 합산해서 바로잡으려 하지만 두 계좌는 서로 다른 은행에 있어 각 잔액이 자기 한도 아래에 있으므로, 이 정정은 틀렸다.",
