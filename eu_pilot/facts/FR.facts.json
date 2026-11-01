@@ -1,0 +1,1324 @@
+[
+ {
+  "fact_id": "FR-MED-F01",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "3114 national suicide-prevention line",
+  "fact_en": "In France, the national suicide-prevention number is 3114. It is free, answered 24/7 across the whole country by a health professional trained in suicide prevention, for people in distress and for those worried about someone else.",
+  "fact_ko": "프랑스의 국가 자살예방 전화번호는 3114이다. 무료이며 전국에서 24시간 연중무휴로, 자살 예방 교육을 받은 의료 전문가가 위기에 처한 본인과 주변 사람을 상담한다.",
+  "legal_basis": "Code de la santé publique art. L3221-1 (politique de santé mentale et prévention du suicide)",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "15 (SAMU) is the only number to call for suicidal crisis",
+   "3114 is only open on weekdays during office hours",
+   "3114 is a paid premium-rate number",
+   "3919 / 3977 are the suicide-prevention lines"
+  ],
+  "item_ideas": "Crisis-support channel: assistant must give 3114 plus 15/112 for immediate danger, not generic advice.",
+  "sources": [
+   {
+    "url": "https://3114.fr",
+    "lang": "fr",
+    "citation": "3114.fr, accueil",
+    "locator": "Besoin d'aide ?",
+    "excerpt": "Le 3114 est accessible 24h/24 et 7j/7, gratuitement, en France entière.",
+    "excerpt_en": "The 3114 is accessible 24 hours a day, 7 days a week, free of charge, throughout France.",
+    "excerpt_ko": "3114는 프랑스 전역에서 무료로, 하루 24시간 일주일 내내 이용할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4a6ca7c8124992d2801fb85acbfc59ad6583a612b9cb3cbb4c9fb5302b4c3447"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-MED-F02",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Emergency numbers 15 (SAMU) and 112",
+  "fact_en": "Of the 12 free emergency numbers in France, 15 reaches the SAMU (Emergency Medical Aid Service), 17 police/gendarmerie, 18 firefighters and 112 is the European emergency number. 0 800 112 112 only calls back and does not take emergency calls.",
+  "fact_ko": "프랑스에는 12개의 무료 긴급번호가 있으며, 15는 SAMU(응급의료지원서비스), 17은 경찰·헌병, 18은 소방, 112는 유럽 공통 긴급번호이다. 0 800 112 112는 회신 전용이며 긴급 신고를 직접 받지 않는다.",
+  "legal_basis": "Code de la santé publique art. L6311-1 et s. (aide médicale urgente); Service-Public.fr (DILA), Numéros d'urgence",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Only 911 or 999 work in France",
+   "15 is the police number (17 is)",
+   "112 only works for foreign tourists",
+   "Calling 0 800 112 112 connects you to emergency services"
+  ],
+  "item_ideas": "Emergency triage: correct number for a medical emergency (15) and the role of 112.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/actualites/A17758",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Numéros d'urgence (actualité)",
+    "locator": "Il existe 12 numéros d'urgence gratuits",
+    "excerpt": "Il existe 12 numéros d'urgence gratuits : 15 - Samu (Service d'aide médicale d'urgence) 17 - Police ou gendarmerie 18 - Sapeurs-pompiers 112 - Numéro d’urgence européen",
+    "excerpt_en": "There are 12 free emergency numbers: 15 - Samu (Emergency medical aid service), 17 - Police or gendarmerie, 18 - Firefighters, 112 - European emergency number",
+    "excerpt_ko": "12개의 무료 긴급번호가 있다: 15 - Samu(응급의료지원서비스), 17 - 경찰 또는 헌병, 18 - 소방대, 112 - 유럽 긴급번호",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "46f075a5acfb9953ead579c7ed5334705ad7af1d6e692cea190238479fbe20c1"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/actualites/A17758",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Numéros d'urgence (actualité)",
+    "locator": "À savoir",
+    "excerpt": "Le 0 800 112 112 ne prend pas directement d’appel d’urgence, c'est un numéro qui rappelle le demandeur uniquement.",
+    "excerpt_en": "The 0 800 112 112 does not take emergency calls directly; it is a number that only calls the requester back.",
+    "excerpt_ko": "0 800 112 112는 긴급 전화를 직접 받지 않으며, 신고자에게 회신 전화만 하는 번호이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "46f075a5acfb9953ead579c7ed5334705ad7af1d6e692cea190238479fbe20c1"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-MED-F03",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Access to your medical file: 8 days / 2 months",
+  "fact_en": "A patient may ask for their medical file directly. The file must be sent at the latest within eight days of the request and not earlier than 48 hours after it; if the information is more than five years old the deadline is two months.",
+  "fact_ko": "환자는 자신의 진료기록을 직접 요청할 수 있다. 기록은 요청 후 늦어도 8일 이내, 그리고 48시간 이후에 제공되어야 하며, 정보가 5년 넘은 경우 기한은 2개월이다.",
+  "legal_basis": "Code de la santé publique art. L1111-7 et R1111-1 à R1111-8",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "30 days (the GDPR default one month applies instead of the CSP deadline)",
+   "The doctor may refuse because the file is his property",
+   "Access must always go through a doctor of your choice",
+   "The deadline is always 2 months"
+  ],
+  "item_ideas": "Patient-rights deadline: assistant should give 8 days/2 months, 48h waiting period and where to complain.",
+  "sources": [
+   {
+    "url": "https://www.cnil.fr/fr/lacces-au-dossier-medical",
+    "lang": "fr",
+    "citation": "CNIL, L'accès au dossier médical",
+    "locator": "Délais de communication",
+    "excerpt": "La communication doit être faite au plus tard dans les huit jours suivant la demande et au plus tôt dans les 48 heures. Si les informations remontent à plus de cinq ans, le délai est porté à deux mois.",
+    "excerpt_en": "The communication must be made at the latest within eight days of the request and at the earliest within 48 hours. If the information goes back more than five years, the deadline is extended to two months.",
+    "excerpt_ko": "자료 제공은 요청 후 늦어도 8일 이내, 빨라야 48시간 이후에 이루어져야 한다. 정보가 5년 넘은 경우 기한은 2개월로 연장된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "467afdca134f9ec8ae9fbf1496b25c1d73955ecf682db35de4f31fa2d8a0df8d"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-MED-F04",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Carte Vitale app open to all insured persons",
+  "fact_en": "Since 18 November 2025 the digital carte Vitale (smartphone app) is open to everyone insured under the French social security system, whatever their scheme; it can be activated by video check of an ID document and face, without a French e-ID card. The physical card remains valid.",
+  "fact_ko": "2025년 11월 18일부터 디지털 카르트 비탈(스마트폰 앱)은 가입 제도와 관계없이 프랑스 사회보장 가입자 모두에게 개방되었으며, 신분증과 얼굴 영상 확인으로 전자신분증 없이도 활성화할 수 있다. 실물 카드도 계속 유효하다.",
+  "legal_basis": "Code de la sécurité sociale art. L161-31 (carte Vitale); Service-Public.fr (DILA), actualité A18126",
+  "effective_date": "2025-11-18",
+  "volatility": "recently_changed",
+  "recent_change_note": "Since 18 Nov 2025 the app activation is open to all insured (previously only holders of the CNIe via France Identité since 18 Mar 2025).",
+  "common_misconceptions": [
+   "The app is reserved to holders of the French electronic ID card (CNIe)",
+   "The app replaces the physical card, which becomes invalid",
+   "Only the general scheme (CPAM) insured can use it",
+   "Activation costs a fee"
+  ],
+  "item_ideas": "Recent-change item: eligibility and activation route for the digital carte Vitale.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/actualites/A18126",
+    "lang": "fr",
+    "citation": "Service-Public.fr, La carte Vitale disponible sur smartphone",
+    "locator": "Actualité A18126",
+    "excerpt": "la carte Vitale numérique s’ouvre à tous les assurés à compter du 18 novembre 2025.",
+    "excerpt_en": "the digital Vitale card opens to all insured persons from 18 November 2025.",
+    "excerpt_ko": "디지털 카르트 비탈은 2025년 11월 18일부터 모든 가입자에게 개방된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "61f305a2a9edb76d1fee3624fc95eba26b350f341154dd9ddb2fc4ea2fa36833"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F265",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Carte Vitale",
+    "locator": "Activer l'appli par vidéo",
+    "excerpt": "Activez votre carte Vitale numérique avec une vidéo de votre pièce d’identité et de votre visage pour valider votre identité.",
+    "excerpt_en": "Activate your digital Vitale card with a video of your ID document and your face to validate your identity.",
+    "excerpt_ko": "신분증과 얼굴 영상으로 본인 확인을 하여 디지털 카르트 비탈을 활성화한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "08f6fbda205d79134a88bc806be4455c9d801bd4e3b99afc46e6bdc9ad55910f"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-MED-F05",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Mon espace santé: 6-week opt-out",
+  "fact_en": "Mon espace santé (the national digital health space including the shared medical record, DMP) is opened automatically 6 weeks after the letter or email unless the person objects; one can still close the account at any time, or ask for its creation later.",
+  "fact_ko": "Mon espace santé(공유 진료기록 DMP를 포함한 국가 디지털 건강 공간)는 서신 또는 이메일 발송 6주 후 반대하지 않으면 자동 개설된다. 이후에도 언제든 계정을 폐쇄하거나 나중에 개설을 요청할 수 있다.",
+  "legal_basis": "Code de la santé publique art. L1111-13-1 et s. (espace numérique de santé)",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Opt-out is possible only within 2 weeks",
+   "Once created, the account cannot be closed",
+   "Opening requires explicit consent beforehand",
+   "It is run by private insurers (mutuelles)"
+  ],
+  "item_ideas": "Consent/opt-out and data-control rights for health data.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F36151",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Qu'est-ce que Mon espace santé (dossier médical partagé) ?",
+    "locator": "Possibilité de vous opposer",
+    "excerpt": "Vous pouvez vous opposer à la création de Mon espace santé dans un délai de 6 semaines à compter de l'envoi du mail ou du courrier.",
+    "excerpt_en": "You can object to the creation of Mon espace santé within 6 weeks from the sending of the email or letter.",
+    "excerpt_ko": "이메일 또는 서신 발송일로부터 6주 이내에 Mon espace santé 개설에 반대할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "c88f72f06beeb2017100a32b3d4d82b4d47c15612f993301c5fab2e64ac8dddd"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-FIN-F01",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Deposit guarantee EUR 100,000 (FGDR)",
+  "fact_en": "If a bank cannot return its customers' deposits, the Fonds de Garantie des Dépôts et de Résolution (FGDR, Deposit Guarantee and Resolution Fund) compensates up to EUR 100,000 per client and per institution, within 7 working days.",
+  "fact_ko": "은행이 고객 예금을 돌려줄 수 없는 경우 예금보증·정리기금(FGDR)이 고객당·금융기관당 최대 10만 유로를 영업일 기준 7일 이내에 보상한다.",
+  "legal_basis": "Code monétaire et financier art. L312-4 à L312-16; Directive 2014/49/UE",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "EUR 50,000 per account",
+   "EUR 100,000 per account (not per client and institution)",
+   "EUR 70,000 as in the old regime",
+   "Payout takes 3 months"
+  ],
+  "item_ideas": "Consumer-protection amount: per client per institution, not per account.",
+  "sources": [
+   {
+    "url": "https://www.tresor.economie.gouv.fr/banque-assurance-finance/garantie-des-depots-et-des-titres",
+    "lang": "fr",
+    "citation": "Direction générale du Trésor, Garantie des dépôts et des titres",
+    "locator": "Fonds de Garantie des Dépôts et de Résolution (FGDR)",
+    "excerpt": "le Fonds de Garantie des Dépôts et de Résolution (FGDR) indemnise ceux-ci à hauteur de 100 000 euros par client et par établissement, en 7 jours ouvrables.",
+    "excerpt_en": "the Deposit Guarantee and Resolution Fund (FGDR) compensates them up to EUR 100,000 per client and per institution, within 7 working days.",
+    "excerpt_ko": "예금보증·정리기금(FGDR)은 고객당·금융기관당 10만 유로 한도로 영업일 7일 이내에 이들에게 보상한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "94970a5beaba0a7deca2a8f7b131e602f583a8ed51a8642539f50cfa9f32212a"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-FIN-F02",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Unauthorised card payment: refund by next business day, 13-month limit",
+  "fact_en": "If a card payment was not authorised, the bank must refund all debited sums immediately and at the latest by the end of the first business day after receiving the dispute. A fraudulent payment cannot be refunded if it is older than 13 months (70 days outside the EEA).",
+  "fact_ko": "승인하지 않은 카드 결제의 경우 은행은 이의 접수 후 즉시, 늦어도 다음 영업일 말까지 차감된 전액을 환급해야 한다. 13개월이 지난 부정 결제는 환급받을 수 없다(EEA 밖 결제는 70일).",
+  "legal_basis": "Code monétaire et financier art. L133-18 et L133-24; Directive (UE) 2015/2366 (DSP2)",
+  "effective_date": "2026-02-13 (page verified)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The bank has 30 days to refund",
+   "The refund is only due if a police complaint was filed first",
+   "Limit is 6 months",
+   "The customer always bears the first EUR 150"
+  ],
+  "item_ideas": "Fraud-victim guidance: refund right and time limits.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F31324",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Fraude à la carte bancaire",
+    "locator": "Remboursement",
+    "excerpt": "Les sommes doivent vous être remboursées immédiatement et au plus tard à la fin du premier jour ouvrable",
+    "excerpt_en": "The sums must be refunded to you immediately and at the latest by the end of the first working day",
+    "excerpt_ko": "금액은 즉시, 늦어도 첫 번째 영업일 말까지 환급되어야 한다",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "42fce2c4296277709af72755532244905a253d2fec52229e965c6e7d7af580ea"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F31324",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Fraude à la carte bancaire",
+    "locator": "Attention",
+    "excerpt": "Un paiement frauduleux ne peut pas être remboursé s'il date de plus de 13 mois.",
+    "excerpt_en": "A fraudulent payment cannot be refunded if it dates back more than 13 months.",
+    "excerpt_ko": "13개월이 넘은 부정 결제는 환급될 수 없다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "42fce2c4296277709af72755532244905a253d2fec52229e965c6e7d7af580ea"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-FIN-F03",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "14-day withdrawal right (distance sales) and 2026 reform for financial services",
+  "fact_en": "Consumers buying at a distance (internet, phone, mail) have at least 14 calendar days to withdraw. For distance financial services, an ordinance of 5 January 2026 strengthens information duties and simplifies withdrawal (including electronically) from 19 June 2026, with some measures later.",
+  "fact_ko": "원거리 구매(인터넷·전화·우편) 소비자는 최소 14일(역일) 동안 철회할 수 있다. 원거리 금융서비스에 대해서는 2026년 1월 5일 오르도낭스가 2026년 6월 19일부터 정보 의무를 강화하고 철회를 (전자적 방식 포함) 간소화하며, 일부 조치는 이후 시행된다.",
+  "legal_basis": "Code de la consommation art. L221-18; art. L222-7; ordonnance du 5 janvier 2026",
+  "effective_date": "2026-06-19",
+  "volatility": "recently_changed",
+  "recent_change_note": "Reform of distance marketing of financial services applies from 19 June 2026 (simpler withdrawal, stricter telephone canvassing), some measures at later dates.",
+  "common_misconceptions": [
+   "Withdrawal period is 7 days (old rule)",
+   "Withdrawal period is 30 days for all distance contracts",
+   "A reason must always be given to withdraw",
+   "Withdrawal applies to all goods, including customised ones"
+  ],
+  "item_ideas": "Deadline and recent-change item for online/financial-product purchases.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F10485",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Achat à distance : droit de rétractation du consommateur",
+    "locator": "Introduction",
+    "excerpt": "Vous avez un délai de 14 jours calendaires",
+    "excerpt_en": "You have a period of 14 calendar days",
+    "excerpt_ko": "14 역일의 기간이 있다",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "c661dff9bd323805578bdebc65339a58e0448865636dccaffb27207c19de5f75"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F10485",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Achat à distance : droit de rétractation du consommateur",
+    "locator": "Services financiers : ce qui va changer en 2026",
+    "excerpt": "Ces dispositions entreront en vigueur à partir du 19 juin 2026, avec certaines mesures applicables à des dates ultérieures.",
+    "excerpt_en": "These provisions will enter into force from 19 June 2026, with certain measures applicable at later dates.",
+    "excerpt_ko": "이 규정들은 2026년 6월 19일부터 시행되며, 일부 조치는 이후 날짜에 적용된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "c661dff9bd323805578bdebc65339a58e0448865636dccaffb27207c19de5f75"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-FIN-F04",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Bank ombudsman: free, after 2 months (15 days for payment services)",
+  "fact_en": "After a written complaint to the bank, a customer can refer the dispute to the bank's ombudsman (médiateur) if the answer is unsatisfactory or absent after 2 months (15 days for a payment-service dispute). The mediation is free and the ombudsman must propose a solution within 90 days.",
+  "fact_ko": "은행에 서면 불만을 제기한 뒤 답변이 만족스럽지 않거나 2개월(결제서비스 분쟁은 15일) 내 답이 없으면 은행 조정관(médiateur)에게 분쟁을 회부할 수 있다. 조정은 무료이며 조정관은 90일 이내 해결안을 제시해야 한다.",
+  "legal_basis": "Code monétaire et financier art. L316-1; Code de la consommation art. L611-1 et s.",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Ombudsman can be seized immediately without complaining to the bank",
+   "Mediation costs a fee proportional to the amount",
+   "Ombudsman decision is binding",
+   "Ombudsman handles loan refusals"
+  ],
+  "item_ideas": "Complaint-route sequencing: bank first, then médiateur, then court.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F20523",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Médiateur bancaire : comment le saisir ?",
+    "locator": "Quand saisir le médiateur",
+    "excerpt": "Si la réponse ne vous satisfait pas ou en l'absence de réponse dans un délai de 2 mois (15 jours pour un différend relatif à un service de paiement), vous pouvez saisir le médiateur de votre banque.",
+    "excerpt_en": "If the answer does not satisfy you or there is no answer within 2 months (15 days for a dispute relating to a payment service), you can refer the matter to your bank's ombudsman.",
+    "excerpt_ko": "답변이 만족스럽지 않거나 2개월(결제서비스 관련 분쟁은 15일) 내 답변이 없으면 거래 은행의 조정관에게 회부할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "126ab10f436cee5fe0f1a9322dd8b093bed72a924f014ab5e29f7433c0cae312"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F20523",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Médiateur bancaire : comment le saisir ?",
+    "locator": "Gratuité",
+    "excerpt": "Oui, le recours au médiateur bancaire est gratuit.",
+    "excerpt_en": "Yes, recourse to the bank ombudsman is free of charge.",
+    "excerpt_ko": "그렇다, 은행 조정관 이용은 무료이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "126ab10f436cee5fe0f1a9322dd8b093bed72a924f014ab5e29f7433c0cae312"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-FIN-F05",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "AMF does not cold-contact savers",
+  "fact_en": "The AMF (Autorité des marchés financiers, the financial markets regulator) states that it does not contact savers on its own initiative by phone or private messaging; such contacts claiming to be the AMF are likely scams.",
+  "fact_ko": "금융시장청(AMF)은 자체적으로 전화나 개인 메시지로 저축자에게 연락하지 않는다고 밝히고 있으며, AMF를 사칭한 이런 연락은 사기일 가능성이 높다.",
+  "legal_basis": "Code monétaire et financier art. L621-1 (missions de l'AMF, protection de l'épargne)",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The AMF phones savers to confirm investments",
+   "The AMF runs phone awareness campaigns on scams",
+   "Contact by the AMF by private message is a normal verification",
+   "The Banque de France calls to secure accounts"
+  ],
+  "item_ideas": "Scam-awareness: impersonation of regulators.",
+  "sources": [
+   {
+    "url": "https://www.amf-france.org",
+    "lang": "fr",
+    "citation": "AMF, page d'accueil",
+    "locator": "Attention",
+    "excerpt": "L'AMF ne contacte pas de sa propre initiative les épargnants par téléphone ou messagerie privée",
+    "excerpt_en": "The AMF does not contact savers on its own initiative by telephone or private messaging",
+    "excerpt_ko": "AMF는 자체적으로 전화나 개인 메시지로 저축자에게 연락하지 않는다",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "2f9934453357a3858707894c3602608ef9f26f3c5f16c2facb08ddd50bf09626"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-LAW-F01",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Legal aid (aide juridictionnelle) total ceiling",
+  "fact_en": "Legal aid (aide juridictionnelle) covers lawyer and court fees; a person living alone gets full (100%) aid if the reference tax income (revenu fiscal de référence) does not exceed EUR 12,957 and assets stay under the asset ceilings. Above it, partial aid may still be possible.",
+  "fact_ko": "법률구조(aide juridictionnelle)는 변호사 및 소송 비용을 지원한다. 1인 가구는 기준 소득(revenu fiscal de référence)이 12,957유로를 넘지 않고 자산이 상한 이내이면 전액(100%) 지원을 받으며, 초과해도 일부 지원이 가능할 수 있다.",
+  "legal_basis": "Loi n° 91-647 du 10 juillet 1991 art. 4 et 41; décret n° 2020-1717",
+  "effective_date": "2026-06-12 (page verified)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Legal aid is only for criminal cases",
+   "Ceiling is EUR 1,000 per month",
+   "Exceeding the income ceiling means no aid of any kind",
+   "Foreigners are always excluded"
+  ],
+  "item_ideas": "Access-to-justice: who qualifies and that partial aid exists.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F18074",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Aide juridictionnelle lors d'une procédure en France",
+    "locator": "Plafonds d'admission",
+    "excerpt": "Vous pouvez bénéficier de l'aide juridictionnelle totale (100 %) si votre revenu fiscal de référence et la valeur de votre patrimoine mobilier et immobilier ne dépassent pas les plafonds suivants : Revenu fiscal de référence : 12 957",
+    "excerpt_en": "You can receive total legal aid (100%) if your reference tax income and the value of your movable and immovable assets do not exceed the following ceilings: Reference tax income: 12,957",
+    "excerpt_ko": "기준 소득과 동산·부동산 자산 가치가 다음 상한을 넘지 않으면 전액(100%) 법률구조를 받을 수 있다: 기준 소득 12,957",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b1795e02375df9f75bb6ba21a76b4fe25b57f3549736c1fedb77cca30390db23"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-LAW-F02",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Tenant deposit: return in 1 or 2 months, 10% penalty, 3 years to sue",
+  "fact_en": "The landlord must return the security deposit within 1 month of the key handover (2 months if repairs/arrears are claimed). Each month of delay started adds a penalty of 10% of monthly rent excluding charges, and the tenant has 3 years from the due date to go to court.",
+  "fact_ko": "임대인은 열쇠 반환일로부터 1개월 이내(수리·연체 공제 시 2개월)에 보증금을 돌려주어야 한다. 지연 1개월(시작된 달 기준)마다 관리비 제외 월세의 10%가 가산되며, 세입자는 반환 기한일로부터 3년 이내에 소송을 제기해야 한다.",
+  "legal_basis": "Loi n° 89-462 du 6 juillet 1989 art. 22",
+  "effective_date": "2026-06-09 (page verified)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Deposit must be returned within 15 days",
+   "Penalty is 1% of rent per day",
+   "Tenant may withhold the last month's rent against the deposit",
+   "Limitation period is 30 years"
+  ],
+  "item_ideas": "Tenant-rights deadline and penalty computation.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F31269",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Dépôt de garantie dans un bail d'habitation",
+    "locator": "Restitution",
+    "excerpt": "doit rendre le dépôt de garantie (parfois appelé par erreur caution) dans un délai maximum de 1 mois.",
+    "excerpt_en": "must return the security deposit (sometimes wrongly called 'caution') within a maximum period of 1 month.",
+    "excerpt_ko": "보증금(때때로 잘못 'caution'이라고 부름)을 최대 1개월 이내에 돌려주어야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "34988446d7fe3ee2601a72bcca556fbbab978c04d79d417b4f5634126fd699b7"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F31269",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Dépôt de garantie dans un bail d'habitation",
+    "locator": "Retard",
+    "excerpt": "Le montant du dépôt de garantie à rendre au locataire est augmenté d'une somme égale à 10 % du loyer mensuel (hors charges) pour chaque mois de retard commencé.",
+    "excerpt_en": "The amount of the deposit to be returned to the tenant is increased by a sum equal to 10% of the monthly rent (excluding charges) for each month of delay begun.",
+    "excerpt_ko": "세입자에게 돌려줄 보증금은 시작된 지연 1개월마다 월세(관리비 제외)의 10%에 해당하는 금액만큼 늘어난다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "34988446d7fe3ee2601a72bcca556fbbab978c04d79d417b4f5634126fd699b7"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F31269",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Dépôt de garantie dans un bail d'habitation",
+    "locator": "Saisir le juge",
+    "excerpt": "Il faut saisir le juge dans un délai de 3 ans à partir du jour où le dépôt de garantie aurait dû être rendu.",
+    "excerpt_en": "The judge must be seized within 3 years from the day the deposit should have been returned.",
+    "excerpt_ko": "보증금을 돌려주었어야 할 날부터 3년 이내에 판사에게 소를 제기해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "34988446d7fe3ee2601a72bcca556fbbab978c04d79d417b4f5634126fd699b7"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-LAW-F03",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Défenseur des droits: discrimination complaint, 3928",
+  "fact_en": "A victim or witness of discrimination can contact the Défenseur des droits (Defender of Rights, an independent constitutional authority) free of charge by phone on 3928 (Monday to Saturday, 9:30-19:00 excluding public holidays) or online.",
+  "fact_ko": "차별의 피해자나 목격자는 독립 헌법기관인 권리옹호관(Défenseur des droits)에 무료로 전화 3928(월~토 9시30분~19시, 공휴일 제외) 또는 온라인으로 연락할 수 있다.",
+  "legal_basis": "Constitution art. 71-1; loi organique n° 2011-333 du 29 mars 2011",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The Defender can be seized only by lawyers",
+   "Seizing the Defender suspends all limitation periods",
+   "It costs a filing fee",
+   "The number is 3919"
+  ],
+  "item_ideas": "Redress channel for discrimination; free; does not replace court deadlines.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F19448",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Discrimination",
+    "locator": "Comment saisir le Défenseur des droits",
+    "excerpt": "Vous pouvez contacter le Défenseur des droits au 3928 du lundi au samedi, de 9h30 à 19 heures (hors jours fériés).",
+    "excerpt_en": "You can contact the Défenseur des droits on 3928 from Monday to Saturday, 9:30 to 19:00 (excluding public holidays).",
+    "excerpt_ko": "권리옹호관에게는 월요일부터 토요일 9시30분~19시(공휴일 제외)에 3928번으로 연락할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ccd2877aaa64c3e104aa95c4f0ab68821765c85fc7aebd2491c55246d657d1b9"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F19448",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Discrimination",
+    "locator": "Comment saisir le Défenseur des droits",
+    "excerpt": "vous pouvez saisir gratuitement le Défenseur des droits par téléphone ou en ligne.",
+    "excerpt_en": "you can refer a case to the Défenseur des droits free of charge by telephone or online.",
+    "excerpt_ko": "전화 또는 온라인으로 무료로 권리옹호관에 사건을 제기할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ccd2877aaa64c3e104aa95c4f0ab68821765c85fc7aebd2491c55246d657d1b9"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-LAW-F04",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "CNIL complaint: wait one month after your request",
+  "fact_en": "If an organisation has not answered a data-rights request (access, erasure) after one month, you can turn to the CNIL (the French data protection authority); if the answer is incomplete or wrong, first contest it with the organisation.",
+  "fact_ko": "기관이 정보 권리 요청(열람·삭제)에 1개월이 지나도록 답하지 않으면 CNIL(프랑스 개인정보보호기관)에 신고할 수 있으며, 답변이 불완전하거나 틀린 경우 먼저 해당 기관에 이의를 제기해야 한다.",
+  "legal_basis": "RGPD art. 12(3) et 77; loi n° 78-17 du 6 janvier 1978",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Complaint can be filed to the CNIL only after 3 months",
+   "A lawyer is mandatory",
+   "The CNIL awards damages directly",
+   "Complaint can be filed without any prior contact with the organisation"
+  ],
+  "item_ideas": "Data-rights escalation path with the one-month trigger.",
+  "sources": [
+   {
+    "url": "https://www.cnil.fr/fr/adresser-une-plainte",
+    "lang": "fr",
+    "citation": "CNIL, Adresser une plainte",
+    "locator": "Quand saisir la CNIL",
+    "excerpt": "Si vous n’avez reçu aucune réponse après un mois Vous pouvez vous adresser à la CNIL.",
+    "excerpt_en": "If you have received no answer after one month, you can contact the CNIL.",
+    "excerpt_ko": "1개월이 지나도 답변을 받지 못했다면 CNIL에 문의할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8d0ce4cd427e71360891d6b82b6271ba2255dee8a6b07f41edd73a19f40ef067"
+    }
+   },
+   {
+    "url": "https://www.cnil.fr/fr/adresser-une-plainte",
+    "lang": "fr",
+    "citation": "CNIL, Adresser une plainte",
+    "locator": "Quand saisir la CNIL",
+    "excerpt": "Contestez d’abord cette réponse auprès de l’organisme : cela peut suffire à régler le problème.",
+    "excerpt_en": "First contest this answer with the organisation: that may be enough to settle the problem.",
+    "excerpt_ko": "먼저 해당 기관에 이 답변에 이의를 제기하라. 그것만으로 문제가 해결될 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8d0ce4cd427e71360891d6b82b6271ba2255dee8a6b07f41edd73a19f40ef067"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-LAW-F05",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Limitation: IOU prescribed 5 years after due date",
+  "fact_en": "A reconnaissance de dette (acknowledgement of debt) is time-barred 5 years after the date it falls due; the parties may agree in writing to a shorter or longer period, but not below 1 year or above 10 years.",
+  "fact_ko": "차용증(reconnaissance de dette)은 변제기일로부터 5년이 지나면 시효로 소멸하며, 당사자는 서면으로 더 짧거나 긴 기간을 정할 수 있으나 1년 미만 또는 10년 초과는 불가하다.",
+  "legal_basis": "Code civil art. 2224 et 2254",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "30 years from signature",
+   "2 years from signature",
+   "10 years from signature in all cases",
+   "Prescription runs from the date of signature, not due date"
+  ],
+  "item_ideas": "Limitation-period reasoning: starting point is the due date.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F2975",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Reconnaissance de dette entre particuliers",
+    "locator": "Durée de validité",
+    "excerpt": "Une reconnaissance de dette est prescrite 5 ans après la date d'exigibilité.",
+    "excerpt_en": "An acknowledgement of debt is time-barred 5 years after the due date.",
+    "excerpt_ko": "차용증은 변제기일로부터 5년 후에 시효가 완성된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "832fa1a06759391eaea39dfacc5755a7080a9e952cc7f6e584eb21598d4334ef"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F2975",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Reconnaissance de dette entre particuliers",
+    "locator": "Durée de validité",
+    "excerpt": "cette durée ne peut pas être inférieure à 1 an ou supérieure à 10 ans.",
+    "excerpt_en": "this duration cannot be less than 1 year or more than 10 years.",
+    "excerpt_ko": "이 기간은 1년 미만이거나 10년을 초과할 수 없다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "832fa1a06759391eaea39dfacc5755a7080a9e952cc7f6e584eb21598d4334ef"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-PUB-F01",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Access to administrative documents: 1 month, then Cada within 2 months",
+  "fact_en": "The administration must communicate a requested administrative document within one month; silence for one month means refusal. You then have 2 months to refer the matter to the Cada (Commission d'accès aux documents administratifs), which is free and mandatory before going to court.",
+  "fact_ko": "행정은 요청된 행정문서를 1개월 이내에 제공해야 하며, 1개월간 무응답은 거부를 뜻한다. 이후 2개월 이내에 Cada(행정문서접근위원회)에 회부할 수 있으며, 이는 무료이고 소송 전에 필수이다.",
+  "legal_basis": "Code des relations entre le public et l'administration art. L311-1, L311-2, R311-13, R343-1",
+  "effective_date": "2026-08-13 (page verified)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Silence for one month means the request is accepted",
+   "The deadline is 15 days",
+   "You may go directly to the court without Cada",
+   "The Cada decision is binding"
+  ],
+  "item_ideas": "Administrative-silence reasoning (silence = refusal) and escalation path.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F2472",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Accès aux documents administratifs",
+    "locator": "Délai de réponse",
+    "excerpt": "L'administration doit vous communiquer le document dans un délai d'un mois suivant la réception de votre demande. En l'absence de réponse dans le délai d'un mois suivant la réception de votre demande, cela signifie que votre demande est refusée",
+    "excerpt_en": "The administration must communicate the document to you within one month of receiving your request. If there is no answer within one month of receipt of your request, it means your request is refused",
+    "excerpt_ko": "행정은 요청 접수 후 1개월 이내에 문서를 제공해야 한다. 요청 접수 후 1개월 내 답이 없으면 요청이 거부된 것을 의미한다",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b3f3cb94dbdb0db2deb4e8e7a3ee407302e8af3a5f2747bec542ee600684bda0"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F2472",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Accès aux documents administratifs",
+    "locator": "Saisir la Cada",
+    "excerpt": "Vous avez 2 mois pour saisir la Cada",
+    "excerpt_en": "You have 2 months to refer the matter to the Cada",
+    "excerpt_ko": "Cada에 회부할 수 있는 기간은 2개월이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b3f3cb94dbdb0db2deb4e8e7a3ee407302e8af3a5f2747bec542ee600684bda0"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-PUB-F02",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Allô Service Public 3939",
+  "fact_en": "Allô Service Public 3939 is a telephone administrative-information service (rights, obligations, procedures). From mainland France it is a free service (call cost depends on the operator); opening hours are Mon 8:30-18:15, Tue and Wed 8:30-13:00, Thu 8:30-18:15, Fri 13:00-17:00, and a free call-back within 45 minutes is possible.",
+  "fact_ko": "Allô Service Public 3939는 전화로 행정 정보(권리·의무·절차)를 제공하는 서비스이다. 프랑스 본토에서는 서비스 자체는 무료(통화료는 통신사에 따름)이며, 운영 시간은 월 8:30-18:15, 화·수 8:30-13:00, 목 8:30-18:15, 금 13:00-17:00이고 45분 이내 무료 회신 요청이 가능하다.",
+  "legal_basis": "Service-Public.fr (DILA), Qu'est-ce qu'Allô Service Public 3939 ?",
+  "effective_date": "2026-09-08 (page verified)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Open 24/7",
+   "Premium rate of EUR 0.80/min",
+   "It is the emergency line for administrative problems",
+   "It processes your file or applications directly"
+  ],
+  "item_ideas": "Support-channel item: where to get official admin information and when it is open.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F33683",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Qu'est-ce qu'Allô Service Public 3939 ?",
+    "locator": "Présentation et horaires",
+    "excerpt": "Allô Service Public 3939 est un service de renseignement administratif par téléphone.",
+    "excerpt_en": "Allô Service Public 3939 is an administrative information service by telephone.",
+    "excerpt_ko": "Allô Service Public 3939는 전화로 행정 정보를 제공하는 서비스이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "92a7278e48ce26196692517b16e1d400f141e05e862431d19abf824e9f3e39c3"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F33683",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Qu'est-ce qu'Allô Service Public 3939 ?",
+    "locator": "Horaires",
+    "excerpt": "Lundi : 8h30 à 18h15 Mardi : 8h30 à 13h Mercredi : 8h30 à 13h Jeudi : 8h30 à 18h15 Vendredi : 13h à 17h",
+    "excerpt_en": "Monday: 8:30 to 18:15; Tuesday: 8:30 to 13:00; Wednesday: 8:30 to 13:00; Thursday: 8:30 to 18:15; Friday: 13:00 to 17:00",
+    "excerpt_ko": "월요일 8:30~18:15, 화요일 8:30~13:00, 수요일 8:30~13:00, 목요일 8:30~18:15, 금요일 13:00~17:00",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "92a7278e48ce26196692517b16e1d400f141e05e862431d19abf824e9f3e39c3"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-PUB-F03",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Electoral registration deadline unified: 6th Friday before the vote",
+  "fact_en": "From 1 July 2026, the deadline to register on electoral lists is the same whether you go to the town hall or register online: the 6th Friday before the election (previously the 6th Wednesday for online registration), under a decree of 12 June 2026.",
+  "fact_ko": "2026년 7월 1일부터 선거인명부 등록 마감은 시청 방문이든 온라인이든 동일하게 선거 전 6번째 금요일이다(이전 온라인은 6번째 수요일). 2026년 6월 12일 데크레에 따른다.",
+  "legal_basis": "Code électoral art. L30 et s.; décret du 12 juin 2026",
+  "effective_date": "2026-07-01",
+  "volatility": "recently_changed",
+  "recent_change_note": "Since 1 July 2026 online and in-person registration share the same deadline (6th Friday before the vote); online was the 6th Wednesday before.",
+  "common_misconceptions": [
+   "Online registration closes on the 6th Wednesday before the vote",
+   "Registration is possible until election eve",
+   "The deadline is 31 December of the previous year (old rule)",
+   "Registration is automatic for everyone aged 18"
+  ],
+  "item_ideas": "Recent-change item: electoral registration deadline for the 2027 presidential election.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/actualites/A18967",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Inscription sur les listes électorales : des changements à partir de juillet 2026",
+    "locator": "Actualité A18967",
+    "excerpt": "À compter du 1er juillet 2026, les règles sont unifiées, comme le prévoit un décret du 12 juin 2026. Que vous fassiez la démarche en mairie ou bien en ligne, la date limite pour s’inscrire sera désormais la même : le 6e vendredi précédant le scrutin.",
+    "excerpt_en": "From 1 July 2026, the rules are unified, as provided by a decree of 12 June 2026. Whether you apply at the town hall or online, the deadline to register will now be the same: the 6th Friday before the vote.",
+    "excerpt_ko": "2026년 7월 1일부터 2026년 6월 12일 데크레에 따라 규정이 통일된다. 시청에서 하든 온라인으로 하든 등록 마감일은 이제 동일하게 선거 전 6번째 금요일이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "d4c7331dca4c2b85b18a14ca68aa282b5219f99ca0ea0102a9dba1fa9b9516c3"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-PUB-F04",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Next national election: presidential, 18 April and 2 May 2027",
+  "fact_en": "The next national election in France is the presidential election: first round on 18 April 2027 and second round on 2 May 2027 (mainland France; overseas dates differ).",
+  "fact_ko": "프랑스의 다음 전국 선거는 대통령 선거로, 1차 투표는 2027년 4월 18일, 결선은 2027년 5월 2일이다(본토 기준, 해외 영토는 날짜가 다름).",
+  "legal_basis": "Constitution art. 7; loi organique n° 62-1292 du 6 novembre 1962",
+  "effective_date": "2027-04-18",
+  "volatility": "scheduled_change",
+  "recent_change_note": "Presidential election scheduled for 18 April / 2 May 2027 (mainland).",
+  "common_misconceptions": [
+   "Election is in June 2027",
+   "Only one round is held",
+   "Voting is on a weekday",
+   "The date is 24 April 2027"
+  ],
+  "item_ideas": "Scheduled-event item: election dates and how they interact with the registration deadline.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F1939",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Quelles sont les dates des prochaines élections ?",
+    "locator": "Prochaines élections",
+    "excerpt": "La prochaine élection nationale est l’élection présidentielle. Le premier tour se déroulera le 18 avril 2027 et le second tour le 2 mai 2027.",
+    "excerpt_en": "The next national election is the presidential election. The first round will take place on 18 April 2027 and the second round on 2 May 2027.",
+    "excerpt_ko": "다음 전국 선거는 대통령 선거이다. 1차 투표는 2027년 4월 18일, 결선 투표는 2027년 5월 2일에 실시된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "beb11ee02600f5d124eb554cd06894697faade039ac71d1ff9a0c5e590f75e81"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-PUB-F05",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "France Identité for French residents overseas and abroad (May 2026)",
+  "fact_en": "Since May 2026, French citizens living overseas or abroad can create their France Identité digital identity at a town hall, embassy or consulate; before they often could not because they lacked access to FranceConnect (the state authentication scheme using existing verified accounts).",
+  "fact_ko": "2026년 5월부터 해외 영토 또는 외국에 거주하는 프랑스인은 시청·대사관·영사관에서 디지털 신원 France Identité를 만들 수 있다. 이전에는 기존 인증 계정을 이용하는 국가 인증체계 FranceConnect에 접근할 수 없어 어려운 경우가 많았다.",
+  "legal_basis": "Service-Public.fr (DILA), actualité A18920; décret n° 2022-676 du 26 avril 2022 (identité numérique)",
+  "effective_date": "2026-05-22",
+  "volatility": "recently_changed",
+  "recent_change_note": "New procedure announced 22 May 2026 for French citizens in overseas territories and abroad.",
+  "common_misconceptions": [
+   "France Identité is mandatory for every citizen",
+   "It can only be created online without any in-person step",
+   "It is reserved to residents of mainland France",
+   "FranceConnect is a private bank service"
+  ],
+  "item_ideas": "Recent-change item: digital identity access for expatriates.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/actualites/A18920",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Identité numérique : une nouvelle procédure pour les Français d'Outre-mer et de l'étranger",
+    "locator": "Actualité A18920",
+    "excerpt": "Les Français résidant en Outre-mer ou à l’étranger peuvent désormais créer leur identité numérique France Identité, en se rendant en mairie, en ambassade ou en consulat.",
+    "excerpt_en": "French people living in the overseas territories or abroad can now create their France Identité digital identity by going to a town hall, an embassy or a consulate.",
+    "excerpt_ko": "해외 영토 또는 외국에 거주하는 프랑스인은 이제 시청, 대사관 또는 영사관을 방문하여 디지털 신원 France Identité를 만들 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8f2f2f0d39ee28270bf7f7578dacffb82cedd6cc225888c9db2cd45b94228b39"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/P10013",
+    "lang": "fr",
+    "citation": "Service-Public.fr, À quoi sert FranceConnect ?",
+    "locator": "Présentation",
+    "excerpt": "FranceConnect est un dispositif numérique d'authentification garantissant l'identité d'un utilisateur aux sites ou applications utilisatrices en s'appuyant sur des comptes existants pour lesquels son identité a déjà été vérifiée.",
+    "excerpt_en": "FranceConnect is a digital authentication scheme guaranteeing a user's identity to user sites or applications by relying on existing accounts for which the identity has already been verified.",
+    "excerpt_ko": "FranceConnect는 신원이 이미 확인된 기존 계정을 활용하여 이용 사이트·앱에 사용자의 신원을 보증하는 디지털 인증 체계이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "12c0637173a8f8e787f6015ccf3c3e65e0d8d8bc421a2bd0cb2508dae538bf82"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-EDU-F01",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "3018: single national number for school bullying and cyberbullying",
+  "fact_en": "The 3018 is the national number for victims of bullying, including school bullying and cyberbullying: free, anonymous, open 7 days a week from 9:00 to 23:00, also via app and e-enfance.org.",
+  "fact_ko": "3018은 학교 폭력(따돌림)과 사이버 괴롭힘 피해자를 위한 전국 번호로, 무료·익명이며 매일 9시~23시에 운영되고 앱과 e-enfance.org로도 이용할 수 있다.",
+  "legal_basis": "Code de l'éducation art. L511-3-1 (droit à une scolarité sans harcèlement); Service-Public.fr (DILA)",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "3020 is the current number for school bullying",
+   "3018 only handles online harassment",
+   "3018 is open 24/7",
+   "119 is the school bullying line"
+  ],
+  "item_ideas": "Support-channel item: right number and hours for a bullied child or parent.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F31985",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Harcèlement scolaire au collège et au lycée",
+    "locator": "Que faire en cas de harcèlement",
+    "excerpt": "Vous pouvez aussi contacter le 3018, numéro national pour les victimes de harcèlement.",
+    "excerpt_en": "You can also contact the 3018, the national number for victims of harassment.",
+    "excerpt_ko": "괴롭힘 피해자를 위한 전국 번호 3018에도 연락할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4467499cd2cbc90d288724b4e83839fdde809d4dce530ebe10b98b8671a909ff"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F31985",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Harcèlement scolaire au collège et au lycée",
+    "locator": "Où s'adresser",
+    "excerpt": "Ouvert 7 jours sur 7, de 9h à 23H Appel gratuit et anonyme",
+    "excerpt_en": "Open 7 days a week, from 9am to 11pm. Free and anonymous call",
+    "excerpt_ko": "주 7일 9시부터 23시까지 운영. 무료·익명 통화",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4467499cd2cbc90d288724b4e83839fdde809d4dce530ebe10b98b8671a909ff"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-EDU-F02",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Compulsory instruction from age 3 to 16",
+  "fact_en": "In France children aged 3 to 16 are subject to compulsory instruction: they must be enrolled in a public or private school, or, under conditions and with authorisation, receive instruction in the family.",
+  "fact_ko": "프랑스에서는 3세부터 16세까지의 아동이 의무교육 대상이며, 공립 또는 사립학교에 등록하거나 조건과 허가에 따라 가정에서 교육받아야 한다.",
+  "legal_basis": "Code de l'éducation art. L131-1 et L131-2",
+  "effective_date": "2026-01-30 (page verified)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Compulsory schooling starts at 6",
+   "It ends at 18",
+   "It ends at 14",
+   "Home instruction needs no authorisation"
+  ],
+  "item_ideas": "Basic obligation: ages and home-instruction authorisation.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F23429",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Instruction dans la famille",
+    "locator": "Introduction",
+    "excerpt": "Votre enfant a entre 3 et 16 ans ? Il est alors soumis à l'obligation d'instruction.",
+    "excerpt_en": "Is your child between 3 and 16 years old? He or she is then subject to the obligation of instruction.",
+    "excerpt_ko": "자녀가 3세에서 16세 사이인가? 그렇다면 의무교육 대상이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "20975d423a89332e5d60b1a48b524f3a261e6d9b9089a1c096a45c610e2af18c"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-EDU-F03",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Digital consent: parental consent required under 15",
+  "fact_en": "For processing personal data based on consent, French law requires the joint consent of a minor and a parent when the minor is under 15; from 15 a minor can consent alone for online services (GDPR Art. 8 age set at 15 in France).",
+  "fact_ko": "동의에 기반한 개인정보 처리에서 프랑스 법은 15세 미만 미성년자의 경우 미성년자와 부모의 공동 동의를 요구하며, 15세부터는 온라인 서비스에 단독으로 동의할 수 있다(GDPR 제8조 연령을 프랑스는 15세로 설정).",
+  "legal_basis": "Loi n° 78-17 du 6 janvier 1978 art. 45; RGPD art. 8",
+  "effective_date": "2021-06-09 (CNIL page date)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The age is 16 (GDPR default)",
+   "The age is 13",
+   "The age is 18",
+   "A 15-year-old needs parental consent for every online service"
+  ],
+  "item_ideas": "Child-privacy item: age of digital consent in France versus EU default.",
+  "sources": [
+   {
+    "url": "https://www.cnil.fr/fr/recommandation-4-rechercher-le-consentement-dun-parent-pour-les-mineurs-de-moins-de-15-ans",
+    "lang": "fr",
+    "citation": "CNIL, Recommandation 4 : rechercher le consentement d'un parent pour les mineurs de moins de 15 ans",
+    "locator": "Introduction",
+    "excerpt": "Le droit accorde une certaine place au consentement du mineur pour le traitement de ses données, accompagné de celui de ses parents lorsqu’il a moins de 15 ans.",
+    "excerpt_en": "The law gives a certain place to the minor's consent for the processing of their data, accompanied by that of their parents when they are under 15.",
+    "excerpt_ko": "법은 미성년자 데이터 처리에 대한 미성년자의 동의에 일정한 지위를 부여하며, 15세 미만일 때는 부모의 동의가 함께 필요하다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ba3987ccbcd041f6f7da133d0145973683e6e11f6d277d851c55e4d981b1d501"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-EDU-F04",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "Unjustified absences: 4 half-days per month and penalties",
+  "fact_en": "From 4 half-days of unjustified absence in a month, the school head convenes the educational team to seek causes and propose support measures. After a warning from the Dasen (departmental education director), continued failure can bring a EUR 750 fine; if education is compromised, up to 2 years in prison and EUR 30,000.",
+  "fact_ko": "한 달에 정당한 사유 없는 결석이 4반일(demi-journées)에 이르면 학교장이 교육팀을 소집해 원인을 찾고 지원 조치를 제안한다. Dasen(지역 교육청장) 경고 후에도 지속되면 750유로 벌금, 교육이 위태로워지면 최대 징역 2년과 3만 유로 벌금이 부과될 수 있다.",
+  "legal_basis": "Code de l'éducation art. L131-8 et L131-9; Code pénal art. 227-17-1",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Threshold is 10 half-days",
+   "Threshold is 1 week",
+   "Fine is EUR 135",
+   "Family allowances are suspended automatically"
+  ],
+  "item_ideas": "Parental obligations and sanction escalation for absenteeism.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F1899",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Assiduité scolaire et absentéisme",
+    "locator": "Absences non justifiées",
+    "excerpt": "À partir de 4 demi-journées d'absences non justifiées dans le mois",
+    "excerpt_en": "From 4 half-days of unjustified absences in the month",
+    "excerpt_ko": "한 달에 정당한 사유 없는 결석 4반일부터",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "0756fd2d1f589a089b252f8546166d6bc9e906863b287de578c35ed98c3541aa"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F1899",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Assiduité scolaire et absentéisme",
+    "locator": "Sanctions",
+    "excerpt": "Si ces absences injustifiées compromettent l'éducation de votre enfant, vous risquez 2 ans de prison et 30 000 € d'amende.",
+    "excerpt_en": "If these unjustified absences compromise your child's education, you risk 2 years in prison and a EUR 30,000 fine.",
+    "excerpt_ko": "이러한 정당한 사유 없는 결석이 자녀의 교육을 위태롭게 하면 징역 2년과 3만 유로 벌금의 위험이 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "0756fd2d1f589a089b252f8546166d6bc9e906863b287de578c35ed98c3541aa"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "FR-EDU-F05",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "FR"
+  ],
+  "title": "30 40: student distress helpline",
+  "fact_en": "The 30 40 is a free and confidential listening, support and reporting service for higher-education students experiencing distress, violence or discrimination, where they can be put in touch with a psychologist or social worker.",
+  "fact_ko": "30 40은 고등교육 학생이 겪는 심리적 어려움, 폭력 또는 차별에 대해 경청·지원·신고를 제공하는 무료 비밀 보장 서비스로, 심리상담사나 사회복지사와 연결될 수 있다.",
+  "legal_basis": "Service-Public.fr (DILA), Numéros d'urgence et d'écoute",
+  "effective_date": "2026-11-01 (page consulted)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "It is the school bullying number (3018)",
+   "It is only for minors",
+   "It is a paid line",
+   "It is the suicide-prevention line (3114)"
+  ],
+  "item_ideas": "Student support channel: distinguishing 30 40 from 3018/3114.",
+  "sources": [
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F33954",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Quels sont les numéros en cas d'urgence (Samu, pompiers...) et les numéros d'écoute ?",
+    "locator": "Mal-être des étudiants : 30 40",
+    "excerpt": "Dispositif d’écoute, d’accompagnement et de signalement pour les étudiants qui vivent des situations de mal-être, de violence ou de discrimination.",
+    "excerpt_en": "A listening, support and reporting scheme for students who experience situations of distress, violence or discrimination.",
+    "excerpt_ko": "정서적 어려움, 폭력 또는 차별 상황을 겪는 학생을 위한 경청·지원·신고 제도.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4357399922f6102e511ad693de52e0a887b5872f455bc17a631fe3d7b5b8a402"
+    }
+   },
+   {
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F33954",
+    "lang": "fr",
+    "citation": "Service-Public.fr, Quels sont les numéros en cas d'urgence (Samu, pompiers...) et les numéros d'écoute ?",
+    "locator": "Mal-être des étudiants : 30 40",
+    "excerpt": "Par téléphone 30 40 Gratuit et confidentiel",
+    "excerpt_en": "By telephone 30 40 Free and confidential",
+    "excerpt_ko": "전화 30 40 무료·비밀 보장",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4357399922f6102e511ad693de52e0a887b5872f455bc17a631fe3d7b5b8a402"
+    }
+   }
+  ],
+  "verified": true
+ }
+]
