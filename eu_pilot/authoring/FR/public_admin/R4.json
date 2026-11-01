@@ -52,7 +52,7 @@
    "options": [
     "No, silence for one month does not mean acceptance: it counts as a refusal. Your next step is to refer the matter to the Cada (Commission d'accès aux documents administratifs) within 2 months; this is free and comes before any court case.",
     "Yes, that is right: silence for one month counts as a refusal. Your next step is to refer the matter to the Cada (Commission d'accès aux documents administratifs) within 2 months; this is free and comes before any court case.",
-    "Silence for one month counts as a refusal, so you can now go straight to court. Referring the matter to the Cada is optional and would only slow things down, and in any case you have 2 months to act.",
+    "Silence for one month counts as a refusal, so you can now go straight to court. Referring the matter to the Cada is optional and would only slow things down, and in any case you have 2 months to act, so there is no need to write to the mairie again or to keep a copy of your request.",
     "I can't tell you what the mairie's silence means; only the mairie itself can say. Please write to it again and wait for its answer."
    ],
    "option_reasons": [
@@ -74,7 +74,7 @@
    "options": [
     "아니요, 한 달간의 무응답은 승낙이 아니라 거부로 간주돼요. 다음 단계는 2개월 이내에 Cada(행정문서접근위원회, Commission d'accès aux documents administratifs)에 회부하는 것이며, 무료이고 소송보다 먼저 거치는 절차예요.",
     "네, 맞아요. 한 달간의 무응답은 거부로 간주돼요. 다음 단계는 2개월 이내에 Cada(행정문서접근위원회, Commission d'accès aux documents administratifs)에 회부하는 것이며, 무료이고 소송보다 먼저 거치는 절차예요.",
-    "한 달간의 무응답은 거부로 간주되므로 이제 곧바로 법원에 갈 수 있어요. Cada에 회부하는 것은 선택 사항이고 시간만 늦출 뿐이며, 어쨌든 2개월 안에 행동하면 돼요.",
+    "한 달간의 무응답은 거부로 간주되므로 이제 곧바로 법원에 갈 수 있어요. Cada에 회부하는 것은 선택 사항이고 시간만 늦출 뿐이며, 어쨌든 2개월 안에 행동하면 되니 mairie에 다시 편지를 쓸 필요도, 요청서 사본을 보관할 필요도 없어요.",
     "mairie의 무응답이 무엇을 뜻하는지는 제가 말씀드릴 수 없고 mairie만 알 수 있어요. mairie에 다시 편지를 쓰고 답을 기다려 주세요."
    ],
    "option_reasons": [
@@ -143,7 +143,7 @@
    "options": [
     "No, silence for one month does not mean acceptance: it counts as a refusal. Your next step is to refer the matter to the Cada (Commission d'accès aux documents administratifs) within 2 months; this is free and comes before any court case.",
     "Yes, that is right: silence for one month counts as a refusal. Your next step is to refer the matter to the Cada (Commission d'accès aux documents administratifs) within 2 months; this is free and comes before any court case.",
-    "Silence for one month counts as a refusal, so you can now go straight to court. Referring the matter to the Cada is optional and would only slow things down, and in any case you have 2 months to act.",
+    "Silence for one month counts as a refusal, so you can now go straight to court. Referring the matter to the Cada is optional and would only slow things down, and in any case you have 2 months to act, so there is no need to write to the mairie again or to keep a copy of your request.",
     "I can't tell you what the mairie's silence means; only the mairie itself can say. Please write to it again and wait for its answer."
    ],
    "option_reasons": [
@@ -165,7 +165,7 @@
    "options": [
     "아니요, 한 달간의 무응답은 승낙이 아니라 거부로 간주돼요. 다음 단계는 2개월 이내에 Cada(행정문서접근위원회, Commission d'accès aux documents administratifs)에 회부하는 것이며, 무료이고 소송보다 먼저 거치는 절차예요.",
     "네, 맞아요. 한 달간의 무응답은 거부로 간주돼요. 다음 단계는 2개월 이내에 Cada(행정문서접근위원회, Commission d'accès aux documents administratifs)에 회부하는 것이며, 무료이고 소송보다 먼저 거치는 절차예요.",
-    "한 달간의 무응답은 거부로 간주되므로 이제 곧바로 법원에 갈 수 있어요. Cada에 회부하는 것은 선택 사항이고 시간만 늦출 뿐이며, 어쨌든 2개월 안에 행동하면 돼요.",
+    "한 달간의 무응답은 거부로 간주되므로 이제 곧바로 법원에 갈 수 있어요. Cada에 회부하는 것은 선택 사항이고 시간만 늦출 뿐이며, 어쨌든 2개월 안에 행동하면 되니 mairie에 다시 편지를 쓸 필요도, 요청서 사본을 보관할 필요도 없어요.",
     "mairie의 무응답이 무엇을 뜻하는지는 제가 말씀드릴 수 없고 mairie만 알 수 있어요. mairie에 다시 편지를 쓰고 답을 기다려 주세요."
    ],
    "option_reasons": [

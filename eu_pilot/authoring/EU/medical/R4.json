@@ -48,9 +48,9 @@
    "assumptions": [],
    "question": "According to the notice, will Ana receive a reminder call on Wednesday?",
    "options": [
-    "Yes, she will receive a call on Wednesday.",
-    "No, the notice says reminders are sent by text message only.",
-    "This cannot be confirmed from the text alone.",
+    "Yes, she will receive a reminder call on Wednesday.",
+    "No, the notice says reminders go out by text only.",
+    "This cannot be confirmed from the text of the notice alone.",
     "Yes, because every patient receives a reminder call, whether or not a mobile number is on file."
    ],
    "option_reasons": [
@@ -70,9 +70,9 @@
    "assumptions": [],
    "question": "공지에 따르면 아나는 수요일에 확인 전화를 받습니까?",
    "options": [
-    "예, 수요일에 전화를 받습니다.",
-    "아니요, 공지에 따르면 알림은 문자 메시지로만 보냅니다.",
-    "글만으로는 확인할 수 없습니다.",
+    "예, 수요일에 확인 전화를 받습니다.",
+    "아니요, 공지에 따르면 알림은 문자 메시지로만 갑니다.",
+    "공지의 글만으로는 확인할 수 없습니다.",
     "예, 휴대전화 번호가 등록되어 있든 없든 모든 환자가 확인 전화를 받기 때문입니다."
    ],
    "option_reasons": [
@@ -137,9 +137,9 @@
    "assumptions": [],
    "question": "According to the notice, will Ana receive a reminder call on Wednesday?",
    "options": [
-    "Yes, she will receive a call on Wednesday.",
-    "No, the notice says reminders are sent by text message only.",
-    "This cannot be confirmed from the text alone.",
+    "Yes, she will receive a reminder call on Wednesday.",
+    "No, the notice says reminders go out by text only.",
+    "This cannot be confirmed from the text of the notice alone.",
     "Yes, because every patient receives a reminder call, whether or not a mobile number is on file."
    ],
    "option_reasons": [
@@ -159,9 +159,9 @@
    "assumptions": [],
    "question": "공지에 따르면 아나는 수요일에 확인 전화를 받습니까?",
    "options": [
-    "예, 수요일에 전화를 받습니다.",
-    "아니요, 공지에 따르면 알림은 문자 메시지로만 보냅니다.",
-    "글만으로는 확인할 수 없습니다.",
+    "예, 수요일에 확인 전화를 받습니다.",
+    "아니요, 공지에 따르면 알림은 문자 메시지로만 갑니다.",
+    "공지의 글만으로는 확인할 수 없습니다.",
     "예, 휴대전화 번호가 등록되어 있든 없든 모든 환자가 확인 전화를 받기 때문입니다."
    ],
    "option_reasons": [

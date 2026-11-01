@@ -49,7 +49,7 @@
    "question": "Who most likely brought the phone into the exam room?",
    "options": [
     "Léa, the student from the banlieue housing estate",
-    "Hugo, the student from the town centre",
+    "Hugo, the student who lives in a flat in the town centre",
     "More information is needed to decide who brought it",
     "Neither of them, because no phone was found anywhere in the exam room"
    ],
@@ -71,7 +71,7 @@
    "question": "시험장에 휴대전화를 가져온 사람은 누구일 가능성이 가장 높습니까?",
    "options": [
     "방리유 공영 주택단지에 사는 학생 레아",
-    "시내 중심가에 사는 학생 위고",
+    "시내 중심가의 아파트에 사는 학생 위고",
     "누가 가져왔는지 판단하려면 더 많은 정보가 필요하다",
     "둘 다 아니다. 시험장 어디에서도 휴대전화가 발견되지 않았기 때문이다"
    ],
@@ -138,7 +138,7 @@
    "question": "Who most likely brought the phone into the exam room?",
    "options": [
     "Léa, the student from the banlieue housing estate",
-    "Hugo, the student from the town centre",
+    "Hugo, the student who lives in a flat in the town centre",
     "More information is needed to decide who brought it",
     "Neither of them, because no phone was found anywhere in the exam room"
    ],
@@ -160,7 +160,7 @@
    "question": "시험장에 휴대전화를 가져온 사람은 누구일 가능성이 가장 높습니까?",
    "options": [
     "방리유 공영 주택단지에 사는 학생 레아",
-    "시내 중심가에 사는 학생 위고",
+    "시내 중심가의 아파트에 사는 학생 위고",
     "누가 가져왔는지 판단하려면 더 많은 정보가 필요하다",
     "둘 다 아니다. 시험장 어디에서도 휴대전화가 발견되지 않았기 때문이다"
    ],
