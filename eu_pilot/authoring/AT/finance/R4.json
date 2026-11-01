@@ -52,7 +52,7 @@
    "options": [
     "Yes. The limit is EUR 100,000 per person and bank, so with EUR 80,000 at each of three banks all of his money is covered, and a payout would come within seven working days.",
     "No. The limit is EUR 100,000 per person and bank, not per account, so three accounts at one bank share a single limit and EUR 140,000 would be unprotected.",
-    "Yes. The limit is EUR 100,000 per person and bank, but a payout can take up to 30 days after a bank fails, so Karl should plan for that wait.",
+    "Yes. The limit is EUR 100,000 per person and bank, but a payout can take up to 30 days after a bank fails, so Karl should plan for that wait and keep enough money available to pay his bills in the meantime.",
     "That depends on his bank, because each bank sets its own protection limit, so Karl should ask his bank for its figure."
    ],
    "option_reasons": [
@@ -74,7 +74,7 @@
    "options": [
     "예. 보호 한도는 예금자 한 명당 은행별로 100,000유로이므로 세 은행에 80,000유로씩 두면 돈 전부가 보호되며, 지급은 일곱 영업일 이내에 이루어집니다.",
     "아니요. 보호 한도는 계좌당이 아니라 예금자 한 명당 은행별로 100,000유로이므로 한 은행의 계좌 세 개는 한도 하나를 함께 쓰고, 140,000유로는 보호받지 못합니다.",
-    "예. 보호 한도는 예금자 한 명당 은행별로 100,000유로이지만 은행이 파산한 뒤 지급에 30일까지 걸릴 수 있으므로 카를은 그 기간을 감안해야 합니다.",
+    "예. 보호 한도는 예금자 한 명당 은행별로 100,000유로이지만 은행이 파산한 뒤 지급에 30일까지 걸릴 수 있으므로 카를은 그 기간을 감안하고 그동안 생활비를 낼 돈을 따로 마련해 두어야 합니다.",
     "은행마다 보호 한도를 스스로 정하므로 그의 은행에 따라 다르고, 카를은 은행에 그 금액을 문의해야 합니다."
    ],
    "option_reasons": [
@@ -143,7 +143,7 @@
    "options": [
     "Yes. The limit is EUR 100,000 per person and bank, so with EUR 80,000 at each of three banks all of his money is covered, and a payout would come within seven working days.",
     "No. The limit is EUR 100,000 per person and bank, not per account, so three accounts at one bank share a single limit and EUR 140,000 would be unprotected.",
-    "Yes. The limit is EUR 100,000 per person and bank, but a payout can take up to 30 days after a bank fails, so Karl should plan for that wait.",
+    "Yes. The limit is EUR 100,000 per person and bank, but a payout can take up to 30 days after a bank fails, so Karl should plan for that wait and keep enough money available to pay his bills in the meantime.",
     "That depends on his bank, because each bank sets its own protection limit, so Karl should ask his bank for its figure."
    ],
    "option_reasons": [
@@ -165,7 +165,7 @@
    "options": [
     "예. 보호 한도는 예금자 한 명당 은행별로 100,000유로이므로 세 은행에 80,000유로씩 두면 돈 전부가 보호되며, 지급은 일곱 영업일 이내에 이루어집니다.",
     "아니요. 보호 한도는 계좌당이 아니라 예금자 한 명당 은행별로 100,000유로이므로 한 은행의 계좌 세 개는 한도 하나를 함께 쓰고, 140,000유로는 보호받지 못합니다.",
-    "예. 보호 한도는 예금자 한 명당 은행별로 100,000유로이지만 은행이 파산한 뒤 지급에 30일까지 걸릴 수 있으므로 카를은 그 기간을 감안해야 합니다.",
+    "예. 보호 한도는 예금자 한 명당 은행별로 100,000유로이지만 은행이 파산한 뒤 지급에 30일까지 걸릴 수 있으므로 카를은 그 기간을 감안하고 그동안 생활비를 낼 돈을 따로 마련해 두어야 합니다.",
     "은행마다 보호 한도를 스스로 정하므로 그의 은행에 따라 다르고, 카를은 은행에 그 금액을 문의해야 합니다."
    ],
    "option_reasons": [

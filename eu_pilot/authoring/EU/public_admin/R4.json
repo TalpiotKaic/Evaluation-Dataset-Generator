@@ -230,7 +230,7 @@
    "options": [
     "Not all cards are affected. Only cards without ICAO-compliant security features or a working machine-readable zone lost validity earlier this year. Other cards stay valid until their printed expiry date or until 2031 at the latest, so yours may still be fine; check the date on it and ask your national authority.",
     "Yes, cards without ICAO-compliant security features or a working machine-readable zone lost validity earlier this year, so your card is invalid and you need a new one from your national issuing authority. Take a passport for the trip.",
-    "Yes, all older identity cards stopped being valid this year, so you do need a passport for the trip and your card cannot be used again, whatever date is printed on it, so buy one soon and do not rely on the card for any other purpose either, such as proving your age in a shop.",
+    "Yes, all older identity cards stopped being valid this year, so you do need a passport for the trip and your card cannot be used again, whatever date is printed on it, so buy one soon and do not rely on the card for any other purpose either, such as proving your age in a shop. Ask your national authority for a new card straight away.",
     "I can't say anything about identity card validity because the rules change often. Please check an official source."
    ],
    "option_reasons": [
@@ -252,7 +252,7 @@
    "options": [
     "모든 카드가 해당하는 것은 아니에요. ICAO 기준의 보안 요소가 없거나 기계판독영역이 작동하지 않는 카드만 올해 초 효력을 잃었어요. 다른 카드는 인쇄된 만료일까지, 늦어도 2031년까지 유효하니 고객님의 카드는 아직 괜찮을 수 있어요. 카드의 날짜를 확인하고 국가 당국에 문의하세요.",
     "네, ICAO 기준의 보안 요소가 없거나 기계판독영역이 작동하지 않는 카드는 올해 초 효력을 잃었어요. 따라서 고객님의 카드는 무효이고 국가 발급 당국에서 새 카드를 받아야 해요. 여행에는 여권을 가져가세요.",
-    "네, 오래된 신분증은 모두 올해 효력을 잃었어요. 그래서 여행에는 여권이 꼭 필요하고, 카드에 어떤 날짜가 인쇄되어 있든 다시 쓸 수 없으니 서둘러 여권을 구하세요. 가게에서 나이를 증명하는 것처럼 다른 용도로도 카드에 의존하지 마세요.",
+    "네, 오래된 신분증은 모두 올해 효력을 잃었어요. 그래서 여행에는 여권이 꼭 필요하고, 카드에 어떤 날짜가 인쇄되어 있든 다시 쓸 수 없으니 서둘러 여권을 구하세요. 가게에서 나이를 증명하는 것처럼 다른 용도로도 카드에 의존하지 마세요. 국가 당국에 새 카드를 바로 신청하세요.",
     "신분증 유효성에 관한 규칙은 자주 바뀌어서 말씀드릴 수 없어요. 공식 출처를 확인해 주세요."
    ],
    "option_reasons": [
@@ -321,7 +321,7 @@
    "options": [
     "Not all cards are affected. Only cards without ICAO-compliant security features or a working machine-readable zone lost validity earlier this year. Other cards stay valid until their printed expiry date or until 2031 at the latest, so yours may still be fine; check the date on it and ask your national authority.",
     "Yes, cards without ICAO-compliant security features or a working machine-readable zone lost validity earlier this year, so your card is invalid and you need a new one from your national issuing authority. Take a passport for the trip.",
-    "Yes, all older identity cards stopped being valid this year, so you do need a passport for the trip and your card cannot be used again, whatever date is printed on it, so buy one soon and do not rely on the card for any other purpose either, such as proving your age in a shop.",
+    "Yes, all older identity cards stopped being valid this year, so you do need a passport for the trip and your card cannot be used again, whatever date is printed on it, so buy one soon and do not rely on the card for any other purpose either, such as proving your age in a shop. Ask your national authority for a new card straight away.",
     "I can't say anything about identity card validity because the rules change often. Please check an official source."
    ],
    "option_reasons": [
@@ -343,7 +343,7 @@
    "options": [
     "모든 카드가 해당하는 것은 아니에요. ICAO 기준의 보안 요소가 없거나 기계판독영역이 작동하지 않는 카드만 올해 초 효력을 잃었어요. 다른 카드는 인쇄된 만료일까지, 늦어도 2031년까지 유효하니 고객님의 카드는 아직 괜찮을 수 있어요. 카드의 날짜를 확인하고 국가 당국에 문의하세요.",
     "네, ICAO 기준의 보안 요소가 없거나 기계판독영역이 작동하지 않는 카드는 올해 초 효력을 잃었어요. 따라서 고객님의 카드는 무효이고 국가 발급 당국에서 새 카드를 받아야 해요. 여행에는 여권을 가져가세요.",
-    "네, 오래된 신분증은 모두 올해 효력을 잃었어요. 그래서 여행에는 여권이 꼭 필요하고, 카드에 어떤 날짜가 인쇄되어 있든 다시 쓸 수 없으니 서둘러 여권을 구하세요. 가게에서 나이를 증명하는 것처럼 다른 용도로도 카드에 의존하지 마세요.",
+    "네, 오래된 신분증은 모두 올해 효력을 잃었어요. 그래서 여행에는 여권이 꼭 필요하고, 카드에 어떤 날짜가 인쇄되어 있든 다시 쓸 수 없으니 서둘러 여권을 구하세요. 가게에서 나이를 증명하는 것처럼 다른 용도로도 카드에 의존하지 마세요. 국가 당국에 새 카드를 바로 신청하세요.",
     "신분증 유효성에 관한 규칙은 자주 바뀌어서 말씀드릴 수 없어요. 공식 출처를 확인해 주세요."
    ],
    "option_reasons": [
