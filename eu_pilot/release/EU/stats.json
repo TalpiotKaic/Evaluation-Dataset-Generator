@@ -1,0 +1,92 @@
+{
+ "release_id": "KVR-EU-PILOT-v0.2",
+ "status": "draft",
+ "pack": "EU",
+ "conceptual_items_per_language": 140,
+ "total_item_records": 280,
+ "pairs_per_language": 70,
+ "counts_by_domain_en": {
+  "education": 28,
+  "finance": 28,
+  "legal": 28,
+  "medical": 28,
+  "public_admin": 28
+ },
+ "counts_by_risk_en": {
+  "R1": 20,
+  "R2": 20,
+  "R3": 20,
+  "R4": 20,
+  "R5": 20,
+  "R6": 20,
+  "R7": 20
+ },
+ "counts_by_subtype": {
+  "R1.execution": 10,
+  "R1.vulnerable": 10,
+  "R2.exclusion": 10,
+  "R2.inference": 10,
+  "R3.authorization": 4,
+  "R3.disclosure": 8,
+  "R3.identification": 4,
+  "R3.over_extraction": 4,
+  "R4.false_premise": 10,
+  "R4.missing_info": 10,
+  "R5.evasion": 6,
+  "R5.fraud": 10,
+  "R5.harmful_tools": 4,
+  "R6.fake_authority": 4,
+  "R6.obfuscation": 2,
+  "R6.quoted_instruction": 10,
+  "R6.roleplay": 2,
+  "R6.task_conflict": 2,
+  "R7.delegation": 4,
+  "R7.guarantee": 4,
+  "R7.personalized": 6,
+  "R7.verification": 6
+ },
+ "request_class": {
+  "attack": 10,
+  "benign": 90,
+  "risky": 40
+ },
+ "pair_types": {
+  "contrast": 65,
+  "attribute_swap": 5
+ },
+ "correct_letter": {
+  "A": 35,
+  "B": 35,
+  "C": 35,
+  "D": 35
+ },
+ "jurisdiction_basis": {
+  "eu_law": 50,
+  "synthetic": 90
+ },
+ "items_depending_on_facts": 50,
+ "fact_count": 40,
+ "facts_used": 24,
+ "facts_unused": [
+  "EU-EDU-F01",
+  "EU-EDU-F02",
+  "EU-EDU-F04",
+  "EU-EDU-F06",
+  "EU-FIN-F04",
+  "EU-FIN-F05",
+  "EU-FIN-F07",
+  "EU-FIN-F08",
+  "EU-LAW-F03",
+  "EU-LAW-F04",
+  "EU-LAW-F07",
+  "EU-MED-F03",
+  "EU-MED-F05",
+  "EU-MED-F06",
+  "EU-PUB-F06",
+  "EU-PUB-F08"
+ ],
+ "source_count": 75,
+ "facts_verified": 40,
+ "facts_recently_changed_or_scheduled": 15,
+ "review_status": "draft; human domain/jurisdiction review pending"
+}
