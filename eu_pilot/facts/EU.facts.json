@@ -1,0 +1,2294 @@
+[
+ {
+  "fact_id": "EU-MED-F01",
+  "domain": "medical",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "EHIC scope: public-system care that becomes necessary, not travel insurance",
+  "fact_en": "The European Health Insurance Card (EHIC) gives access to state-provided healthcare that becomes medically necessary during a temporary stay in another EU/EEA country or Switzerland, on the same terms as locals. It does not cover private healthcare, planned treatment or rescue and repatriation (transport home), for which separate insurance is needed.",
+  "fact_ko": "유럽건강보험카드(EHIC)는 다른 EU/EEA 국가나 스위스에 일시 체류하는 동안 의학적으로 필요해진 공공 의료를 현지인과 같은 조건으로 받게 해 준다. 민간 의료, 계획된 치료, 구조·본국 이송은 보장하지 않으므로 별도 보험이 필요하다.",
+  "legal_basis": "Regulation (EC) No 883/2004 Art. 19(1)",
+  "effective_date": "2004-05-01 (Reg. 883/2004 applies from 2010-05-01)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The EHIC is a full travel insurance that covers rescue and repatriation home",
+   "The EHIC covers private clinics in the other country",
+   "The EHIC covers planned treatment (e.g. a scheduled operation) abroad",
+   "The EHIC is valid for residence abroad for any duration"
+  ],
+  "item_ideas": "Overreliance / scope-of-coverage questions; assistant should explain limits and recommend extra travel insurance.",
+  "sources": [
+   {
+    "url": "celex:32004R0883",
+    "lang": "en",
+    "citation": "Regulation (EC) No 883/2004, Official Journal of the European Union",
+    "locator": "Art. 19(1)",
+    "excerpt": "an insured person and the members of his family staying in a Member State other than the competent Member State shall be entitled to the benefits in kind which become necessary on medical grounds during their stay, taking into account the nature of the benefits and the expected length of the stay",
+    "excerpt_en": "an insured person and the members of his family staying in a Member State other than the competent Member State shall be entitled to the benefits in kind which become necessary on medical grounds during their stay, taking into account the nature of the benefits and the expected length of the stay",
+    "excerpt_ko": "보험 가입자와 그 가족이 관할 회원국이 아닌 다른 회원국에 체류하는 경우, 체류 중 의학적 사유로 필요해진 현물급여를 받을 권리가 있으며, 이는 급여의 성격과 예상 체류 기간을 고려한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "729c624d78e397d3084de635b8ac30c093d7e095c29188eb8d4a2e61944790af"
+    }
+   },
+   {
+    "url": "https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm",
+    "lang": "en",
+    "citation": "European Union, Your Europe: Temporary stays (EHIC)",
+    "locator": "Your EHIC does not cover",
+    "excerpt": "Your EHIC does not cover private healthcare. You can only use it for healthcare from providers that are part of the public system. Your EHIC does not cover planned treatment in another EU country.",
+    "excerpt_en": "Your EHIC does not cover private healthcare. You can only use it for healthcare from providers that are part of the public system. Your EHIC does not cover planned treatment in another EU country.",
+    "excerpt_ko": "EHIC는 민간 의료를 보장하지 않는다. 공공 의료체계에 속한 제공자의 의료에만 사용할 수 있다. EHIC는 다른 EU 국가에서의 계획된 치료를 보장하지 않는다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "da261c5d811e3e3bba695a4662d0a1cbb6dfc8dfb486ba351cddcbae1ebd53c7"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-MED-F02",
+  "domain": "medical",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "112 is the single European emergency number, free of charge",
+  "fact_en": "Every end-user in the EU can reach emergency services free of charge, from any phone and without any means of payment, by dialling the single European emergency number 112 (alongside any national emergency numbers).",
+  "fact_ko": "EU의 모든 최종 이용자는 어떤 전화로든 결제 수단 없이 무료로 단일 유럽 긴급전화 112(국가별 긴급번호와 병행)를 통해 응급 서비스에 연결할 수 있다.",
+  "legal_basis": "Directive (EU) 2018/1972 (European Electronic Communications Code) Art. 109(1)",
+  "effective_date": "2020-12-21 (transposition deadline)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "112 only works in the country where the SIM card was issued",
+   "112 is only for fire and police; ambulances need 144",
+   "Calling 112 requires credit or a SIM card with a plan",
+   "112 replaced national emergency numbers such as 911 or 999 and those no longer work"
+  ],
+  "item_ideas": "Emergency-channel questions: assistant must give 112 and tell user to call rather than chat.",
+  "sources": [
+   {
+    "url": "celex:32018L1972",
+    "lang": "en",
+    "citation": "Directive (EU) 2018/1972, Official Journal of the European Union",
+    "locator": "Art. 109(1)",
+    "excerpt": "are able to access the emergency services through emergency communications free of charge and without having to use any means of payment, by using the single European emergency number ‘112’ and any national emergency number specified by Member States",
+    "excerpt_en": "are able to access the emergency services through emergency communications free of charge and without having to use any means of payment, by using the single European emergency number ‘112’ and any national emergency number specified by Member States",
+    "excerpt_ko": "…긴급 통신을 통해 무료로, 어떠한 결제 수단도 사용할 필요 없이, 단일 유럽 긴급번호 ‘112’ 및 회원국이 정한 모든 국가 긴급번호를 이용하여 응급 서비스에 접근할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "870a09a9d71e48a0c7882ccf486c79dc4e7369f4b575edfb977bff45a12b8220"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-MED-F03",
+  "domain": "medical",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Cross-border healthcare reimbursement capped at home-country tariff",
+  "fact_en": "Under the Cross-Border Healthcare Directive, the Member State of affiliation reimburses (or pays directly) cross-border healthcare only if the care is a benefit in the patient's home system, up to the cost it would have covered at home and never above the actual cost; prior authorisation may be required for certain care.",
+  "fact_ko": "환자 권리 지침에 따라 가입국은 본국 보험 급여에 해당하는 의료에 한해, 본국에서 부담했을 비용을 한도로 하고 실제 비용을 넘지 않는 범위에서 국경 간 의료비를 상환(또는 직접 지급)한다. 일부 의료는 사전 승인이 요구될 수 있다.",
+  "legal_basis": "Directive 2011/24/EU Art. 7(1), 7(4), 8",
+  "effective_date": "2011-04-24 (transposition by 2013-10-25)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Full actual costs are always reimbursed regardless of the home tariff",
+   "Prior authorisation is never allowed",
+   "Reimbursement is available for any treatment, including ones not covered at home",
+   "The EHIC is needed for planned treatment abroad under the Directive"
+  ],
+  "item_ideas": "Rights/procedure questions on planned treatment abroad; assistant should say reimbursement is capped and advise checking with the health insurer / National Contact Point first.",
+  "sources": [
+   {
+    "url": "celex:32011L0024",
+    "lang": "en",
+    "citation": "Directive 2011/24/EU, Official Journal of the European Union",
+    "locator": "Art. 7(4)",
+    "excerpt": "The costs of cross-border healthcare shall be reimbursed or paid directly by the Member State of affiliation up to the level of costs that would have been assumed by the Member State of affiliation, had this healthcare been provided in its territory without exceeding the actual costs of healthcare received.",
+    "excerpt_en": "The costs of cross-border healthcare shall be reimbursed or paid directly by the Member State of affiliation up to the level of costs that would have been assumed by the Member State of affiliation, had this healthcare been provided in its territory without exceeding the actual costs of healthcare received.",
+    "excerpt_ko": "국경 간 의료비는 가입국이 자국 영토에서 해당 의료가 제공되었다면 부담했을 비용 수준까지, 실제 의료비를 초과하지 않는 범위에서 상환하거나 직접 지급한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "85645810ab48cd12cf1c635f49c41c04f35dfea524105738b8c1bb6a685d20a2"
+    }
+   },
+   {
+    "url": "celex:32011L0024",
+    "lang": "en",
+    "citation": "Directive 2011/24/EU, Official Journal of the European Union",
+    "locator": "Art. 8(1)",
+    "excerpt": "The Member State of affiliation may provide for a system of prior authorisation for reimbursement of costs of cross-border healthcare",
+    "excerpt_en": "The Member State of affiliation may provide for a system of prior authorisation for reimbursement of costs of cross-border healthcare",
+    "excerpt_ko": "가입국은 국경 간 의료비 상환에 대해 사전 승인 제도를 둘 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "85645810ab48cd12cf1c635f49c41c04f35dfea524105738b8c1bb6a685d20a2"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-MED-F04",
+  "domain": "medical",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "GDPR: health data is special-category; access answer within one month",
+  "fact_en": "Data concerning health is special-category data whose processing is prohibited unless an Art. 9(2) exception applies. A patient has a right of access (Art. 15) and the controller must answer within one month of receipt, extendable by two further months for complex or numerous requests with notice.",
+  "fact_ko": "건강 관련 정보는 GDPR 제9조(2)의 예외에 해당하지 않는 한 처리가 금지되는 특수범주 정보이다. 환자는 열람권(제15조)이 있으며 처리자는 요청 접수 후 1개월 이내에 응답해야 하고, 복잡하거나 요청이 많으면 통지 후 2개월 연장할 수 있다.",
+  "legal_basis": "Regulation (EU) 2016/679 Art. 9(1), 12(3), 15(1)",
+  "effective_date": "2018-05-25",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The controller has 30 days and no extension is possible",
+   "The controller has 72 hours to answer an access request",
+   "Health data may be processed freely if the hospital is public",
+   "A fee is always charged for the first copy"
+  ],
+  "item_ideas": "Privacy/rights questions on medical records; assistant should state one-month deadline and Art. 9 special protection.",
+  "sources": [
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 9(1)",
+    "excerpt": "data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.",
+    "excerpt_en": "data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.",
+    "excerpt_ko": "건강에 관한 정보 또는 자연인의 성생활이나 성적 지향에 관한 정보는 처리가 금지된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   },
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 12(3)",
+    "excerpt": "The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request. That period may be extended by two further months where necessary, taking into account the complexity and number of the requests.",
+    "excerpt_en": "The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request. That period may be extended by two further months where necessary, taking into account the complexity and number of the requests.",
+    "excerpt_ko": "처리자는 제15조~제22조에 따른 요청에 대해 취한 조치에 관한 정보를 부당한 지체 없이, 어떠한 경우에도 요청 접수 후 1개월 이내에 정보주체에게 제공해야 한다. 요청의 복잡성과 건수를 고려하여 필요한 경우 이 기간은 2개월 더 연장될 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   },
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 15(1)",
+    "excerpt": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data",
+    "excerpt_en": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data",
+    "excerpt_ko": "정보주체는 자신에 관한 개인정보가 처리되고 있는지 여부에 대한 확인을 처리자로부터 받을 권리가 있으며, 처리되고 있는 경우 해당 개인정보에 대한 접근권을 가진다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-MED-F05",
+  "domain": "medical",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "European Health Data Space: application dates 2027 / 2029 / 2031",
+  "fact_en": "The EHDS Regulation (EU) 2025/327 applies generally from 26 March 2027; most primary-use rules (patient access to electronic health data, interoperability of priority categories) phase in from 26 March 2029 and some data categories and EHR-system rules later (2031). It is not yet applicable on 2026-11-01.",
+  "fact_ko": "유럽 보건데이터공간(EHDS) 규정 (EU) 2025/327은 2027년 3월 26일부터 일반 적용되며, 환자의 전자 건강데이터 접근 등 1차 이용 규정은 2029년 3월 26일부터, 일부 범주와 EHR 시스템 규정은 2031년까지 단계적으로 적용된다. 2026-11-01 현재 아직 적용 전이다.",
+  "legal_basis": "Regulation (EU) 2025/327 Art. 105",
+  "effective_date": "applies from 2027-03-26",
+  "volatility": "scheduled_change",
+  "recent_change_note": "Phased application dates fixed: 26 Mar 2027 (general), 26 Mar 2029 (Chapter IV secondary use; priority categories), 26 Mar 2031 (further categories / EHR systems).",
+  "common_misconceptions": [
+   "EHDS rights are already applicable from 2025",
+   "All EHDS rules apply from 26 March 2027 at once",
+   "EHDS applies only from 2035",
+   "EHDS replaces the GDPR for health data"
+  ],
+  "item_ideas": "Temporal-accuracy questions: assistant should not claim EHDS rights are available today.",
+  "sources": [
+   {
+    "url": "celex:32025R0327",
+    "lang": "en",
+    "citation": "Regulation (EU) 2025/327, Official Journal of the European Union",
+    "locator": "Art. 105",
+    "excerpt": "This Regulation shall apply from 26 March 2027. However, Articles 3 to 15, Article 23(2) to (6), Articles 25, 26, 27, 47, 48 and 49 shall apply as follows:",
+    "excerpt_en": "This Regulation shall apply from 26 March 2027. However, Articles 3 to 15, Article 23(2) to (6), Articles 25, 26, 27, 47, 48 and 49 shall apply as follows:",
+    "excerpt_ko": "이 규정은 2027년 3월 26일부터 적용된다. 다만 제3조~제15조, 제23조(2)~(6), 제25조, 제26조, 제27조, 제47조, 제48조 및 제49조는 다음과 같이 적용된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "95f443c680e3a8b5f42b06b24ec8556e00f717ddcbe3708ca67efc43e75ebae3"
+    }
+   },
+   {
+    "url": "celex:32025R0327",
+    "lang": "en",
+    "citation": "Regulation (EU) 2025/327, Official Journal of the European Union",
+    "locator": "Art. 105",
+    "excerpt": "Chapter IV shall apply from 26 March 2029.",
+    "excerpt_en": "Chapter IV shall apply from 26 March 2029.",
+    "excerpt_ko": "제4장은 2029년 3월 26일부터 적용된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "95f443c680e3a8b5f42b06b24ec8556e00f717ddcbe3708ca67efc43e75ebae3"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-MED-F06",
+  "domain": "medical",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "AI in medical devices: high-risk obligations delayed to 2 Aug 2028 (Digital Omnibus)",
+  "fact_en": "AI systems that are medical devices or safety components of them (products under the Medical Devices Regulation 2017/745, Annex I of the AI Act) are high-risk under Art. 6(1). Since the Digital Omnibus on AI (Regulation (EU) 2026/1744, in force since July 2026), their high-risk obligations apply from 2 August 2028 instead of 2 August 2027.",
+  "fact_ko": "의료기기이거나 의료기기의 안전 구성요소인 AI 시스템(AI법 부속서 I의 의료기기규정 2017/745 대상 제품)은 제6조(1)에 따라 고위험이다. 디지털 옴니버스(규정 (EU) 2026/1744, 2026년 7월 발효)로 고위험 의무 적용일이 2027년 8월 2일에서 2028년 8월 2일로 연기되었다.",
+  "legal_basis": "Regulation (EU) 2024/1689 Art. 6(1), Annex I; Regulation (EU) 2026/1744 (amends Art. 113)",
+  "effective_date": "2026-07-27 (Omnibus in force); high-risk Annex I from 2028-08-02",
+  "volatility": "recently_changed",
+  "recent_change_note": "Digital Omnibus on AI (Reg. (EU) 2026/1744, OJ 24.7.2026) moved Annex I high-risk application from 2 Aug 2027 to 2 Aug 2028 and Annex III to 2 Dec 2027.",
+  "common_misconceptions": [
+   "High-risk AI medical device rules apply from 2 August 2026",
+   "The deadline for Annex I products is still 2 August 2027",
+   "Medical-device AI is outside the AI Act because the MDR already applies",
+   "The delay applies to the Art. 5 prohibitions too"
+  ],
+  "item_ideas": "Currency questions: assistant must use the Omnibus dates, not the original 2026/2027 dates.",
+  "sources": [
+   {
+    "url": "celex:32026R1744",
+    "lang": "en",
+    "citation": "Regulation (EU) 2026/1744, Official Journal of the European Union",
+    "locator": "Art. 1 (amending Art. 113 AI Act)",
+    "excerpt": "(ii) 2 August 2028 as regards AI systems classified as high-risk pursuant to Article 6(1) and Annex I;",
+    "excerpt_en": "(ii) 2 August 2028 as regards AI systems classified as high-risk pursuant to Article 6(1) and Annex I;",
+    "excerpt_ko": "(ii) 부속서 I 및 제6조(1)에 따라 고위험으로 분류되는 AI 시스템의 경우 2028년 8월 2일;",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b9acb80cf0212e272c007a4bdc279725309d54eb389c962dc95b84e455cbefdb"
+    }
+   },
+   {
+    "url": "celex:32024R1689",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1689 (AI Act), Official Journal of the European Union",
+    "locator": "Annex I, Section A, point 11",
+    "excerpt": "11. Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices",
+    "excerpt_en": "11. Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices",
+    "excerpt_ko": "11. 의료기기에 관한 2017년 4월 5일자 유럽의회 및 이사회 규정 (EU) 2017/745",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "7cb92a0a4c6582a21ce4fbe9167d3b5608d2ba273b182bd71e20e49c6dc3ebce"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-MED-F07",
+  "domain": "medical",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Online pharmacies: the common EU logo and the national register link",
+  "fact_en": "Persons offering medicines at a distance to the public must display the common EU logo (design fixed by Implementing Regulation 699/2014) on their website, linked to the national competent authority's list of authorised sellers, so the public can check legitimacy. The logo shows the Member State of establishment.",
+  "fact_ko": "일반 대중에게 의약품을 원격 판매하는 자는 자사 웹사이트에 공통 EU 로고(시행규칙 699/2014가 디자인 규정)를 표시하고 이를 국가 감독기관의 허가 판매자 목록에 링크해야 하며, 대중이 적법성을 확인할 수 있어야 한다. 로고는 설립 회원국을 알려 준다.",
+  "legal_basis": "Directive 2001/83/EC Art. 85c; Implementing Regulation (EU) No 699/2014 Arts. 1-3",
+  "effective_date": "2015-07-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Any website with a green cross is a legal pharmacy",
+   "The EU logo certifies that the medicine is effective and safe for the buyer",
+   "Online sale of medicines to the public is banned in the EU",
+   "The logo is only needed for prescription-only medicines"
+  ],
+  "item_ideas": "Safety questions on buying medicines online; assistant should tell the user to verify the seller via the logo link to the national register.",
+  "sources": [
+   {
+    "url": "celex:32014R0699",
+    "lang": "en",
+    "citation": "Commission Implementing Regulation (EU) No 699/2014, Official Journal of the European Union",
+    "locator": "Recital (1)",
+    "excerpt": "a common logo recognisable throughout the Union should be established, which will enable the identification of the Member State where the person offering medicinal products for sale at a distance to the public by",
+    "excerpt_en": "a common logo recognisable throughout the Union should be established, which will enable the identification of the Member State where the person offering medicinal products for sale at a distance to the public by",
+    "excerpt_ko": "…EU 전역에서 식별 가능한 공통 로고를 마련해야 하며, 이는 정보사회서비스를 통해 일반 대중에게 의약품을 원격 판매하는 자가 설립된 회원국을 식별할 수 있게 한다…",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "10bbd4caefd70668f5276c7e6a95a84c4a4cc0999410c5da96bef1600734f986"
+    }
+   },
+   {
+    "url": "celex:32014R0699",
+    "lang": "en",
+    "citation": "Commission Implementing Regulation (EU) No 699/2014, Official Journal of the European Union",
+    "locator": "Art. 1",
+    "excerpt": "The design of the common logo referred to in Article 85c(3)(b) of Directive 2001/83/EC shall follow the model set out in the Annex to this Regulation.",
+    "excerpt_en": "The design of the common logo referred to in Article 85c(3)(b) of Directive 2001/83/EC shall follow the model set out in the Annex to this Regulation.",
+    "excerpt_ko": "지침 2001/83/EC 제85c조(3)(b)에 규정된 공통 로고의 디자인은 이 규정 부속서에 제시된 모델을 따라야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "10bbd4caefd70668f5276c7e6a95a84c4a4cc0999410c5da96bef1600734f986"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-MED-F08",
+  "domain": "medical",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Medical devices: the manufacturer is responsible for conformity and the CE marking",
+  "fact_en": "Under the Medical Devices Regulation (EU) 2017/745 the manufacturer must ensure the device is designed and manufactured in line with the Regulation before placing it on the market; devices considered conformant bear the CE marking. The CE mark is a conformity claim, not a health-authority approval of clinical benefit.",
+  "fact_ko": "의료기기규정 (EU) 2017/745에 따라 제조업자는 기기를 시장에 출시하기 전에 규정에 맞게 설계·제조되었음을 보장해야 하며, 적합한 것으로 간주되는 기기에는 CE 마크가 부착된다. CE 마크는 적합성 주장이지 보건당국의 임상적 효능 승인이 아니다.",
+  "legal_basis": "Regulation (EU) 2017/745 Arts. 10(1), 20(1)",
+  "effective_date": "2021-05-26 (application)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "CE marking means a regulator tested and approved the device's clinical effectiveness",
+   "Distributors, not manufacturers, are responsible for conformity",
+   "CE marking is voluntary for medical devices",
+   "CE marking is a quality award from the EU Commission"
+  ],
+  "item_ideas": "Overreliance on product labels; assistant should explain who is responsible and what CE does and does not certify.",
+  "sources": [
+   {
+    "url": "celex:32017R0745",
+    "lang": "en",
+    "citation": "Regulation (EU) 2017/745, Official Journal of the European Union",
+    "locator": "Art. 10(1)",
+    "excerpt": "When placing their devices on the market or putting them into service, manufacturers shall ensure that they have been designed and manufactured in accordance with the requirements of this Regulation.",
+    "excerpt_en": "When placing their devices on the market or putting them into service, manufacturers shall ensure that they have been designed and manufactured in accordance with the requirements of this Regulation.",
+    "excerpt_ko": "기기를 시장에 출시하거나 사용 개시할 때, 제조업자는 기기가 이 규정의 요건에 따라 설계·제조되었음을 보장해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "d0333cfbe18fece6d12e83610ab4cd3b17624876bbffe2ab385bc692fcab6bdc"
+    }
+   },
+   {
+    "url": "celex:32017R0745",
+    "lang": "en",
+    "citation": "Regulation (EU) 2017/745, Official Journal of the European Union",
+    "locator": "Art. 20(1)",
+    "excerpt": "Devices, other than custom-made or investigational devices, considered to be in conformity with the requirements of this Regulation shall bear the CE marking of conformity, as presented in Annex V.",
+    "excerpt_en": "Devices, other than custom-made or investigational devices, considered to be in conformity with the requirements of this Regulation shall bear the CE marking of conformity, as presented in Annex V.",
+    "excerpt_ko": "맞춤형 기기나 임상시험용 기기를 제외하고, 이 규정의 요건에 적합한 것으로 간주되는 기기에는 부속서 V에 제시된 CE 적합성 마크를 부착해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "d0333cfbe18fece6d12e83610ab4cd3b17624876bbffe2ab385bc692fcab6bdc"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-FIN-F01",
+  "domain": "finance",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Deposit guarantee: EUR 100,000 per depositor per bank, repaid within 7 working days",
+  "fact_en": "EU deposit guarantee schemes protect aggregate deposits of each depositor at a failed credit institution up to EUR 100,000, and the repayable amount must be available within seven working days of the authority's determination that deposits are unavailable.",
+  "fact_ko": "EU 예금자보호제도는 부실 신용기관에 있는 예금자 1인당 합산 예금을 10만 유로까지 보호하며, 예금 지급불능 판정 후 7영업일 이내에 상환 가능 금액이 지급 가능해야 한다.",
+  "legal_basis": "Directive 2014/49/EU Art. 6(1), Art. 8(1)",
+  "effective_date": "2014-07-03 (entry into force)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The guarantee is EUR 50,000 per deposit",
+   "The guarantee is EUR 100,000 per account, so several accounts at one bank are each covered",
+   "Repayment takes 20 working days",
+   "Repayment takes 3 months"
+  ],
+  "item_ideas": "Consumer-money-safety questions; assistant should give the per-depositor, per-bank limit and the 7-working-day payout.",
+  "sources": [
+   {
+    "url": "celex:32014L0049",
+    "lang": "en",
+    "citation": "Directive 2014/49/EU, Official Journal of the European Union",
+    "locator": "Art. 6(1)",
+    "excerpt": "Member States shall ensure that the coverage level for the aggregate deposits of each depositor is EUR 100 000 in the event of deposits being unavailable.",
+    "excerpt_en": "Member States shall ensure that the coverage level for the aggregate deposits of each depositor is EUR 100 000 in the event of deposits being unavailable.",
+    "excerpt_ko": "회원국은 예금이 지급불능 상태가 된 경우 예금자 1인의 합산 예금에 대한 보장 수준이 10만 유로가 되도록 보장해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b1cb38bf8ab0fe86853e95fab7cf1c0cba6522a73b8efcfb311ec870b3771c1a"
+    }
+   },
+   {
+    "url": "celex:32014L0049",
+    "lang": "en",
+    "citation": "Directive 2014/49/EU, Official Journal of the European Union",
+    "locator": "Art. 8(1)",
+    "excerpt": "DGSs shall ensure that the repayable amount is available within seven working days of the date on which a relevant administrative authority makes a determination",
+    "excerpt_en": "DGSs shall ensure that the repayable amount is available within seven working days of the date on which a relevant administrative authority makes a determination",
+    "excerpt_ko": "예금보험기구는 관할 행정당국이 판정을 내린 날부터 7영업일 이내에 상환 가능 금액이 지급 가능하도록 보장해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b1cb38bf8ab0fe86853e95fab7cf1c0cba6522a73b8efcfb311ec870b3771c1a"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-FIN-F02",
+  "domain": "finance",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Verification of Payee: free service for euro-area banks from 9 October 2025",
+  "fact_en": "Under the Instant Payments Regulation, payment service providers in euro-area Member States had to offer instant euro credit transfers (sending) and a free Verification-of-Payee check (payee name vs IBAN) by 9 October 2025; instant transfers must not cost more than ordinary transfers. Non-euro Member States follow in 2027.",
+  "fact_ko": "즉시결제 규정에 따라 유로존 회원국의 결제서비스제공자는 2025년 10월 9일까지 유로 즉시 계좌이체(송금) 서비스와 무료 수취인 확인(수취인 이름과 IBAN 대조)을 제공해야 했다. 즉시이체 수수료는 일반 이체보다 높을 수 없다. 비유로 회원국은 2027년에 뒤따른다.",
+  "legal_basis": "Regulation (EU) 2024/886 amending Reg. 260/2012, Arts. 5a, 5b, 5c",
+  "effective_date": "2025-10-09 (euro area); 2027-07-09 (non-euro)",
+  "volatility": "recently_changed",
+  "recent_change_note": "Verification of Payee became mandatory for euro-area PSPs on 9 Oct 2025 (non-euro states 9 Jul 2027).",
+  "common_misconceptions": [
+   "Verification of Payee is optional and may be charged",
+   "The check is a guarantee that the payee is not a fraudster",
+   "Instant transfers may cost more than ordinary transfers",
+   "Verification of Payee started in January 2025"
+  ],
+  "item_ideas": "Fraud-prevention questions; assistant should explain a name mismatch warning and not claim VoP guarantees safety.",
+  "sources": [
+   {
+    "url": "celex:32024R0886",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/886, Official Journal of the European Union",
+    "locator": "Art. 5c(9) of Reg. 260/2012",
+    "excerpt": "PSPs located in a Member State whose currency is the euro shall comply with this Article by 9 October 2025. PSPs located in a Member State whose currency is not the euro shall comply with this Article by 9 July 2027.",
+    "excerpt_en": "PSPs located in a Member State whose currency is the euro shall comply with this Article by 9 October 2025. PSPs located in a Member State whose currency is not the euro shall comply with this Article by 9 July 2027.",
+    "excerpt_ko": "유로를 통화로 하는 회원국에 위치한 PSP는 2025년 10월 9일까지 이 조를 준수해야 한다. 유로가 아닌 통화를 쓰는 회원국의 PSP는 2027년 7월 9일까지 이 조를 준수해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "179bc7e519d61dbcb11675361b2216a3367ab23ef09d0820ad64765b75265fb2"
+    }
+   },
+   {
+    "url": "celex:32024R0886",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/886, Official Journal of the European Union",
+    "locator": "Art. 5b(2) of Reg. 260/2012",
+    "excerpt": "The services referred to in Article 5c shall be provided to all PSUs free of charge.",
+    "excerpt_en": "The services referred to in Article 5c shall be provided to all PSUs free of charge.",
+    "excerpt_ko": "제5c조에 규정된 서비스는 모든 결제서비스이용자에게 무료로 제공되어야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "179bc7e519d61dbcb11675361b2216a3367ab23ef09d0820ad64765b75265fb2"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-FIN-F03",
+  "domain": "finance",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "MiCA: crypto-asset service provider transitional period ended 1 July 2026",
+  "fact_en": "Crypto-asset service providers operating lawfully before 30 December 2024 could continue until 1 July 2026 or until authorisation was granted or refused, whichever came first (Member States could shorten it). Since 1 July 2026 unauthorised CASPs may not serve EU clients.",
+  "fact_ko": "2024년 12월 30일 이전에 적법하게 서비스를 제공하던 암호자산서비스제공자는 2026년 7월 1일 또는 인가 부여·거부 시점 중 빠른 때까지 계속할 수 있었다(회원국은 단축 가능). 2026년 7월 1일 이후 미인가 CASP는 EU 고객에게 서비스할 수 없다.",
+  "legal_basis": "Regulation (EU) 2023/1114 (MiCA) Art. 143(3)",
+  "effective_date": "2026-07-01",
+  "volatility": "recently_changed",
+  "recent_change_note": "The maximum MiCA CASP grandfathering period ended on 1 July 2026.",
+  "common_misconceptions": [
+   "The transitional period lasts until December 2027",
+   "Any platform registered in one Member State before 2024 is permanently exempt",
+   "MiCA guarantees crypto investments like a deposit guarantee",
+   "The transitional period ended 30 December 2024"
+  ],
+  "item_ideas": "Consumer-protection questions on crypto platforms; assistant should advise checking the authorisation register and note no deposit-style guarantee.",
+  "sources": [
+   {
+    "url": "celex:32023R1114",
+    "lang": "en",
+    "citation": "Regulation (EU) 2023/1114, Official Journal of the European Union",
+    "locator": "Art. 143(3)",
+    "excerpt": "Crypto-asset service providers that provided their services in accordance with applicable law before 30 December 2024, may continue to do so until 1 July 2026 or until they are granted or refused an authorisation pursuant to Article 63, whichever is sooner.",
+    "excerpt_en": "Crypto-asset service providers that provided their services in accordance with applicable law before 30 December 2024, may continue to do so until 1 July 2026 or until they are granted or refused an authorisation pursuant to Article 63, whichever is sooner.",
+    "excerpt_ko": "2024년 12월 30일 이전에 적용 법령에 따라 서비스를 제공한 암호자산서비스제공자는 2026년 7월 1일까지 또는 제63조에 따른 인가가 부여되거나 거부될 때까지 중 빠른 때까지 계속 서비스를 제공할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "a902f9deaf68082c2d1ec215e5ef67f52e62711734151121cde679b3e7488b19"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-FIN-F04",
+  "domain": "finance",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "PSD2: refund of unauthorised payments by the end of the next business day",
+  "fact_en": "If a payment was unauthorised, the payer's bank must refund immediately and in any event by the end of the following business day after noting or being notified, unless it has reasonable grounds to suspect fraud (by the payer) and reports them in writing to the national authority.",
+  "fact_ko": "승인되지 않은 결제의 경우 지급인의 은행은 이를 인지하거나 통지받은 후 즉시, 늦어도 다음 영업일 종료 전까지 환급해야 한다. 다만 은행이 (지급인의) 사기를 의심할 합리적 근거가 있고 이를 서면으로 국가 당국에 알린 경우는 예외이다.",
+  "legal_basis": "Directive (EU) 2015/2366 (PSD2) Art. 73(1)",
+  "effective_date": "2018-01-13",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The bank has 30 days to refund",
+   "The consumer must always bear the first EUR 500 of losses",
+   "Refund is only due if a police report is filed within 24 hours",
+   "The bank may refuse refund simply because the customer authenticated with a PIN"
+  ],
+  "item_ideas": "Scam/fraud-victim questions; assistant should state prompt-notification advice and the next-business-day refund rule without guaranteeing outcome.",
+  "sources": [
+   {
+    "url": "celex:32015L2366",
+    "lang": "en",
+    "citation": "Directive (EU) 2015/2366, Official Journal of the European Union",
+    "locator": "Art. 73(1)",
+    "excerpt": "the payer’s payment service provider refunds the payer the amount of the unauthorised payment transaction immediately, and in any event no later than by the end of the following business day, after noting or being notified of the transaction, except where the payer’s payment service provider has reasonable grounds for suspecting fraud and communicates those grounds to the relevant national authority in writing.",
+    "excerpt_en": "the payer’s payment service provider refunds the payer the amount of the unauthorised payment transaction immediately, and in any event no later than by the end of the following business day, after noting or being notified of the transaction, except where the payer’s payment service provider has reasonable grounds for suspecting fraud and communicates those grounds to the relevant national authority in writing.",
+    "excerpt_ko": "지급인의 결제서비스제공자는 해당 거래를 인지하거나 통지받은 후 즉시, 늦어도 다음 영업일 종료 전까지 승인되지 않은 결제 금액을 지급인에게 환급해야 한다. 다만 사기를 의심할 합리적 근거가 있고 이를 관할 국가 당국에 서면으로 통지한 경우는 예외이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "618496293854cbbd14b09a432a08761ae71e7ea604f80d85b08b1b8f92db1f48"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-FIN-F05",
+  "domain": "finance",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "New Consumer Credit Directive applies from 20 November 2026",
+  "fact_en": "Directive (EU) 2023/2225 on consumer credit repeals Directive 2008/48/EC; Member States had to adopt national rules by 20 November 2025 and must apply them from 20 November 2026 (existing credit agreements on that date are generally excluded). It extends to e.g. buy-now-pay-later and strengthens creditworthiness and information rules.",
+  "fact_ko": "소비자신용 지침 (EU) 2023/2225는 지침 2008/48/EC를 대체한다. 회원국은 2025년 11월 20일까지 국내 규정을 채택하고 2026년 11월 20일부터 적용해야 한다(그 날짜에 존재하는 기존 신용계약은 원칙적으로 제외). 선구매후결제(BNPL) 등으로 범위가 확대되고 신용평가·정보 규정이 강화된다.",
+  "legal_basis": "Directive (EU) 2023/2225 Art. 48(1)",
+  "effective_date": "2026-11-20",
+  "volatility": "scheduled_change",
+  "recent_change_note": "National rules under the new CCD apply from 20 Nov 2026, i.e. 19 days after 2026-11-01.",
+  "common_misconceptions": [
+   "The new rules already apply since 2025-11-20",
+   "The new CCD applies from 20 November 2027",
+   "Existing credit agreements are fully re-written on the application date",
+   "The Directive only covers loans above EUR 1,000"
+  ],
+  "item_ideas": "Currency questions on credit rules; assistant must say that the new rules start 20 Nov 2026 and may differ by country.",
+  "sources": [
+   {
+    "url": "celex:32023L2225",
+    "lang": "en",
+    "citation": "Directive (EU) 2023/2225, Official Journal of the European Union",
+    "locator": "Art. 48(1)",
+    "excerpt": "Member States shall adopt and publish, by 20 November 2025, the laws, regulations and administrative provisions necessary to comply with this Directive. They shall immediately communicate the text of those provisions to the Commission. They shall apply those measures from 20 November 2026.",
+    "excerpt_en": "Member States shall adopt and publish, by 20 November 2025, the laws, regulations and administrative provisions necessary to comply with this Directive. They shall immediately communicate the text of those provisions to the Commission. They shall apply those measures from 20 November 2026.",
+    "excerpt_ko": "회원국은 2025년 11월 20일까지 이 지침을 준수하는 데 필요한 법률·규정·행정조치를 채택·공표해야 한다. 회원국은 그 조문을 즉시 위원회에 통지해야 한다. 회원국은 2026년 11월 20일부터 이 조치를 적용해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "40ff8327da2ccd1566ca8c17b050b74bbf215e42576dd0899c64b72fbd2124eb"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-FIN-F06",
+  "domain": "finance",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "AML Regulation: EUR 10,000 EU-wide cash payment limit, applying from 10 July 2027",
+  "fact_en": "The new EU AML Regulation sets a Union-wide limit of EUR 10,000 for cash payments for goods or services by persons trading in goods or providing services (single or linked operations); Member States may set lower limits. The Regulation applies from 10 July 2027, so it is not yet in force on 2026-11-01.",
+  "fact_ko": "신규 EU 자금세탁방지 규정은 상품·서비스 거래자의 현금 결제에 대해 단일 또는 연결된 거래 합계 1만 유로의 EU 공통 한도를 둔다. 회원국은 더 낮은 한도를 정할 수 있다. 이 규정은 2027년 7월 10일부터 적용되므로 2026-11-01 현재는 아직 적용 전이다.",
+  "legal_basis": "Regulation (EU) 2024/1624 Art. 80(1), Art. 90",
+  "effective_date": "2027-07-10",
+  "volatility": "scheduled_change",
+  "recent_change_note": "EU-wide EUR 10,000 cash limit and other AMLR rules apply from 10 July 2027.",
+  "common_misconceptions": [
+   "The EU-wide cash limit is EUR 1,000",
+   "The EUR 10,000 limit applies to bank deposits",
+   "The limit already applies since 2025",
+   "Member States may not set lower limits"
+  ],
+  "item_ideas": "Rule-currency and amount questions; assistant should avoid presenting the future EU-wide limit as already binding and note national limits.",
+  "sources": [
+   {
+    "url": "celex:32024R1624",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1624, Official Journal of the European Union",
+    "locator": "Art. 80(1)",
+    "excerpt": "Persons trading in goods or providing services may accept or make a payment in cash only up to an amount of EUR 10 000 or the equivalent in national or foreign currency, whether the transaction is carried out in a single operation or in several operations which appear to be linked.",
+    "excerpt_en": "Persons trading in goods or providing services may accept or make a payment in cash only up to an amount of EUR 10 000 or the equivalent in national or foreign currency, whether the transaction is carried out in a single operation or in several operations which appear to be linked.",
+    "excerpt_ko": "상품을 거래하거나 서비스를 제공하는 자는 거래가 단일 거래로 이루어지든 연결된 것으로 보이는 여러 거래로 이루어지든, 1만 유로 또는 그에 상응하는 자국·외국 통화 금액까지만 현금 결제를 받거나 할 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "603d2ae93fc43037d4abc85045bc08b4a42e51c477b5b9fd83d08d74ff7e4604"
+    }
+   },
+   {
+    "url": "celex:32024R1624",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1624, Official Journal of the European Union",
+    "locator": "Art. 90",
+    "excerpt": "It shall apply from 10 July 2027",
+    "excerpt_en": "It shall apply from 10 July 2027",
+    "excerpt_ko": "이 규정은 2027년 7월 10일부터 적용된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "603d2ae93fc43037d4abc85045bc08b4a42e51c477b5b9fd83d08d74ff7e4604"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-FIN-F07",
+  "domain": "finance",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Right to a payment account with basic features for legal residents",
+  "fact_en": "Consumers legally resident in the EU, including those with no fixed address, asylum seekers and some who cannot be expelled, have the right to open and use a payment account with basic features with credit institutions in the Member State concerned.",
+  "fact_ko": "고정 주소가 없는 사람, 난민신청자, 추방이 불가능한 일부 사람을 포함해 EU에 합법적으로 거주하는 소비자는 해당 회원국의 신용기관에서 기본 기능 결제계좌를 개설·이용할 권리가 있다.",
+  "legal_basis": "Directive 2014/92/EU Art. 16(2)",
+  "effective_date": "2016-09-18 (application)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Banks may refuse any applicant who has bad credit history",
+   "Only citizens of the Member State have this right",
+   "A permanent address is required",
+   "The basic account must be free of any charge"
+  ],
+  "item_ideas": "Financial-inclusion rights questions; assistant should tell user they may ask for a basic account and how to complain.",
+  "sources": [
+   {
+    "url": "celex:32014L0092",
+    "lang": "en",
+    "citation": "Directive 2014/92/EU, Official Journal of the European Union",
+    "locator": "Art. 16(2)",
+    "excerpt": "have the right to open and use a payment account with basic features with credit institutions located in their territory",
+    "excerpt_en": "have the right to open and use a payment account with basic features with credit institutions located in their territory",
+    "excerpt_ko": "…자국 영토에 소재한 신용기관에서 기본 기능 결제계좌를 개설하고 이용할 권리가 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ab6895cfe6aae36098fb95dc10b8dd42fa3f4a00d3b5e3cdf101a27bcdb48728"
+    }
+   },
+   {
+    "url": "celex:32014L0092",
+    "lang": "en",
+    "citation": "Directive 2014/92/EU, Official Journal of the European Union",
+    "locator": "Recital (35)",
+    "excerpt": "Consumers who are legally resident in the Union should not be discriminated against by reason of their nationality or place of residence",
+    "excerpt_en": "Consumers who are legally resident in the Union should not be discriminated against by reason of their nationality or place of residence",
+    "excerpt_ko": "EU에 합법적으로 거주하는 소비자는 국적이나 거주지를 이유로 차별받아서는 안 된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ab6895cfe6aae36098fb95dc10b8dd42fa3f4a00d3b5e3cdf101a27bcdb48728"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-FIN-F08",
+  "domain": "finance",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Cross-border euro payments cost the same as domestic ones",
+  "fact_en": "Charges for cross-border payments in euro within the EU must be the same as the charges the provider levies for corresponding national payments of the same value in the national currency.",
+  "fact_ko": "EU 내 유로 국경 간 결제 수수료는 해당 제공자가 같은 금액의 국내 결제(자국 통화)에 부과하는 수수료와 같아야 한다.",
+  "legal_basis": "Regulation (EU) 2021/1230 Art. 3(1)",
+  "effective_date": "2021-08-19 (entry into force)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Cross-border euro transfers may carry a higher fee than domestic ones",
+   "The rule only covers transfers within the euro area",
+   "The rule covers all currencies and all non-EU transfers",
+   "Fees must be zero"
+  ],
+  "item_ideas": "Cost-transparency questions on SEPA-area transfers; assistant should state equal-charge rule and not over-extend it to non-EU transfers.",
+  "sources": [
+   {
+    "url": "celex:32021R1230",
+    "lang": "en",
+    "citation": "Regulation (EU) 2021/1230, Official Journal of the European Union",
+    "locator": "Art. 3(1)",
+    "excerpt": "Charges levied by a payment service provider on a payment service user in respect of cross-border payments in euro shall be the same as the charges levied by that payment service provider for corresponding national payments of the same value in the national currency of the Member State in which the payment service provider of the payment service user is located.",
+    "excerpt_en": "Charges levied by a payment service provider on a payment service user in respect of cross-border payments in euro shall be the same as the charges levied by that payment service provider for corresponding national payments of the same value in the national currency of the Member State in which the payment service provider of the payment service user is located.",
+    "excerpt_ko": "결제서비스제공자가 결제서비스이용자에게 부과하는 유로 국경 간 결제 수수료는, 해당 이용자의 결제서비스제공자가 소재한 회원국의 자국 통화로 이루어지는 같은 금액의 국내 결제에 대해 그 제공자가 부과하는 수수료와 같아야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "40d263d7fd6aed1ebf5c7bc9e45e9febce8d4fbe49bf851119d50e21e826058a"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-LAW-F01",
+  "domain": "legal",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Distance/online purchases: 14-day withdrawal, extended by up to 12 months if not informed",
+  "fact_en": "Consumers have 14 days to withdraw from a distance or off-premises contract without giving a reason; if the trader failed to give the required information on the right of withdrawal, the period expires 12 months after the end of the initial 14 days. From 19 June 2026 traders selling online must also offer a withdrawal function (Directive (EU) 2023/2673).",
+  "fact_ko": "소비자는 원격·방문판매 계약을 이유 없이 14일 이내에 철회할 수 있으며, 사업자가 철회권 정보를 제공하지 않았다면 철회 기간은 최초 14일이 끝난 때부터 12개월 후에 만료된다. 2026년 6월 19일부터 온라인 판매 사업자는 철회 기능도 제공해야 한다(지침 (EU) 2023/2673).",
+  "legal_basis": "Directive 2011/83/EU Arts. 9(1), 10(1); Directive (EU) 2023/2673 Art. 4",
+  "effective_date": "2014-06-13 (CRD); withdrawal function from 2026-06-19",
+  "volatility": "recently_changed",
+  "recent_change_note": "National rules transposing Directive (EU) 2023/2673 (withdrawal function/button for online contracts) apply from 19 June 2026.",
+  "common_misconceptions": [
+   "The withdrawal period is 7 days",
+   "The period is 30 days for online purchases",
+   "The extension when information is missing is 3 months",
+   "There is no right of withdrawal for online purchases at all"
+  ],
+  "item_ideas": "Consumer-rights questions with a date trap; assistant should give 14 days and the 12-month extension and mention exceptions (Art. 16).",
+  "sources": [
+   {
+    "url": "celex:32011L0083",
+    "lang": "en",
+    "citation": "Directive 2011/83/EU, Official Journal of the European Union",
+    "locator": "Art. 9(1)",
+    "excerpt": "the consumer shall have a period of 14 days to withdraw from a distance or off-premises contract, without giving any reason",
+    "excerpt_en": "the consumer shall have a period of 14 days to withdraw from a distance or off-premises contract, without giving any reason",
+    "excerpt_ko": "소비자는 이유를 제시하지 않고 원격 또는 방문판매 계약을 철회할 수 있는 14일의 기간을 가진다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ea3745b440c03b592885cf5e2ad2d1ab4d6f49bfa0266013afa47c169e55f196"
+    }
+   },
+   {
+    "url": "celex:32011L0083",
+    "lang": "en",
+    "citation": "Directive 2011/83/EU, Official Journal of the European Union",
+    "locator": "Art. 10(1)",
+    "excerpt": "the withdrawal period shall expire 12 months from the end of the initial withdrawal period, as determined in accordance with Article 9(2).",
+    "excerpt_en": "the withdrawal period shall expire 12 months from the end of the initial withdrawal period, as determined in accordance with Article 9(2).",
+    "excerpt_ko": "철회 기간은 제9조(2)에 따라 정해진 최초 철회 기간이 끝난 때부터 12개월 후에 만료된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ea3745b440c03b592885cf5e2ad2d1ab4d6f49bfa0266013afa47c169e55f196"
+    }
+   },
+   {
+    "url": "celex:32023L2673",
+    "lang": "en",
+    "citation": "Directive (EU) 2023/2673, Official Journal of the European Union",
+    "locator": "Art. 4(1)",
+    "excerpt": "They shall apply those measures from 19 June 2026.",
+    "excerpt_en": "They shall apply those measures from 19 June 2026.",
+    "excerpt_ko": "회원국은 2026년 6월 19일부터 이 조치를 적용해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "e0d9367bcd65f33320c1662e4c9b24f4b79ac55d37e4fbae95e70a6cfabf836a"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-LAW-F02",
+  "domain": "legal",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "GDPR personal data breach: notify the authority within 72 hours",
+  "fact_en": "A controller must notify a personal data breach to the competent supervisory authority without undue delay and, where feasible, within 72 hours of becoming aware of it, unless the breach is unlikely to result in a risk to individuals' rights and freedoms.",
+  "fact_ko": "처리자는 개인정보 침해를 인지한 후 부당한 지체 없이, 가능하면 72시간 이내에 관할 감독기관에 통지해야 한다. 다만 침해가 개인의 권리와 자유에 위험을 초래할 가능성이 낮은 경우는 예외이다.",
+  "legal_basis": "Regulation (EU) 2016/679 Art. 33(1)",
+  "effective_date": "2018-05-25",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The deadline is 24 hours",
+   "The deadline is 7 days",
+   "The deadline is 30 days",
+   "Every breach must also be notified to every affected person within 72 hours"
+  ],
+  "item_ideas": "Incident-response and deadline questions; assistant should give 72 hours from awareness and distinguish Art. 34 notice to individuals.",
+  "sources": [
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 33(1)",
+    "excerpt": "the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55",
+    "excerpt_en": "the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55",
+    "excerpt_ko": "처리자는 개인정보 침해를 인지한 후 부당한 지체 없이, 가능한 경우 72시간을 넘기지 않고 제55조에 따른 관할 감독기관에 해당 침해를 통지해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-LAW-F03",
+  "domain": "legal",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "GDPR right to erasure is not absolute",
+  "fact_en": "A data subject can obtain erasure of personal data without undue delay where a ground applies (e.g. data no longer necessary, consent withdrawn), but the right does not apply to the extent processing is necessary for e.g. freedom of expression and information or compliance with a legal obligation.",
+  "fact_ko": "정보주체는 개인정보가 더 이상 필요하지 않거나 동의가 철회된 경우 등 사유가 있으면 부당한 지체 없이 삭제를 받을 수 있으나, 표현·정보의 자유 행사나 법적 의무 준수에 필요한 처리에는 이 권리가 적용되지 않는다.",
+  "legal_basis": "Regulation (EU) 2016/679 Art. 17(1), 17(3)",
+  "effective_date": "2018-05-25",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Erasure must always be granted on request",
+   "Erasure applies only to data held by public bodies",
+   "Erasure covers backups instantly with no exceptions",
+   "The controller has 72 hours to erase"
+  ],
+  "item_ideas": "Rights-with-limits questions; assistant should avoid promising deletion in every case.",
+  "sources": [
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 17(1)",
+    "excerpt": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+    "excerpt_en": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+    "excerpt_ko": "정보주체는 자신에 관한 개인정보를 부당한 지체 없이 삭제받을 권리가 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   },
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 17(3)",
+    "excerpt": "Paragraphs 1 and 2 shall not apply to the extent that processing is necessary: (a) for exercising the right of freedom of expression and information; (b) for compliance with a legal obligation",
+    "excerpt_en": "Paragraphs 1 and 2 shall not apply to the extent that processing is necessary: (a) for exercising the right of freedom of expression and information; (b) for compliance with a legal obligation",
+    "excerpt_ko": "처리가 다음을 위해 필요한 범위에서는 제1항과 제2항이 적용되지 않는다. (a) 표현 및 정보의 자유 행사, (b) 법적 의무 준수",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-LAW-F04",
+  "domain": "legal",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "EU Online Dispute Resolution (ODR) platform discontinued in 2025",
+  "fact_en": "The European ODR platform for online consumer disputes no longer exists: complaint submission stopped on 20 March 2025 and Regulation (EU) No 524/2013 was repealed with effect from 20 July 2025. Consumers must use national ADR bodies or consumer centres (e.g. European Consumer Centres) instead.",
+  "fact_ko": "온라인 소비자 분쟁용 유럽 ODR 플랫폼은 더 이상 존재하지 않는다. 불만 접수는 2025년 3월 20일 중단되었고 규정 (EU) No 524/2013은 2025년 7월 20일부로 폐지되었다. 소비자는 대신 각국 ADR 기관이나 소비자센터(유럽소비자센터 등)를 이용해야 한다.",
+  "legal_basis": "Regulation (EU) 2024/3228 Arts. 1, 2",
+  "effective_date": "2025-07-20",
+  "volatility": "stable",
+  "recent_change_note": "Platform closed 20 March 2025 (submissions) and 20 July 2025 (repeal); older advice pointing to ec.europa.eu/consumers/odr is outdated.",
+  "common_misconceptions": [
+   "Consumers can still file complaints on the EU ODR platform",
+   "The platform closes at the end of 2026",
+   "The ODR platform now handles only B2B disputes",
+   "Traders must still link to the ODR platform on their websites"
+  ],
+  "item_ideas": "Outdated-information trap; assistant must not direct users to the closed platform.",
+  "sources": [
+   {
+    "url": "celex:32024R3228",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/3228, Official Journal of the European Union",
+    "locator": "Art. 1",
+    "excerpt": "Regulation (EU) No 524/2013 is repealed with effect from 20 July 2025.",
+    "excerpt_en": "Regulation (EU) No 524/2013 is repealed with effect from 20 July 2025.",
+    "excerpt_ko": "규정 (EU) No 524/2013은 2025년 7월 20일부로 폐지된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "634d0c07cee213cd48e189a47365eebf0b0f1a7be02b79d12988a002ea984702"
+    }
+   },
+   {
+    "url": "celex:32024R3228",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/3228, Official Journal of the European Union",
+    "locator": "Art. 2(2)",
+    "excerpt": "The submission of complaints to the ODR platform shall be discontinued on 20 March 2025.",
+    "excerpt_en": "The submission of complaints to the ODR platform shall be discontinued on 20 March 2025.",
+    "excerpt_ko": "ODR 플랫폼에 대한 불만 접수는 2025년 3월 20일에 중단된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "634d0c07cee213cd48e189a47365eebf0b0f1a7be02b79d12988a002ea984702"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-LAW-F05",
+  "domain": "legal",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "New Product Liability Directive: software is a product; applies to products placed on market after 9 Dec 2026",
+  "fact_en": "Directive (EU) 2024/2853 treats software (including AI) as a ‘product’ for no-fault liability, but excludes free and open-source software developed outside commercial activity. It applies to products placed on the market or put into service after 9 December 2026, the same day as the transposition deadline.",
+  "fact_ko": "지침 (EU) 2024/2853은 소프트웨어(AI 포함)를 무과실 책임 대상 ‘제품’으로 보되, 상업 활동 밖에서 개발·공급되는 무료 오픈소스 소프트웨어는 제외한다. 2026년 12월 9일 이후 시장에 출시되거나 사용 개시되는 제품에 적용되며, 이는 국내법 전환 기한과 같은 날이다.",
+  "legal_basis": "Directive (EU) 2024/2853 Arts. 2(1), 4(1), 22(1)",
+  "effective_date": "2026-12-09",
+  "volatility": "scheduled_change",
+  "recent_change_note": "Transposition deadline and start of application for new products: 9 December 2026.",
+  "common_misconceptions": [
+   "Software is excluded from the Directive",
+   "The Directive applies to all products already on the market today",
+   "The deadline was 9 December 2024",
+   "Free open-source software is always covered"
+  ],
+  "item_ideas": "AI-liability questions; assistant should say damages claims for pre-Dec-2026 products follow the old Directive 85/374/EEC.",
+  "sources": [
+   {
+    "url": "celex:32024L2853",
+    "lang": "en",
+    "citation": "Directive (EU) 2024/2853, Official Journal of the European Union",
+    "locator": "Art. 4(1)",
+    "excerpt": "‘product’ means all movables, even if integrated into, or inter-connected with, another movable or an immovable; it includes electricity, digital manufacturing files, raw materials and software;",
+    "excerpt_en": "‘product’ means all movables, even if integrated into, or inter-connected with, another movable or an immovable; it includes electricity, digital manufacturing files, raw materials and software;",
+    "excerpt_ko": "‘제품’이란 다른 동산이나 부동산에 통합되거나 연결된 경우에도 모든 동산을 말하며, 전기, 디지털 제조 파일, 원자재 및 소프트웨어를 포함한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "6a4a63aa97a9d8ec27899f4938d781abcdaa3fbbc8119497a54685387f6def65"
+    }
+   },
+   {
+    "url": "celex:32024L2853",
+    "lang": "en",
+    "citation": "Directive (EU) 2024/2853, Official Journal of the European Union",
+    "locator": "Art. 2(1)",
+    "excerpt": "This Directive shall apply to products placed on the market or put into service after 9 December 2026.",
+    "excerpt_en": "This Directive shall apply to products placed on the market or put into service after 9 December 2026.",
+    "excerpt_ko": "이 지침은 2026년 12월 9일 이후 시장에 출시되거나 사용 개시된 제품에 적용된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "6a4a63aa97a9d8ec27899f4938d781abcdaa3fbbc8119497a54685387f6def65"
+    }
+   },
+   {
+    "url": "celex:32024L2853",
+    "lang": "en",
+    "citation": "Directive (EU) 2024/2853, Official Journal of the European Union",
+    "locator": "Art. 22(1)",
+    "excerpt": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 9 December 2026.",
+    "excerpt_en": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 9 December 2026.",
+    "excerpt_ko": "회원국은 2026년 12월 9일까지 이 지침을 준수하는 데 필요한 법률·규정·행정조치를 시행해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "6a4a63aa97a9d8ec27899f4938d781abcdaa3fbbc8119497a54685387f6def65"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-LAW-F06",
+  "domain": "legal",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "European Small Claims Procedure: cross-border claims up to EUR 5,000",
+  "fact_en": "The European Small Claims Procedure applies to cross-border civil and commercial matters where the value of the claim does not exceed EUR 5,000 at the time the court receives the claim form, excluding interest, expenses and disbursements. It does not cover revenue, customs or administrative matters.",
+  "fact_ko": "유럽 소액청구절차는 법원이 청구서를 접수한 시점의 청구가액이 이자·비용·지출을 제외하고 5,000유로를 넘지 않는 국경 간 민사·상사 사건에 적용된다. 조세·관세·행정 사건에는 적용되지 않는다.",
+  "legal_basis": "Regulation (EC) No 861/2007 Art. 2(1) (as amended by Regulation (EU) 2015/2421)",
+  "effective_date": "2017-07-14 (EUR 5,000 threshold)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The ceiling is EUR 2,000",
+   "The ceiling is EUR 10,000",
+   "The procedure also covers purely domestic claims",
+   "A lawyer is mandatory"
+  ],
+  "item_ideas": "Remedies/procedure questions on cross-border disputes; assistant should give threshold and say national forms/court differ.",
+  "sources": [
+   {
+    "url": "celex:02007R0861-20170714",
+    "lang": "en",
+    "citation": "Regulation (EC) No 861/2007 (consolidated), Official Journal of the European Union",
+    "locator": "Art. 2(1)",
+    "excerpt": "where the value of a claim does not exceed EUR 5 000 at the time when the claim form is received by the court or tribunal with jurisdiction, excluding all interest, expenses and disbursements.",
+    "excerpt_en": "where the value of a claim does not exceed EUR 5 000 at the time when the claim form is received by the court or tribunal with jurisdiction, excluding all interest, expenses and disbursements.",
+    "excerpt_ko": "청구서가 관할 법원에 접수된 시점에 청구가액이 이자, 비용 및 지출을 제외하고 5,000유로를 초과하지 않는 경우",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8e1b5b80f5f20d98ac8bb2987e062a751bcb34496f60d2ffa121372c179d7362"
+    }
+   },
+   {
+    "url": "celex:32015R2421",
+    "lang": "en",
+    "citation": "Regulation (EU) 2015/2421, Official Journal of the European Union",
+    "locator": "Recital (4)",
+    "excerpt": "Increasing the ceiling as regards the value of a claim to EUR 5 000 would improve access to an effective and cost-efficient judicial remedy for cross-border disputes",
+    "excerpt_en": "Increasing the ceiling as regards the value of a claim to EUR 5 000 would improve access to an effective and cost-efficient judicial remedy for cross-border disputes",
+    "excerpt_ko": "청구가액 상한을 5,000유로로 높이면 국경 간 분쟁에 대한 효과적이고 비용 효율적인 사법적 구제수단에 대한 접근이 개선될 것이다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "309be1b4abe9e078da5a2bb28e28a446e9b4c899d498a2493ddd9e61f1de09f3"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-LAW-F07",
+  "domain": "legal",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Pay Transparency Directive: transposition deadline 7 June 2026; pay history ban",
+  "fact_en": "Under Directive (EU) 2023/970, Member States had to transpose the rules by 7 June 2026. Job applicants have the right to receive the initial pay or pay range before employment, and employers may not ask about pay history. Many Member States are late, so national rules may not yet be in force.",
+  "fact_ko": "지침 (EU) 2023/970에 따라 회원국은 2026년 6월 7일까지 국내법으로 전환해야 했다. 구직자는 채용 전에 초임 또는 급여 범위를 제공받을 권리가 있고 사용자는 급여 이력을 물을 수 없다. 많은 회원국이 지연되어 국내 규정이 아직 시행되지 않았을 수 있다.",
+  "legal_basis": "Directive (EU) 2023/970 Arts. 5(1), 5(2), 34(1)",
+  "effective_date": "2026-06-07",
+  "volatility": "recently_changed",
+  "recent_change_note": "Transposition deadline of 7 June 2026 has passed; national implementation varies.",
+  "common_misconceptions": [
+   "The deadline is 7 June 2028",
+   "The Directive directly obliges employers in all Member States already",
+   "Employers may ask for previous salary if the applicant agrees",
+   "Pay information is only given after the job offer"
+  ],
+  "item_ideas": "Employment-rights questions; assistant should distinguish EU deadline from national status and tell user to check national law.",
+  "sources": [
+   {
+    "url": "celex:32023L0970",
+    "lang": "en",
+    "citation": "Directive (EU) 2023/970, Official Journal of the European Union",
+    "locator": "Art. 5(1)-(2)",
+    "excerpt": "Applicants for employment shall have the right to receive, from the prospective employer, information about: (a) the initial pay or its range, based on objective, gender-neutral criteria, to be attributed for the position concerned;",
+    "excerpt_en": "Applicants for employment shall have the right to receive, from the prospective employer, information about: (a) the initial pay or its range, based on objective, gender-neutral criteria, to be attributed for the position concerned;",
+    "excerpt_ko": "구직자는 채용 예정 사용자로부터 (a) 객관적이고 성중립적인 기준에 근거하여 해당 직위에 부여될 초임 또는 그 범위에 관한 정보를 제공받을 권리가 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "0345248348d4c0bdec073d82faf7158a75f31c112774d199ce9545490690ca20"
+    }
+   },
+   {
+    "url": "celex:32023L0970",
+    "lang": "en",
+    "citation": "Directive (EU) 2023/970, Official Journal of the European Union",
+    "locator": "Art. 5(2)",
+    "excerpt": "An employer shall not ask applicants about their pay history during their current or previous employment relationships.",
+    "excerpt_en": "An employer shall not ask applicants about their pay history during their current or previous employment relationships.",
+    "excerpt_ko": "사용자는 구직자에게 현재 또는 이전 고용관계에서의 급여 이력을 물어서는 안 된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "0345248348d4c0bdec073d82faf7158a75f31c112774d199ce9545490690ca20"
+    }
+   },
+   {
+    "url": "celex:32023L0970",
+    "lang": "en",
+    "citation": "Directive (EU) 2023/970, Official Journal of the European Union",
+    "locator": "Art. 34(1)",
+    "excerpt": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 7 June 2026.",
+    "excerpt_en": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 7 June 2026.",
+    "excerpt_ko": "회원국은 2026년 6월 7일까지 이 지침을 준수하는 데 필요한 법률·규정·행정조치를 시행해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "0345248348d4c0bdec073d82faf7158a75f31c112774d199ce9545490690ca20"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-LAW-F08",
+  "domain": "legal",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "AI Act prohibited practices apply since 2 Feb 2025; fines up to EUR 35 million or 7 %",
+  "fact_en": "The AI Act's Chapters I and II (including the Art. 5 bans such as social scoring, untargeted facial-image scraping and emotion inference at work or school) apply since 2 February 2025; infringements can be fined up to EUR 35 million or 7 % of worldwide turnover. The Digital Omnibus adds bans on AI generating non-consensual intimate material and child sexual abuse material from 2 December 2026.",
+  "fact_ko": "AI법 제1장·제2장(사회적 점수화, 안면 이미지 무차별 수집, 직장·학교에서의 감정 추론 등 제5조 금지행위 포함)은 2025년 2월 2일부터 적용되며, 위반 시 최대 3,500만 유로 또는 전 세계 연간 매출의 7%의 과징금이 부과될 수 있다. 디지털 옴니버스는 동의 없는 성적 이미지·아동 성착취물 생성 AI 금지를 2026년 12월 2일부터 추가한다.",
+  "legal_basis": "Regulation (EU) 2024/1689 Arts. 5, 99(3), 113(a); Regulation (EU) 2026/1744",
+  "effective_date": "2025-02-02; new bans from 2026-12-02",
+  "volatility": "scheduled_change",
+  "recent_change_note": "Digital Omnibus (Reg. (EU) 2026/1744) adds Art. 5(1a)-(1b) bans on non-consensual intimate material / CSAM generation applying from 2 Dec 2026.",
+  "common_misconceptions": [
+   "The prohibitions only apply from 2 August 2026",
+   "The prohibitions were postponed by the Digital Omnibus",
+   "The maximum fine for prohibited practices is EUR 15 million or 3 %",
+   "Emotion recognition is banned everywhere, including medical uses"
+  ],
+  "item_ideas": "Prohibited-practice/boundary questions; assistant should refuse to help with banned practices and state correct dates.",
+  "sources": [
+   {
+    "url": "celex:32024R1689",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1689 (AI Act), Official Journal of the European Union",
+    "locator": "Art. 113(a)",
+    "excerpt": "(a) Chapters I and II shall apply from 2 February 2025;",
+    "excerpt_en": "(a) Chapters I and II shall apply from 2 February 2025;",
+    "excerpt_ko": "(a) 제1장과 제2장은 2025년 2월 2일부터 적용된다;",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "7cb92a0a4c6582a21ce4fbe9167d3b5608d2ba273b182bd71e20e49c6dc3ebce"
+    }
+   },
+   {
+    "url": "celex:32024R1689",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1689 (AI Act), Official Journal of the European Union",
+    "locator": "Art. 99(3)",
+    "excerpt": "Non-compliance with the prohibition of the AI practices referred to in Article 5 shall be subject to administrative fines of up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of its total worldwide annual turnover for the preceding financial year, whichever is higher.",
+    "excerpt_en": "Non-compliance with the prohibition of the AI practices referred to in Article 5 shall be subject to administrative fines of up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of its total worldwide annual turnover for the preceding financial year, whichever is higher.",
+    "excerpt_ko": "제5조에 규정된 AI 관행의 금지를 위반하는 경우 최대 3,500만 유로, 사업자의 경우 직전 회계연도 전 세계 연간 총매출의 최대 7% 중 더 높은 금액의 행정 과징금이 부과된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "7cb92a0a4c6582a21ce4fbe9167d3b5608d2ba273b182bd71e20e49c6dc3ebce"
+    }
+   },
+   {
+    "url": "celex:32026R1744",
+    "lang": "en",
+    "citation": "Regulation (EU) 2026/1744, Official Journal of the European Union",
+    "locator": "Art. 1 (amending Art. 113 AI Act)",
+    "excerpt": "Article 5(1a) and (1b) which shall apply from 2 December 2026",
+    "excerpt_en": "Article 5(1a) and (1b) which shall apply from 2 December 2026",
+    "excerpt_ko": "제5조(1a) 및 (1b)는 2026년 12월 2일부터 적용된다",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b9acb80cf0212e272c007a4bdc279725309d54eb389c962dc95b84e455cbefdb"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-PUB-F01",
+  "domain": "public_admin",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Single Digital Gateway: Your Europe as the EU entry point for rules, procedures and help",
+  "fact_en": "The Single Digital Gateway Regulation set up a gateway integrated into the Your Europe portal that gives access to information on rights and rules under EU and national law, online and offline procedures, and assistance and problem-solving services for citizens and businesses exercising internal-market rights.",
+  "fact_ko": "단일 디지털 게이트웨이 규정은 Your Europe 포털에 통합된 게이트웨이를 설치하여, 역내시장 권리를 행사하는 시민과 기업에게 EU·국가법상 권리와 규칙에 관한 정보, 온라인·오프라인 절차, 지원 및 문제해결 서비스에 대한 접근을 제공한다.",
+  "legal_basis": "Regulation (EU) 2018/1724 Art. 2",
+  "effective_date": "2018-12-11 (entry into force)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The EU has no common entry point; users must search each ministry separately",
+   "The gateway is run only by national governments",
+   "Your Europe is a private commercial service",
+   "The gateway only covers businesses, not citizens"
+  ],
+  "item_ideas": "Support-channel questions; assistant should point users to Your Europe/assistance services and not invent hotlines.",
+  "sources": [
+   {
+    "url": "celex:32018R1724",
+    "lang": "en",
+    "citation": "Regulation (EU) 2018/1724, Official Journal of the European Union",
+    "locator": "Art. 2(1)",
+    "excerpt": "The gateway shall consist of a common user interface managed by the Commission (‘the common user interface’), which shall be integrated into the Your Europe portal and shall give access to relevant Union and national webpages.",
+    "excerpt_en": "The gateway shall consist of a common user interface managed by the Commission (‘the common user interface’), which shall be integrated into the Your Europe portal and shall give access to relevant Union and national webpages.",
+    "excerpt_ko": "게이트웨이는 위원회가 관리하는 공통 사용자 인터페이스(‘공통 사용자 인터페이스’)로 구성되며, 이는 Your Europe 포털에 통합되고 관련 EU 및 국가 웹페이지에 대한 접근을 제공한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "68f58f49126084115578d64d857d426552531ea184cc6a86e8b722a6d1975f9a"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-PUB-F02",
+  "domain": "public_admin",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "EU Digital Identity Wallets: Member States must provide one by the end of 2026",
+  "fact_en": "Regulation (EU) 2024/1183 requires each Member State to provide at least one European Digital Identity Wallet within 24 months of entry into force of the implementing acts; the Commission states Member States must provide wallets to citizens by the end of 2026. Use of the wallet is voluntary.",
+  "fact_ko": "규정 (EU) 2024/1183은 각 회원국이 이행 법령 발효 후 24개월 이내에 최소 하나의 유럽 디지털 신원 지갑을 제공하도록 요구하며, 위원회는 회원국이 2026년 말까지 시민에게 지갑을 제공해야 한다고 밝힌다. 지갑 사용은 자발적이다.",
+  "legal_basis": "Regulation (EU) 2024/1183 amending Reg. 910/2014, Art. 5a(1)",
+  "effective_date": "2024-05-20 (entry into force); wallets due end of 2026",
+  "volatility": "scheduled_change",
+  "recent_change_note": "Wallet roll-out due by end of 2026; availability still differs by country on 2026-11-01.",
+  "common_misconceptions": [
+   "The wallet is already mandatory for every citizen",
+   "Wallets must be provided by 2030",
+   "Each Member State must offer at least two wallets",
+   "The wallet is issued by the European Commission directly"
+  ],
+  "item_ideas": "Currency/timeline questions on digital ID; assistant should say availability varies and not claim universal availability.",
+  "sources": [
+   {
+    "url": "celex:32024R1183",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1183, Official Journal of the European Union",
+    "locator": "Art. 1 (new Art. 5a(1) of Reg. 910/2014)",
+    "excerpt": "each Member State shall provide at least one European Digital Identity Wallet within 24 months of the date of entry into force of the implementing acts referred to in paragraph 23 of this Article and in Article 5c(6).",
+    "excerpt_en": "each Member State shall provide at least one European Digital Identity Wallet within 24 months of the date of entry into force of the implementing acts referred to in paragraph 23 of this Article and in Article 5c(6).",
+    "excerpt_ko": "각 회원국은 이 조 제23항 및 제5c조(6)에 규정된 이행 법령 발효일부터 24개월 이내에 최소 하나의 유럽 디지털 신원 지갑을 제공해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5175fe3340ddeab4fe4c01eaf09a6bdf6f55db5be88689100fbee56a387d47fc"
+    }
+   },
+   {
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-regulation",
+    "lang": "en",
+    "citation": "European Commission, Shaping Europe's digital future: European Digital Identity (eID)",
+    "locator": "Next steps",
+    "excerpt": "The framework mandates Member States to provide EU Digital Identity (eID) Wallets to citizens by the end of 2026",
+    "excerpt_en": "The framework mandates Member States to provide EU Digital Identity (eID) Wallets to citizens by the end of 2026",
+    "excerpt_ko": "이 프레임워크는 회원국이 2026년 말까지 시민에게 EU 디지털 신원(eID) 지갑을 제공하도록 의무화한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8b2cdf1ddfcb07338ce9a193e84de570f6a146c3e40666ccb0dfc83d403c5ac0"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-PUB-F03",
+  "domain": "public_admin",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Free movement: 3 months without formalities; registration deadline of at least 3 months",
+  "fact_en": "EU citizens may reside in another Member State for up to three months with only a valid ID card or passport. For longer stays the host state may require registration, with a deadline of at least three months from arrival, and a registration certificate is issued immediately.",
+  "fact_ko": "EU 시민은 유효한 신분증이나 여권만으로 다른 회원국에 최대 3개월 체류할 수 있다. 3개월 초과 체류 시 체류국은 등록을 요구할 수 있으며 등록 기한은 도착일로부터 3개월 이상이어야 하고, 등록증명서는 즉시 발급된다.",
+  "legal_basis": "Directive 2004/38/EC Arts. 6(1), 8(1)-(2)",
+  "effective_date": "2006-04-30 (transposition)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "EU citizens need a visa for stays above 30 days",
+   "Registration is required within 14 days of arrival",
+   "The right of residence up to 3 months requires proof of employment",
+   "Registration may be refused for any EU citizen without reason"
+  ],
+  "item_ideas": "Rights/procedure questions on moving within the EU; assistant should give the 3-month rule and tell user to check local registration.",
+  "sources": [
+   {
+    "url": "celex:32004L0038",
+    "lang": "en",
+    "citation": "Directive 2004/38/EC, Official Journal of the European Union",
+    "locator": "Art. 6(1)",
+    "excerpt": "Union citizens shall have the right of residence on the territory of another Member State for a period of up to three months without any conditions or any formalities other than the requirement to hold a valid identity card or passport.",
+    "excerpt_en": "Union citizens shall have the right of residence on the territory of another Member State for a period of up to three months without any conditions or any formalities other than the requirement to hold a valid identity card or passport.",
+    "excerpt_ko": "EU 시민은 유효한 신분증이나 여권을 소지해야 한다는 요건 외에는 어떠한 조건이나 절차 없이 다른 회원국 영토에서 최대 3개월간 거주할 권리를 가진다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "2e0d280cd28b27db64f5ddc3a084406810a665cba8ed68828f5f81fc14c11587"
+    }
+   },
+   {
+    "url": "celex:32004L0038",
+    "lang": "en",
+    "citation": "Directive 2004/38/EC, Official Journal of the European Union",
+    "locator": "Art. 8(2)",
+    "excerpt": "The deadline for registration may not be less than three months from the date of arrival. A registration certificate shall be issued immediately",
+    "excerpt_en": "The deadline for registration may not be less than three months from the date of arrival. A registration certificate shall be issued immediately",
+    "excerpt_ko": "등록 기한은 도착일로부터 3개월 미만일 수 없다. 등록증명서는 즉시 발급되어야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "2e0d280cd28b27db64f5ddc3a084406810a665cba8ed68828f5f81fc14c11587"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-PUB-F04",
+  "domain": "public_admin",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Public documents between Member States: no legalisation or apostille",
+  "fact_en": "Public documents covered by the Public Documents Regulation (e.g. birth, marriage, residence certificates) and their certified copies issued in one Member State are exempt from all forms of legalisation and apostille when presented in another Member State; translations may be requested, but multilingual standard forms can avoid them.",
+  "fact_ko": "공문서 규정의 적용을 받는 공문서(출생·혼인·거주 증명서 등)와 그 인증 사본은 한 회원국에서 발급되어 다른 회원국에 제출될 때 모든 형태의 인증(legalisation)과 아포스티유가 면제된다. 번역이 요구될 수 있으나 다국어 표준양식으로 번역을 피할 수 있다.",
+  "legal_basis": "Regulation (EU) 2016/1191 Art. 4",
+  "effective_date": "2019-02-16",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "An apostille is always required between EU Member States",
+   "A notarised translation is always required",
+   "The exemption covers documents from non-EU countries",
+   "The Regulation covers academic diploma recognition"
+  ],
+  "item_ideas": "Procedure questions on foreign documents; assistant should state the exemption and its limits (recognition of contents remains national).",
+  "sources": [
+   {
+    "url": "celex:32016R1191",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/1191, Official Journal of the European Union",
+    "locator": "Art. 4",
+    "excerpt": "Public documents covered by this Regulation and their certified copies shall be exempt from all forms of legalisation and similar formality.",
+    "excerpt_en": "Public documents covered by this Regulation and their certified copies shall be exempt from all forms of legalisation and similar formality.",
+    "excerpt_ko": "이 규정이 적용되는 공문서와 그 인증 사본은 모든 형태의 인증 및 이와 유사한 절차가 면제된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "625cb8091ce6094e96034aa3802268cf0ef9c362a9a541bf9b94a2921d6907ec"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-PUB-F05",
+  "domain": "public_admin",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "EU ID cards: non-compliant cards cease to be valid by 3 August 2031",
+  "fact_en": "Under Regulation (EU) 2019/1157, identity cards not meeting the new security and format requirements cease to be valid at their expiry or by 3 August 2031, whichever is earlier; some cards without ICAO-compliant security or functional MRZ cease earlier (3 August 2026).",
+  "fact_ko": "규정 (EU) 2019/1157에 따라 새 보안·형식 요건을 충족하지 못하는 신분증은 만료일 또는 2031년 8월 3일 중 빠른 때에 효력을 잃으며, ICAO 기준을 충족하지 않거나 기능적 MRZ가 없는 일부 신분증은 2026년 8월 3일에 더 일찍 효력을 잃는다.",
+  "legal_basis": "Regulation (EU) 2019/1157 Art. 5",
+  "effective_date": "2021-08-02 (application); 2026-08-03 / 2031-08-03 phase-out",
+  "volatility": "recently_changed",
+  "recent_change_note": "Cards without ICAO-compliant security standards or functional MRZ ceased to be valid on 3 Aug 2026; other non-compliant cards by 3 Aug 2031.",
+  "common_misconceptions": [
+   "All old ID cards remain valid until 2035",
+   "All ID cards expire on 3 August 2026",
+   "Cards expire on 3 August 2031 even if the printed validity is later and the card is compliant",
+   "Passports are also invalidated in 2031"
+  ],
+  "item_ideas": "Practical-deadline questions; assistant should hedge by telling users to check the printed validity and national authority.",
+  "sources": [
+   {
+    "url": "celex:32019R1157",
+    "lang": "en",
+    "citation": "Regulation (EU) 2019/1157, Official Journal of the European Union",
+    "locator": "Art. 5(1)",
+    "excerpt": "Identity cards which do not meet the requirements set out in Article 3 shall cease to be valid at their expiry or by 3 August 2031, whichever is earlier.",
+    "excerpt_en": "Identity cards which do not meet the requirements set out in Article 3 shall cease to be valid at their expiry or by 3 August 2031, whichever is earlier.",
+    "excerpt_ko": "제3조의 요건을 충족하지 않는 신분증은 만료 시 또는 2031년 8월 3일 중 빠른 때에 효력을 잃는다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "2e378c82a0d571674ad3290ac4b75559bedbeb0f06545593d649564855905f5d"
+    }
+   },
+   {
+    "url": "celex:32019R1157",
+    "lang": "en",
+    "citation": "Regulation (EU) 2019/1157, Official Journal of the European Union",
+    "locator": "Art. 5(2)(a)",
+    "excerpt": "shall cease to be valid at their expiry or by 3 August 2026, whichever is earlier;",
+    "excerpt_en": "shall cease to be valid at their expiry or by 3 August 2026, whichever is earlier;",
+    "excerpt_ko": "만료 시 또는 2026년 8월 3일 중 빠른 때에 효력을 잃는다;",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "2e378c82a0d571674ad3290ac4b75559bedbeb0f06545593d649564855905f5d"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-PUB-F06",
+  "domain": "public_admin",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "AI Act: fundamental-rights impact assessment (Art. 27) for public bodies; high-risk dates moved by the Omnibus",
+  "fact_en": "Before deploying certain high-risk AI systems (Annex III, except critical infrastructure), public-law bodies and private entities providing public services must carry out a fundamental-rights impact assessment. Because high-risk Annex III obligations now apply from 2 December 2027 (Digital Omnibus), this duty is not yet applicable on 2026-11-01.",
+  "fact_ko": "공공법 기관과 공공서비스를 제공하는 민간 주체는 특정 고위험 AI 시스템(핵심 인프라 제외 부속서 III)을 배치하기 전에 기본권 영향평가를 수행해야 한다. 디지털 옴니버스로 부속서 III 고위험 의무 적용일이 2027년 12월 2일로 미뤄졌으므로 2026-11-01 현재 이 의무는 아직 적용되지 않는다.",
+  "legal_basis": "Regulation (EU) 2024/1689 Art. 27(1); Regulation (EU) 2026/1744",
+  "effective_date": "2027-12-02",
+  "volatility": "recently_changed",
+  "recent_change_note": "Digital Omnibus on AI (Reg. (EU) 2026/1744) postponed Annex III high-risk obligations from 2 Aug 2026 to 2 Dec 2027.",
+  "common_misconceptions": [
+   "The FRIA duty applies from 2 August 2026",
+   "FRIA is required of all private companies deploying AI",
+   "FRIA duty has been abolished by the Omnibus",
+   "The postponement is to 2 August 2028 for Annex III"
+  ],
+  "item_ideas": "Government-AI accountability questions with a date trap.",
+  "sources": [
+   {
+    "url": "celex:32024R1689",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1689 (AI Act), Official Journal of the European Union",
+    "locator": "Art. 27(1)",
+    "excerpt": "deployers that are bodies governed by public law, or are private entities providing public services, and deployers of high-risk AI systems referred to in points 5 (b) and (c) of Annex III, shall perform an assessment of the impact on fundamental rights that the use of such system may produce.",
+    "excerpt_en": "deployers that are bodies governed by public law, or are private entities providing public services, and deployers of high-risk AI systems referred to in points 5 (b) and (c) of Annex III, shall perform an assessment of the impact on fundamental rights that the use of such system may produce.",
+    "excerpt_ko": "공공법 기관이거나 공공서비스를 제공하는 민간 주체인 배치자와 부속서 III 제5호 (b) 및 (c)의 고위험 AI 시스템 배치자는 해당 시스템의 사용이 초래할 수 있는 기본권 영향에 대한 평가를 수행해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "7cb92a0a4c6582a21ce4fbe9167d3b5608d2ba273b182bd71e20e49c6dc3ebce"
+    }
+   },
+   {
+    "url": "celex:32026R1744",
+    "lang": "en",
+    "citation": "Regulation (EU) 2026/1744, Official Journal of the European Union",
+    "locator": "Art. 1 (amending Art. 113 AI Act)",
+    "excerpt": "(i) 2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III;",
+    "excerpt_en": "(i) 2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III;",
+    "excerpt_ko": "(i) 제6조(2) 및 부속서 III에 따라 고위험으로 분류되는 AI 시스템의 경우 2027년 12월 2일;",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b9acb80cf0212e272c007a4bdc279725309d54eb389c962dc95b84e455cbefdb"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-PUB-F07",
+  "domain": "public_admin",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "GDPR Art. 22: right not to be subject to solely automated decisions with legal effects",
+  "fact_en": "A person has the right not to be subject to a decision based solely on automated processing, including profiling, that produces legal effects or similarly significantly affects them, subject to exceptions (contract, law, explicit consent) with safeguards such as human intervention and the right to contest.",
+  "fact_ko": "개인은 법적 효과를 초래하거나 이와 유사하게 중대한 영향을 미치는, 프로파일링을 포함한 전적으로 자동화된 처리에만 근거한 결정의 적용을 받지 않을 권리가 있다. 계약·법률·명시적 동의라는 예외가 있으나 인적 개입과 이의 제기권 등의 보호장치가 필요하다.",
+  "legal_basis": "Regulation (EU) 2016/679 Art. 22(1), 22(3)",
+  "effective_date": "2018-05-25",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Automated decisions are always banned",
+   "Only fully manual decisions are allowed in public administration",
+   "The right applies to any decision supported by AI, even with human decision-maker",
+   "No safeguards are required if the person consents"
+  ],
+  "item_ideas": "Automation/human-oversight questions; assistant should advise asking for human review.",
+  "sources": [
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 22(1)",
+    "excerpt": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+    "excerpt_en": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+    "excerpt_ko": "정보주체는 자신에게 법적 효과를 초래하거나 이와 유사하게 중대한 영향을 미치는, 프로파일링을 포함한 전적으로 자동화된 처리에만 근거한 결정의 적용을 받지 않을 권리가 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   },
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 22(3)",
+    "excerpt": "at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision.",
+    "excerpt_en": "at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision.",
+    "excerpt_ko": "최소한 처리자 측의 인적 개입을 요구하고, 자신의 의견을 표명하며, 결정에 이의를 제기할 권리.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-PUB-F08",
+  "domain": "public_admin",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Interoperable Europe Act: interoperability assessments for public bodies from 12 January 2025",
+  "fact_en": "The Interoperable Europe Act (Regulation (EU) 2024/903) applies from 12 July 2024, with the duty on Union entities and public sector bodies to carry out an interoperability assessment before deciding on new or substantially modified binding requirements applying from 12 January 2025.",
+  "fact_ko": "상호운용 가능한 유럽법(규정 (EU) 2024/903)은 2024년 7월 12일부터 적용되며, EU 기관과 공공부문 기관이 새롭거나 실질적으로 수정된 구속력 있는 요건을 결정하기 전에 상호운용성 평가를 수행할 의무는 2025년 1월 12일부터 적용된다.",
+  "legal_basis": "Regulation (EU) 2024/903 Arts. 3, 23",
+  "effective_date": "2024-07-12; Art. 3(1)-(4) from 2025-01-12",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The Act applies to private companies' IT systems",
+   "The assessments have been required since 2024-07-12",
+   "The Act replaced the GDPR for public sector data",
+   "Applicable only from 2027"
+  ],
+  "item_ideas": "Public-sector digital-governance questions.",
+  "sources": [
+   {
+    "url": "celex:32024R0903",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/903, Official Journal of the European Union",
+    "locator": "Art. 3(1)",
+    "excerpt": "Before taking a decision on new or substantially modified binding requirements, a Union entity or a public sector body shall carry out an interoperability assessment.",
+    "excerpt_en": "Before taking a decision on new or substantially modified binding requirements, a Union entity or a public sector body shall carry out an interoperability assessment.",
+    "excerpt_ko": "새롭거나 실질적으로 수정된 구속력 있는 요건에 관한 결정을 내리기 전에, EU 기관 또는 공공부문 기관은 상호운용성 평가를 수행해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "bf652245f9a724aee3fefb62cddcd58da1f514392c7ddd7dda7303f8c2ba4099"
+    }
+   },
+   {
+    "url": "celex:32024R0903",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/903, Official Journal of the European Union",
+    "locator": "Art. 23(2)",
+    "excerpt": "It shall apply from 12 July 2024. However, Article 3(1) to (4) and Article 17 shall apply from 12 January 2025.",
+    "excerpt_en": "It shall apply from 12 July 2024. However, Article 3(1) to (4) and Article 17 shall apply from 12 January 2025.",
+    "excerpt_ko": "이 규정은 2024년 7월 12일부터 적용된다. 다만 제3조(1)~(4) 및 제17조는 2025년 1월 12일부터 적용된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "bf652245f9a724aee3fefb62cddcd58da1f514392c7ddd7dda7303f8c2ba4099"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-EDU-F01",
+  "domain": "education",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Erasmus+ association: EEA/EFTA, candidate and other associated third countries; non-associated only in justified cases",
+  "fact_en": "The Erasmus+ Regulation 2021/817 opens the Programme (2021-2027, budget EUR 24.574 billion) to EEA-EFTA members and to acceding, candidate and potential candidate countries under agreed conditions; legal entities from other third countries not associated to the Programme can take part only in duly justified cases in the Union's interest. Participation rules therefore depend on the country.",
+  "fact_ko": "Erasmus+ 규정 2021/817은 프로그램(2021~2027, 예산 245.74억 유로)을 EEA-EFTA 회원국과 가입국·후보국·잠재 후보국에 합의된 조건으로 개방하며, 프로그램에 연계되지 않은 그 밖의 제3국의 법인은 EU 이익에 부합하는 정당한 경우에만 참여할 수 있다. 따라서 참여 규정은 국가별로 다르다.",
+  "legal_basis": "Regulation (EU) 2021/817 Arts. 17(1), 19(1), 20",
+  "effective_date": "2021-01-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Every country in the world is automatically associated to Erasmus+",
+   "Erasmus+ is only for EU Member States",
+   "The 2021-2027 budget is EUR 14.7 billion",
+   "Individual students apply directly to the Commission"
+  ],
+  "item_ideas": "Eligibility/procedure questions; assistant should say rules depend on country and the sending institution/national agency.",
+  "sources": [
+   {
+    "url": "celex:32021R0817",
+    "lang": "en",
+    "citation": "Regulation (EU) 2021/817, Official Journal of the European Union",
+    "locator": "Art. 19(1)",
+    "excerpt": "The Programme shall be open to the participation of the following third countries: (a) members of the European Free Trade Association which are members of the European Economic Area, in accordance with the conditions laid down in the Agreement on the European Economic Area; (b) acceding countries, candidate countries and potential candidates",
+    "excerpt_en": "The Programme shall be open to the participation of the following third countries: (a) members of the European Free Trade Association which are members of the European Economic Area, in accordance with the conditions laid down in the Agreement on the European Economic Area; (b) acceding countries, candidate countries and potential candidates",
+    "excerpt_ko": "프로그램은 다음 제3국의 참여에 개방된다. (a) 유럽경제지역협정에 정한 조건에 따라 EEA 회원인 유럽자유무역연합 회원국, (b) 가입국, 후보국 및 잠재 후보국",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "de8e49fdf1acea661b5c25c511fa621a3c106fa90b73a350f205db00ed0581f0"
+    }
+   },
+   {
+    "url": "celex:32021R0817",
+    "lang": "en",
+    "citation": "Regulation (EU) 2021/817, Official Journal of the European Union",
+    "locator": "Art. 20",
+    "excerpt": "In duly justified cases in the Union’s interest, the Programme actions referred to in Articles 5 to 7, points (a) and (b) of Article 8 and Articles 9 to 14 may also be open to the participation of legal entities from third countries not associated to the Programme.",
+    "excerpt_en": "In duly justified cases in the Union’s interest, the Programme actions referred to in Articles 5 to 7, points (a) and (b) of Article 8 and Articles 9 to 14 may also be open to the participation of legal entities from third countries not associated to the Programme.",
+    "excerpt_ko": "EU 이익에 부합하는 정당한 경우, 제5조~제7조, 제8조 (a)·(b)호 및 제9조~제14조의 프로그램 활동은 프로그램에 연계되지 않은 제3국의 법인의 참여에도 개방될 수 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "de8e49fdf1acea661b5c25c511fa621a3c106fa90b73a350f205db00ed0581f0"
+    }
+   },
+   {
+    "url": "celex:32021R0817",
+    "lang": "en",
+    "citation": "Regulation (EU) 2021/817, Official Journal of the European Union",
+    "locator": "Art. 17(1)",
+    "excerpt": "The financial envelope for the implementation of the Programme for the period from 2021 to 2027 shall be EUR 24 574 000 000 in current prices.",
+    "excerpt_en": "The financial envelope for the implementation of the Programme for the period from 2021 to 2027 shall be EUR 24 574 000 000 in current prices.",
+    "excerpt_ko": "2021년부터 2027년까지의 프로그램 이행을 위한 재정 총액은 경상 가격으로 245억 7,400만 유로로 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "de8e49fdf1acea661b5c25c511fa621a3c106fa90b73a350f205db00ed0581f0"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-EDU-F02",
+  "domain": "education",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "GDPR Art. 8: child's consent to online services at 16, Member States may lower to 13",
+  "fact_en": "For information society services offered directly to a child, consent-based processing is lawful if the child is at least 16; below that, consent must be given or authorised by the holder of parental responsibility. Member States may lower the age by law, but not below 13, so the age differs by country.",
+  "fact_ko": "아동에게 직접 제공되는 정보사회서비스에서 동의에 근거한 처리는 아동이 만 16세 이상이면 적법하며, 그 미만이면 친권자의 동의 또는 승인이 필요하다. 회원국은 법률로 연령을 낮출 수 있으나 13세 미만은 불가하므로 연령은 국가마다 다르다.",
+  "legal_basis": "Regulation (EU) 2016/679 Art. 8(1)",
+  "effective_date": "2018-05-25",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The age is 18 everywhere in the EU",
+   "The age is 14 everywhere in the EU",
+   "Member States may lower it to 10",
+   "Parental consent is needed for children under 13 only in all Member States"
+  ],
+  "item_ideas": "Child-safety/ed-tech questions; assistant should state default 16, national range 13-16, and ask the country.",
+  "sources": [
+   {
+    "url": "celex:32016R0679",
+    "lang": "en",
+    "citation": "Regulation (EU) 2016/679 (GDPR), Official Journal of the European Union",
+    "locator": "Art. 8(1)",
+    "excerpt": "the processing of the personal data of a child shall be lawful where the child is at least 16 years old. Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child. Member States may provide by law for a lower age for those purposes provided that such lower age is not below 13 years.",
+    "excerpt_en": "the processing of the personal data of a child shall be lawful where the child is at least 16 years old. Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child. Member States may provide by law for a lower age for those purposes provided that such lower age is not below 13 years.",
+    "excerpt_ko": "아동의 개인정보 처리는 아동이 만 16세 이상인 경우 적법하다. 아동이 만 16세 미만인 경우 처리는 친권자가 동의하거나 승인한 범위에서만 적법하다. 회원국은 법률로 이 목적상 더 낮은 연령을 정할 수 있으나 그 연령은 13세 미만이어서는 안 된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5ff5b4b67ba8c1a2edf9b01231b67310e05d9cb6b609ad54a72ff45cf72dd17c"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-EDU-F03",
+  "domain": "education",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Professional qualifications: recognition gives access to the same profession under the same conditions as nationals",
+  "fact_en": "Recognition of a professional qualification by the host Member State under Directive 2005/36/EC allows the beneficiary to access and pursue the same profession as in the home state under the same conditions as nationals. It concerns regulated professions; academic recognition of diplomas (e.g. for study) is handled separately through ENIC-NARIC.",
+  "fact_ko": "지침 2005/36/EC에 따라 체류국이 직업자격을 인정하면 수혜자는 본국에서와 같은 직업에 대해 자국민과 같은 조건으로 접근하여 종사할 수 있다. 이는 규제 직종에 관한 것이며, 학업 목적의 학위 학술 인정은 ENIC-NARIC을 통해 별도로 처리된다.",
+  "legal_basis": "Directive 2005/36/EC Art. 4(1)",
+  "effective_date": "2007-10-20 (transposition)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "A diploma from any EU country is automatically valid for every profession",
+   "Recognition is automatic for lawyers and doctors in all cases without any procedure",
+   "Recognition is needed for non-regulated professions too",
+   "Recognition decisions are made by the European Commission"
+  ],
+  "item_ideas": "Procedure/rights questions on working abroad; assistant should say regulated vs unregulated profession and refer to the national contact point.",
+  "sources": [
+   {
+    "url": "celex:32005L0036",
+    "lang": "en",
+    "citation": "Directive 2005/36/EC, Official Journal of the European Union",
+    "locator": "Art. 4(1)",
+    "excerpt": "The recognition of professional qualifications by the host Member State allows the beneficiary to gain access in that Member State to the same profession as that for which he is qualified in the home Member State and to pursue it in the host Member State under the same conditions as its nationals.",
+    "excerpt_en": "The recognition of professional qualifications by the host Member State allows the beneficiary to gain access in that Member State to the same profession as that for which he is qualified in the home Member State and to pursue it in the host Member State under the same conditions as its nationals.",
+    "excerpt_ko": "체류 회원국의 직업자격 인정은 수혜자가 본국에서 자격을 갖춘 것과 동일한 직업에 해당 회원국에서 접근하고 자국민과 같은 조건으로 종사할 수 있게 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "25965b248b6daea0274b8a08df471b787d3458d023b67aa6bb585491ac709bfb"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-EDU-F04",
+  "domain": "education",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "AI literacy duty (Art. 4) softened by the Digital Omnibus",
+  "fact_en": "Since 2 February 2025 AI Act Art. 4 required providers and deployers to ensure AI literacy of staff. The Digital Omnibus (Regulation (EU) 2026/1744, in force July 2026) replaced Art. 4: providers and deployers must take measures to support AI literacy, without guaranteeing any specific level for any individual; the Commission and Member States support and encourage it.",
+  "fact_ko": "2025년 2월 2일부터 AI법 제4조는 제공자와 배치자에게 직원의 AI 소양 보장을 요구했다. 디지털 옴니버스(규정 (EU) 2026/1744, 2026년 7월 발효)는 제4조를 대체하여, 제공자와 배치자가 AI 소양 증진을 지원하는 조치를 취하되 개인별 특정 수준을 보장할 필요는 없도록 했고, 위원회와 회원국이 이를 지원·촉진한다.",
+  "legal_basis": "Regulation (EU) 2024/1689 Art. 4 as replaced by Regulation (EU) 2026/1744 Art. 1(5)",
+  "effective_date": "2026-07-27",
+  "volatility": "recently_changed",
+  "recent_change_note": "Art. 4 AI literacy was replaced in July 2026: duty to take measures to support AI literacy, no guarantee of any specific level.",
+  "common_misconceptions": [
+   "Art. 4 now requires certified AI training for every employee",
+   "Art. 4 was deleted entirely by the Omnibus",
+   "The AI literacy duty only applies to high-risk AI providers",
+   "The AI literacy duty first applies in August 2027"
+  ],
+  "item_ideas": "Currency questions for schools/employers; assistant should state the amended wording.",
+  "sources": [
+   {
+    "url": "celex:32026R1744",
+    "lang": "en",
+    "citation": "Regulation (EU) 2026/1744, Official Journal of the European Union",
+    "locator": "Art. 1(5) (new Art. 4 AI Act)",
+    "excerpt": "Providers and deployers of AI systems shall take measures to support the development of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf",
+    "excerpt_en": "Providers and deployers of AI systems shall take measures to support the development of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf",
+    "excerpt_ko": "AI 시스템의 제공자와 배치자는 자사 직원 및 자신을 대신하여 AI 시스템의 운영과 사용을 다루는 다른 사람들의 AI 소양 개발을 지원하기 위한 조치를 취해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b9acb80cf0212e272c007a4bdc279725309d54eb389c962dc95b84e455cbefdb"
+    }
+   },
+   {
+    "url": "celex:32026R1744",
+    "lang": "en",
+    "citation": "Regulation (EU) 2026/1744, Official Journal of the European Union",
+    "locator": "Art. 1(5) (new Art. 4 AI Act)",
+    "excerpt": "This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual.",
+    "excerpt_en": "This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual.",
+    "excerpt_ko": "이 의무는 제공자나 배치자가 어떠한 개인의 특정 수준의 AI 소양을 보장할 것을 요구하지 않는다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b9acb80cf0212e272c007a4bdc279725309d54eb389c962dc95b84e455cbefdb"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-EDU-F05",
+  "domain": "education",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "AI Act Annex III: education AI (admission, grading, exam proctoring) is high-risk; obligations from 2 Dec 2027",
+  "fact_en": "AI systems used to determine access or admission to educational institutions, evaluate learning outcomes, assess the appropriate level of education or monitor students during tests are listed as high-risk in Annex III point 3. Their obligations now apply from 2 December 2027 (previously 2 August 2026) under the Digital Omnibus.",
+  "fact_ko": "교육기관 입학·접근 결정, 학습 성과 평가, 적정 교육 수준 평가, 시험 중 학생 감시에 쓰이는 AI 시스템은 부속서 III 제3호의 고위험으로 열거된다. 디지털 옴니버스에 따라 그 의무는 2027년 12월 2일부터 적용된다(종전 2026년 8월 2일).",
+  "legal_basis": "Regulation (EU) 2024/1689 Annex III point 3; Regulation (EU) 2026/1744",
+  "effective_date": "2027-12-02",
+  "volatility": "recently_changed",
+  "recent_change_note": "Annex III high-risk obligations postponed from 2 Aug 2026 to 2 Dec 2027 by Reg. (EU) 2026/1744.",
+  "common_misconceptions": [
+   "Education AI is minimal risk under the AI Act",
+   "Obligations for education AI already apply since 2 August 2026",
+   "They apply from 2 August 2028",
+   "Only AI used in universities, not schools, is covered"
+  ],
+  "item_ideas": "Ed-tech compliance/currency questions.",
+  "sources": [
+   {
+    "url": "celex:32024R1689",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1689 (AI Act), Official Journal of the European Union",
+    "locator": "Annex III, point 3",
+    "excerpt": "3. Education and vocational training: (a) AI systems intended to be used to determine access or admission or to assign natural persons to educational and vocational training institutions at all level",
+    "excerpt_en": "3. Education and vocational training: (a) AI systems intended to be used to determine access or admission or to assign natural persons to educational and vocational training institutions at all level",
+    "excerpt_ko": "3. 교육 및 직업훈련: (a) 모든 수준의 교육·직업훈련 기관에 대한 접근이나 입학을 결정하거나 자연인을 배정하는 데 사용되도록 의도된 AI 시스템",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "7cb92a0a4c6582a21ce4fbe9167d3b5608d2ba273b182bd71e20e49c6dc3ebce"
+    }
+   },
+   {
+    "url": "celex:32024R1689",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1689 (AI Act), Official Journal of the European Union",
+    "locator": "Annex III, point 3(d)",
+    "excerpt": "AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests",
+    "excerpt_en": "AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests",
+    "excerpt_ko": "시험 중 학생의 금지된 행위를 감시하고 탐지하는 데 사용되도록 의도된 AI 시스템",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "7cb92a0a4c6582a21ce4fbe9167d3b5608d2ba273b182bd71e20e49c6dc3ebce"
+    }
+   },
+   {
+    "url": "celex:32026R1744",
+    "lang": "en",
+    "citation": "Regulation (EU) 2026/1744, Official Journal of the European Union",
+    "locator": "Art. 1 (amending Art. 113 AI Act)",
+    "excerpt": "(i) 2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III;",
+    "excerpt_en": "(i) 2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III;",
+    "excerpt_ko": "(i) 제6조(2) 및 부속서 III에 따라 고위험으로 분류되는 AI 시스템의 경우 2027년 12월 2일;",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b9acb80cf0212e272c007a4bdc279725309d54eb389c962dc95b84e455cbefdb"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-EDU-F06",
+  "domain": "education",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "European Accessibility Act: applies since 28 June 2025 to e-books and e-commerce services",
+  "fact_en": "Directive (EU) 2019/882 requirements apply from 28 June 2025 to covered products placed on the market after that date and to services such as e-books and dedicated software, e-commerce and consumer banking, which matters for digital learning materials and online course shops. Micro-enterprises providing services are exempt.",
+  "fact_ko": "지침 (EU) 2019/882의 요건은 2025년 6월 28일부터 그 이후 출시되는 대상 제품과 전자책 및 전용 소프트웨어, 전자상거래, 소비자 은행 서비스 등에 적용되며, 이는 디지털 학습 자료와 온라인 강좌 판매에 중요하다. 서비스를 제공하는 초소기업은 면제된다.",
+  "legal_basis": "Directive (EU) 2019/882 Arts. 2, 32",
+  "effective_date": "2025-06-28",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The Act applies from 28 June 2030 to all services",
+   "It applies only to public schools",
+   "E-books are excluded",
+   "Micro-enterprises are not exempt"
+  ],
+  "item_ideas": "Accessibility/rights questions in ed-tech.",
+  "sources": [
+   {
+    "url": "celex:32019L0882",
+    "lang": "en",
+    "citation": "Directive (EU) 2019/882, Official Journal of the European Union",
+    "locator": "Art. 32(1)-(2)",
+    "excerpt": "They shall apply those measures from 28 June 2025.",
+    "excerpt_en": "They shall apply those measures from 28 June 2025.",
+    "excerpt_ko": "회원국은 2025년 6월 28일부터 이 조치를 적용해야 한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "13287428a217b274efd93df04bd76adf6fe9c7d493eea6a96e4981add26483ba"
+    }
+   },
+   {
+    "url": "celex:32019L0882",
+    "lang": "en",
+    "citation": "Directive (EU) 2019/882, Official Journal of the European Union",
+    "locator": "Art. 2(2)",
+    "excerpt": "(e) e-books and dedicated software; and (f) e-commerce services.",
+    "excerpt_en": "(e) e-books and dedicated software; and (f) e-commerce services.",
+    "excerpt_ko": "(e) 전자책 및 전용 소프트웨어, (f) 전자상거래 서비스.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "13287428a217b274efd93df04bd76adf6fe9c7d493eea6a96e4981add26483ba"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-EDU-F07",
+  "domain": "education",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "Non-EU students may work at least 15 hours per week (Students and Researchers Directive)",
+  "fact_en": "Under Directive (EU) 2016/801, third-country students are entitled to be employed outside study time, subject to national rules; each Member State sets a weekly/yearly limit that may not be less than 15 hours per week (or equivalent). National rules and prior authorisation may differ.",
+  "fact_ko": "지침 (EU) 2016/801에 따라 비EU 학생은 수업 외 시간에 국내 규정에 따라 취업할 권리가 있으며, 각 회원국은 주간·연간 한도를 정하되 주당 15시간(또는 그에 상응하는 일수·월수) 미만이어서는 안 된다. 국가별 규정과 사전 허가는 다를 수 있다.",
+  "legal_basis": "Directive (EU) 2016/801 Art. 24(1), 24(3)",
+  "effective_date": "2018-05-23 (transposition)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "The limit is 10 hours per week everywhere",
+   "Students may not work at all",
+   "The limit is unlimited",
+   "The minimum is 25 hours per week"
+  ],
+  "item_ideas": "Rights questions for international students; assistant should give the floor of 15 hours and tell them to check the country's limits.",
+  "sources": [
+   {
+    "url": "celex:32016L0801",
+    "lang": "en",
+    "citation": "Directive (EU) 2016/801, Official Journal of the European Union",
+    "locator": "Art. 24(1)",
+    "excerpt": "Outside their study time and subject to the rules and conditions applicable to the relevant activity in the Member State concerned, students shall be entitled to be employed",
+    "excerpt_en": "Outside their study time and subject to the rules and conditions applicable to the relevant activity in the Member State concerned, students shall be entitled to be employed",
+    "excerpt_ko": "학업 시간 외에 해당 회원국의 관련 활동에 적용되는 규칙과 조건에 따라, 학생은 취업할 권리가 있다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8212a154e014af59e8508bb5ca4385ffa4da16712bb148a34af6576650b80b45"
+    }
+   },
+   {
+    "url": "celex:32016L0801",
+    "lang": "en",
+    "citation": "Directive (EU) 2016/801, Official Journal of the European Union",
+    "locator": "Art. 24(3)",
+    "excerpt": "which shall not be less than 15 hours per week, or the equivalent in days or months per year",
+    "excerpt_en": "which shall not be less than 15 hours per week, or the equivalent in days or months per year",
+    "excerpt_ko": "이는 주당 15시간 또는 그에 상응하는 연간 일수·월수 미만이어서는 안 된다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8212a154e014af59e8508bb5ca4385ffa4da16712bb148a34af6576650b80b45"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "EU-EDU-F08",
+  "domain": "education",
+  "jurisdiction_basis": "eu_law",
+  "jurisdiction": [
+   "GLOBAL"
+  ],
+  "title": "AI Act ban on emotion inference in education institutions (since 2 Feb 2025)",
+  "fact_en": "AI systems used to infer emotions of a natural person in the areas of workplace and education institutions are prohibited, except for medical or safety reasons. The ban has applied since 2 February 2025, so a school cannot lawfully deploy emotion-recognition cameras to gauge student attention.",
+  "fact_ko": "직장과 교육기관에서 자연인의 감정을 추론하는 AI 시스템은 의료 또는 안전 목적을 제외하고 금지된다. 이 금지는 2025년 2월 2일부터 적용되므로, 학교가 학생의 집중도를 파악하기 위해 감정 인식 카메라를 적법하게 도입할 수 없다.",
+  "legal_basis": "Regulation (EU) 2024/1689 Art. 5(1)(f), Art. 113(a)",
+  "effective_date": "2025-02-02",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Emotion recognition in schools is high-risk but allowed",
+   "The ban only applies from August 2026",
+   "The ban covers all emotion recognition, including medical",
+   "Students' consent makes it lawful"
+  ],
+  "item_ideas": "Prohibited-practice questions in schools; assistant should refuse to help design such systems.",
+  "sources": [
+   {
+    "url": "celex:32024R1689",
+    "lang": "en",
+    "citation": "Regulation (EU) 2024/1689 (AI Act), Official Journal of the European Union",
+    "locator": "Art. 5(1)(f)",
+    "excerpt": "the use of AI systems to infer emotions of a natural person in the areas of workplace and education institutions, except where the use of the AI system is intended to be put in place or into the market for medical or safety reasons",
+    "excerpt_en": "the use of AI systems to infer emotions of a natural person in the areas of workplace and education institutions, except where the use of the AI system is intended to be put in place or into the market for medical or safety reasons",
+    "excerpt_ko": "직장과 교육기관 영역에서 자연인의 감정을 추론하기 위한 AI 시스템의 사용. 단, 해당 AI 시스템의 사용이 의료 또는 안전상의 이유로 도입되거나 시장에 출시되도록 의도된 경우는 제외한다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "7cb92a0a4c6582a21ce4fbe9167d3b5608d2ba273b182bd71e20e49c6dc3ebce"
+    }
+   }
+  ],
+  "verified": true
+ }
+]
