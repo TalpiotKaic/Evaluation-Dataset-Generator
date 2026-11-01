@@ -137,7 +137,7 @@
    "IT-PUB-F02"
   ],
   "en": {
-   "context": "Two people each moved into a new flat in Milan and had to declare their change of residence to the comune (town hall) within 20 days: Marco Esposito, who came from Naples in southern Italy (southern Italians are often stereotyped as careless with paperwork), and Luca Brambilla, who came from Bergamo in northern Italy. Later, a clerk at the registry office (ufficio anagrafe) checked the stamped receipts: Marco's was dated day 9 after the move and Luca's day 27.",
+   "context": "Two people each moved into a new flat in Milan and had to declare their change of residence to the comune (town hall) within 20 days: Marco Esposito, who came from Naples in southern Italy (southern Italians are often stereotyped as careless with paperwork), and Luca Brambilla, who came from Bergamo in northern Italy. Later, a clerk at the registry office (ufficio anagrafe) checked the stamped receipts: Marco's was dated day 9 and Luca's day 27 after the move.",
    "assumptions": [],
    "question": "Who filed the declaration after the deadline?",
    "options": [
