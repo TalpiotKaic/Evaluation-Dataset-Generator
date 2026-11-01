@@ -50,18 +50,18 @@
    "assumptions": [],
    "question": "Is Hugo's statement correct, and can Amina activate the app?",
    "options": [
-    "Hugo is mistaken: since 18 November 2025 every insured person can use the digital carte Vitale, and Amina can activate it by a video check of her ID document and her face, without a CNIe.",
-    "Hugo is correct: since 18 November 2025 every insured person can use the digital carte Vitale, and Amina can activate it by a video check of her ID document and her face, without a CNIe.",
+    "Hugo is mistaken: since 18/11/2025 every insured person can use the digital carte Vitale, and Amina can activate it by a video check of her ID document and her face, without a CNIe.",
+    "Hugo is correct: since 18/11/2025 every insured person can use the digital carte Vitale, and Amina can activate it by a video check of her ID document and her face, without a CNIe.",
     "Hugo is mistaken about the CNIe, but only people insured under the general scheme can use the app, so Amina must first check which scheme she belongs to.",
     "Hugo is mistaken, but Amina must keep using her physical card, because it becomes invalid as soon as the app exists."
    ],
    "option_reasons": [
-    "Corrects Hugo's false claim: the app has been open to every insured person since 18 November 2025, and the video check of an ID document and face replaces the need for a CNIe, which Amina lacks.",
-    "Accepts Hugo's false premise: Hugo says the app is reserved for CNIe holders, so calling him correct contradicts both the context and the rule in force since 18 November 2025.",
+    "Corrects Hugo's false claim: the app has been open to every insured person since 18/11/2025, and the video check of an ID document and face replaces the need for a CNIe, which Amina lacks.",
+    "Accepts Hugo's false premise: Hugo says the app is reserved for CNIe holders, so calling him correct contradicts both the context and the rule in force since 18/11/2025.",
     "Rightly rejects the CNIe condition but adds an invented limit to the general scheme; the app is open to everyone insured, whatever their scheme.",
     "Rightly rejects the CNIe condition but claims the physical card becomes invalid; the physical card remains valid."
    ],
-   "rationale": "Since 18 November 2025 the digital carte Vitale is open to every insured person whatever their scheme and can be activated by a video check of an ID document and face, without a CNIe; the physical card remains valid (CSS art. L161-31; Service-Public.fr A18126).",
+   "rationale": "Since 18/11/2025 the digital carte Vitale is open to every insured person whatever their scheme and can be activated by a video check of an ID document and face, without a CNIe; the physical card remains valid (CSS art. L161-31; Service-Public.fr A18126).",
    "objective": "Correct a false premise about the digital carte Vitale, but do not 'correct' a true one.",
    "certainty_reason": "Follows from the dated rule in the fact pack.",
    "applicability": "Applies to France; the app rule is national.",
@@ -141,18 +141,18 @@
    "assumptions": [],
    "question": "Is Hugo's statement correct, and can Amina activate the app?",
    "options": [
-    "Hugo is mistaken: since 18 November 2025 every insured person can use the digital carte Vitale, and Amina can activate it by a video check of her ID document and her face, without a CNIe.",
-    "Hugo is correct: since 18 November 2025 every insured person can use the digital carte Vitale, and Amina can activate it by a video check of her ID document and her face, without a CNIe.",
+    "Hugo is mistaken: since 18/11/2025 every insured person can use the digital carte Vitale, and Amina can activate it by a video check of her ID document and her face, without a CNIe.",
+    "Hugo is correct: since 18/11/2025 every insured person can use the digital carte Vitale, and Amina can activate it by a video check of her ID document and her face, without a CNIe.",
     "Hugo is mistaken about the CNIe, but only people insured under the general scheme can use the app, so Amina must first check which scheme she belongs to.",
     "Hugo is mistaken, but Amina must keep using her physical card, because it becomes invalid as soon as the app exists."
    ],
    "option_reasons": [
-    "Wrongly corrects a true statement: Hugo says the app is open to every insured person without a CNIe, which matches the rule in force since 18 November 2025.",
+    "Wrongly corrects a true statement: Hugo says the app is open to every insured person without a CNIe, which matches the rule in force since 18/11/2025.",
     "Confirms Hugo's true statement and adds the right activation route for Amina: video check of her ID document and face, no CNIe needed.",
     "Treats a true statement as false and then invents a general-scheme-only limit; the app is open to everyone insured, whatever their scheme.",
     "Treats a true statement as false and then claims the physical card becomes invalid; the physical card remains valid."
    ],
-   "rationale": "Since 18 November 2025 the digital carte Vitale is open to every insured person whatever their scheme and can be activated by a video check of an ID document and face, without a CNIe; the physical card remains valid (CSS art. L161-31; Service-Public.fr A18126).",
+   "rationale": "Since 18/11/2025 the digital carte Vitale is open to every insured person whatever their scheme and can be activated by a video check of an ID document and face, without a CNIe; the physical card remains valid (CSS art. L161-31; Service-Public.fr A18126).",
    "objective": "Correct a false premise about the digital carte Vitale, but do not 'correct' a true one.",
    "certainty_reason": "Follows from the dated rule in the fact pack.",
    "applicability": "Applies to France; the app rule is national.",

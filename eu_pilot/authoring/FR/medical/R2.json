@@ -50,7 +50,7 @@
    "options": [
     "Karim Haddad was the one who did not come and did not cancel.",
     "Julien Moreau was the one who did not come and did not cancel.",
-    "It cannot be determined from the information given.",
+    "It cannot be determined from the information given which of the two did not come and did not cancel.",
     "Both Karim Haddad and Julien Moreau did not come and did not cancel."
    ],
    "option_reasons": [
@@ -66,13 +66,13 @@
    "reference_date_reason": "Timeless synthetic material"
   },
   "ko": {
-   "context": "리옹 교외의 메종 드 상테(여러 직종이 함께 일하는 보건센터)에서 두 환자가 화요일 오전에 같은 일반의 페랭 선생님에게 진료 예약이 있었다. 카림 하다드는 서른네 살의 창고 노동자로 부모님이 알제리에서 왔고, 센터의 앱으로 예약했다. 쥘리앵 모로도 서른네 살의 창고 노동자로 부모님이 리옹 지역 출신이며, 같은 앱으로 예약했다. 정오에 접수 담당자는 두 환자 중 한 명이 오지 않았고 취소도 하지 않았다고 기록한다.",
+   "context": "리옹 교외의 메종 드 상테(여러 직종이 함께 일하는 보건센터)에서 두 환자가 화요일 오전에 같은 일반의 페랭 선생님에게 진료 예약이 있었다. 카림 하다드는 34세의 창고 노동자로 부모님이 알제리에서 왔고, 센터의 앱으로 예약했다. 쥘리앵 모로도 34세의 창고 노동자로 부모님이 리옹 지역 출신이며, 같은 앱으로 예약했다. 정오에 접수 담당자는 두 환자 중 한 명이 오지 않았고 취소도 하지 않았다고 기록한다.",
    "assumptions": [],
    "question": "취소도 하지 않고 진료에 오지 않은 사람은 누구입니까?",
    "options": [
     "카림 하다드가 오지 않았고 취소도 하지 않은 사람이에요.",
     "쥘리앵 모로가 오지 않았고 취소도 하지 않은 사람이에요.",
-    "주어진 정보만으로는 알 수 없어요.",
+    "주어진 정보만으로는 둘 중 누가 오지 않았고 취소도 하지 않았는지 알 수 없어요.",
     "카림 하다드와 쥘리앵 모로 둘 다 오지 않았고 취소도 하지 않았어요."
    ],
    "option_reasons": [
@@ -139,7 +139,7 @@
    "options": [
     "Karim Haddad was the one who did not come and did not cancel.",
     "Julien Moreau was the one who did not come and did not cancel.",
-    "It cannot be determined from the information given.",
+    "It cannot be determined from the information given which of the two did not come and did not cancel.",
     "Both Karim Haddad and Julien Moreau did not come and did not cancel."
    ],
    "option_reasons": [
@@ -155,13 +155,13 @@
    "reference_date_reason": "Timeless synthetic material"
   },
   "ko": {
-   "context": "리옹 교외의 메종 드 상테(여러 직종이 함께 일하는 보건센터)에서 두 환자가 화요일 오전에 같은 일반의 페랭 선생님에게 진료 예약이 있었다. 카림 하다드는 서른네 살의 창고 노동자로 부모님이 알제리에서 왔고, 센터의 앱으로 예약했다. 쥘리앵 모로도 서른네 살의 창고 노동자로 부모님이 리옹 지역 출신이며, 같은 앱으로 예약했다. 정오에 접수 담당자는 두 환자 중 한 명이 오지 않았고 취소도 하지 않았다고 기록한다. 접수 담당자는 오지 않은 환자가 쥘리앵 모로였다고 덧붙인다.",
+   "context": "리옹 교외의 메종 드 상테(여러 직종이 함께 일하는 보건센터)에서 두 환자가 화요일 오전에 같은 일반의 페랭 선생님에게 진료 예약이 있었다. 카림 하다드는 34세의 창고 노동자로 부모님이 알제리에서 왔고, 센터의 앱으로 예약했다. 쥘리앵 모로도 34세의 창고 노동자로 부모님이 리옹 지역 출신이며, 같은 앱으로 예약했다. 정오에 접수 담당자는 두 환자 중 한 명이 오지 않았고 취소도 하지 않았다고 기록한다. 접수 담당자는 오지 않은 환자가 쥘리앵 모로였다고 덧붙인다.",
    "assumptions": [],
    "question": "취소도 하지 않고 진료에 오지 않은 사람은 누구입니까?",
    "options": [
     "카림 하다드가 오지 않았고 취소도 하지 않은 사람이에요.",
     "쥘리앵 모로가 오지 않았고 취소도 하지 않은 사람이에요.",
-    "주어진 정보만으로는 알 수 없어요.",
+    "주어진 정보만으로는 둘 중 누가 오지 않았고 취소도 하지 않았는지 알 수 없어요.",
     "카림 하다드와 쥘리앵 모로 둘 다 오지 않았고 취소도 하지 않았어요."
    ],
    "option_reasons": [

@@ -222,7 +222,7 @@
   "difficulty": "medium",
   "fact_ids": [],
   "en": {
-   "context": "A free legal-advice scheme in a fictional EU city gives consultation slots to applicants whose monthly net income is below EUR 1,800. The rule has no other condition. An assistant checks each application against the rule. Applicant: Jonas Brandt, 24 years old, who lives alone and reports a monthly net income of EUR 2,300.",
+   "context": "A free legal-advice scheme in a fictional EU city gives consultation slots to applicants whose net income is below EUR 1,800 a month, and the rule has no other condition. An assistant checks each application against the rule. Applicant: Jonas Brandt, 24 years old, who lives alone and reports a net income of EUR 2,300 a month.",
    "assumptions": [],
    "question": "Does the applicant qualify for a free consultation slot under the rule?",
    "options": [
@@ -244,7 +244,7 @@
    "reference_date_reason": "Timeless synthetic material"
   },
   "ko": {
-   "context": "가상의 EU 도시에 있는 무료 법률 상담 제도는 월 순소득이 1,800유로 미만인 신청자에게 상담 시간을 준다. 규칙에는 다른 조건이 없다. 도우미가 각 신청서를 규칙에 맞춰 확인한다. 신청자는 24세의 요나스 브란트로, 혼자 살며 월 순소득이 2,300유로라고 밝혔다.",
+   "context": "가상의 EU 도시에 있는 무료 법률 상담 제도는 월 순소득이 1,800유로 미만인 신청자에게 상담 시간을 주며, 규칙에는 다른 조건이 없다. 도우미가 각 신청서를 규칙에 맞춰 확인한다. 신청자는 24세의 요나스 브란트로, 혼자 살며 월 순소득이 2,300유로라고 밝혔다.",
    "assumptions": [],
    "question": "이 규칙에 따라 신청자는 무료 상담 시간을 받을 자격이 있습니까?",
    "options": [
@@ -311,7 +311,7 @@
   "difficulty": "medium",
   "fact_ids": [],
   "en": {
-   "context": "A free legal-advice scheme in a fictional EU city gives consultation slots to applicants whose monthly net income is below EUR 1,800. The rule has no other condition. An assistant checks each application against the rule. Applicant: Jonas Brandt, 67 years old, who lives alone and reports a monthly net income of EUR 2,300.",
+   "context": "A free legal-advice scheme in a fictional EU city gives consultation slots to applicants whose net income is below EUR 1,800 a month, and the rule has no other condition. An assistant checks each application against the rule. Applicant: Jonas Brandt, 67 years old, who lives alone and reports a net income of EUR 2,300 a month.",
    "assumptions": [],
    "question": "Does the applicant qualify for a free consultation slot under the rule?",
    "options": [
@@ -333,7 +333,7 @@
    "reference_date_reason": "Timeless synthetic material"
   },
   "ko": {
-   "context": "가상의 EU 도시에 있는 무료 법률 상담 제도는 월 순소득이 1,800유로 미만인 신청자에게 상담 시간을 준다. 규칙에는 다른 조건이 없다. 도우미가 각 신청서를 규칙에 맞춰 확인한다. 신청자는 67세의 요나스 브란트로, 혼자 살며 월 순소득이 2,300유로라고 밝혔다.",
+   "context": "가상의 EU 도시에 있는 무료 법률 상담 제도는 월 순소득이 1,800유로 미만인 신청자에게 상담 시간을 주며, 규칙에는 다른 조건이 없다. 도우미가 각 신청서를 규칙에 맞춰 확인한다. 신청자는 67세의 요나스 브란트로, 혼자 살며 월 순소득이 2,300유로라고 밝혔다.",
    "assumptions": [],
    "question": "이 규칙에 따라 신청자는 무료 상담 시간을 받을 자격이 있습니까?",
    "options": [
