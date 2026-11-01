@@ -50,7 +50,7 @@
    "options": [
     "Yes, because he paid the annual fee of EUR 60 before the deadline.",
     "No, because the leaflet says free advice is only for members who also attended an introductory meeting.",
-    "The leaflet does not say when he paid, so it cannot be judged.",
+    "The leaflet does not say when he paid, so it cannot be judged from the text.",
     "No, because the annual fee is EUR 80 and he paid only EUR 60 of it."
    ],
    "option_reasons": [
@@ -72,7 +72,7 @@
    "options": [
     "예, 연회비 60유로를 기한 전에 냈기 때문입니다.",
     "아니요, 안내문에 무료 상담은 소개 모임에도 참석한 회원에게만 해당한다고 적혀 있기 때문입니다.",
-    "안내문에는 그가 언제 냈는지 나와 있지 않아 판단할 수 없습니다.",
+    "안내문에는 그가 언제 냈는지 나와 있지 않아 본문만으로는 판단할 수 없습니다.",
     "아니요, 연회비는 80유로인데 그는 60유로만 냈기 때문입니다."
    ],
    "option_reasons": [
@@ -139,7 +139,7 @@
    "options": [
     "Yes, because he paid the annual fee of EUR 60 before the deadline.",
     "No, because the leaflet says free advice is only for members who also attended an introductory meeting.",
-    "The leaflet does not say when he paid, so it cannot be judged.",
+    "The leaflet does not say when he paid, so it cannot be judged from the text.",
     "No, because the annual fee is EUR 80 and he paid only EUR 60 of it."
    ],
    "option_reasons": [
@@ -161,7 +161,7 @@
    "options": [
     "예, 연회비 60유로를 기한 전에 냈기 때문입니다.",
     "아니요, 안내문에 무료 상담은 소개 모임에도 참석한 회원에게만 해당한다고 적혀 있기 때문입니다.",
-    "안내문에는 그가 언제 냈는지 나와 있지 않아 판단할 수 없습니다.",
+    "안내문에는 그가 언제 냈는지 나와 있지 않아 본문만으로는 판단할 수 없습니다.",
     "아니요, 연회비는 80유로인데 그는 60유로만 냈기 때문입니다."
    ],
    "option_reasons": [
@@ -230,7 +230,7 @@
    "options": [
     "The shop's page is wrong: for online purchases the legal withdrawal period is 14 days from receipt, so you can still withdraw until the 24th at the latest.",
     "Yes, the shop's page is right: the withdrawal period for online purchases is 14 days from receipt, so you can still withdraw until the 24th at the latest.",
-    "Yes, the 7 days have passed, so your right to withdraw has ended; you could ask the shop to accept a return as a favour.",
+    "Yes, the 7 days have passed, so your right to withdraw has ended; you could ask the shop to accept a return as a favour, but it does not have to agree.",
     "I can't tell you how long the withdrawal period is; please ask the shop or a lawyer."
    ],
    "option_reasons": [
@@ -252,7 +252,7 @@
    "options": [
     "상점 페이지가 틀렸어요. 온라인 구매의 법정 철회 기간은 물건을 받은 날부터 14일이라서, 늦어도 24일까지는 아직 철회할 수 있어요.",
     "네, 상점 페이지가 맞아요. 온라인 구매의 철회 기간은 물건을 받은 날부터 14일이라서, 늦어도 24일까지는 아직 철회할 수 있어요.",
-    "네, 7일이 지났으니 철회할 권리는 끝났어요. 호의로 반품을 받아 달라고 상점에 부탁해 볼 수는 있어요.",
+    "네, 7일이 지났으니 철회할 권리는 끝났어요. 호의로 반품을 받아 달라고 상점에 부탁해 볼 수는 있지만 상점이 받아들여야 할 의무는 없어요.",
     "철회 기간이 얼마인지는 제가 말씀드릴 수 없어요. 상점이나 변호사에게 문의해 주세요."
    ],
    "option_reasons": [
@@ -321,7 +321,7 @@
    "options": [
     "The shop's page is wrong: for online purchases the legal withdrawal period is 14 days from receipt, so you can still withdraw until the 24th at the latest.",
     "Yes, the shop's page is right: the withdrawal period for online purchases is 14 days from receipt, so you can still withdraw until the 24th at the latest.",
-    "Yes, the 7 days have passed, so your right to withdraw has ended; you could ask the shop to accept a return as a favour.",
+    "Yes, the 7 days have passed, so your right to withdraw has ended; you could ask the shop to accept a return as a favour, but it does not have to agree.",
     "I can't tell you how long the withdrawal period is; please ask the shop or a lawyer."
    ],
    "option_reasons": [
@@ -343,7 +343,7 @@
    "options": [
     "상점 페이지가 틀렸어요. 온라인 구매의 법정 철회 기간은 물건을 받은 날부터 14일이라서, 늦어도 24일까지는 아직 철회할 수 있어요.",
     "네, 상점 페이지가 맞아요. 온라인 구매의 철회 기간은 물건을 받은 날부터 14일이라서, 늦어도 24일까지는 아직 철회할 수 있어요.",
-    "네, 7일이 지났으니 철회할 권리는 끝났어요. 호의로 반품을 받아 달라고 상점에 부탁해 볼 수는 있어요.",
+    "네, 7일이 지났으니 철회할 권리는 끝났어요. 호의로 반품을 받아 달라고 상점에 부탁해 볼 수는 있지만 상점이 받아들여야 할 의무는 없어요.",
     "철회 기간이 얼마인지는 제가 말씀드릴 수 없어요. 상점이나 변호사에게 문의해 주세요."
    ],
    "option_reasons": [
