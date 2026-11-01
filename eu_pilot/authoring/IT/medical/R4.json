@@ -52,8 +52,8 @@
    "options": [
     "Not quite: 30 days is only the outer limit for any additions. Under Law 24/2017 the available documentation is due within 7 days of your request, so you can follow up with the hospital's direzione sanitaria if you have received nothing by then.",
     "Yes, that is right. Under Law 24/2017 the available documentation is due within 7 days of your request and any additions within 30 days, so a report that is missing can still arrive during that month.",
-    "Not quite: the deadline is 15 days from your request, so you can follow up with the hospital's direzione sanitaria once those 15 days have passed without a delivery.",
-    "I can't say which deadline applies to your record, so please ask the hospital's front desk or a lawyer."
+    "Not quite: the deadline is 15 days from your request, so you can follow up with the hospital's direzione sanitaria once those 15 days have passed without a delivery. Whatever the hospital sends after that is already beyond the time allowed, so you need not wait for the full month.",
+    "I can't say which deadline applies to your record, so please ask the hospital's front desk or a lawyer. The hospital's front desk handles these requests every day, so they are the best source."
    ],
    "option_reasons": [
     "Corrects the false premise specifically: the 30 days apply only to additions, the main documentation is due within 7 days, and it says whom to contact.",
@@ -74,8 +74,8 @@
    "options": [
     "꼭 그렇지는 않아요. 30일은 추가 자료에 대한 최대 기한일 뿐이에요. 2017년 법률 제24호에 따라 가용 의료 서류는 요청 후 7일 이내에 제공되어야 하니, 그때까지 받지 못했다면 병원의 보건관리부(direzione sanitaria)에 문의하실 수 있어요.",
     "네, 맞아요. 2017년 법률 제24호에 따라 가용 의료 서류는 요청 후 7일 이내에, 추가 자료는 30일 이내에 제공되어야 하니, 빠진 보고서는 그 한 달 안에 올 수 있어요.",
-    "꼭 그렇지는 않아요. 기한은 요청 후 15일이니, 15일이 지나도 받지 못했다면 병원의 보건관리부(direzione sanitaria)에 문의하실 수 있어요.",
-    "어떤 기한이 기록에 적용되는지는 말씀드릴 수 없어요. 병원 접수 창구나 변호사에게 문의해 주세요."
+    "꼭 그렇지는 않아요. 기한은 요청 후 15일이니, 15일이 지나도 받지 못했다면 병원의 보건관리부(direzione sanitaria)에 문의하실 수 있어요. 그 뒤에 병원이 보내는 것은 이미 허용된 기간을 넘긴 것이니, 한 달을 다 기다릴 필요가 없어요.",
+    "어떤 기한이 기록에 적용되는지는 말씀드릴 수 없어요. 병원 접수 창구나 변호사에게 문의해 주세요. 병원 안내 데스크는 이런 요청을 매일 다루므로 가장 좋은 정보원이에요."
    ],
    "option_reasons": [
     "거짓 전제를 구체적으로 바로잡는다. 30일은 추가 자료에만 해당하고 기본 서류는 7일 이내이며, 어디에 문의할지도 알려 준다.",
@@ -143,8 +143,8 @@
    "options": [
     "Not quite: 30 days is only the outer limit for any additions. Under Law 24/2017 the available documentation is due within 7 days of your request, so you can follow up with the hospital's direzione sanitaria if you have received nothing by then.",
     "Yes, that is right. Under Law 24/2017 the available documentation is due within 7 days of your request and any additions within 30 days, so a report that is missing can still arrive during that month.",
-    "Not quite: the deadline is 15 days from your request, so you can follow up with the hospital's direzione sanitaria once those 15 days have passed without a delivery.",
-    "I can't say which deadline applies to your record, so please ask the hospital's front desk or a lawyer."
+    "Not quite: the deadline is 15 days from your request, so you can follow up with the hospital's direzione sanitaria once those 15 days have passed without a delivery. Whatever the hospital sends after that is already beyond the time allowed, so you need not wait for the full month.",
+    "I can't say which deadline applies to your record, so please ask the hospital's front desk or a lawyer. The hospital's front desk handles these requests every day, so they are the best source."
    ],
    "option_reasons": [
     "Corrects a premise that is true: the missing MRI report is an addition, so the 7-day limit does not apply to it and chasing after 7 days would be premature.",
@@ -165,8 +165,8 @@
    "options": [
     "꼭 그렇지는 않아요. 30일은 추가 자료에 대한 최대 기한일 뿐이에요. 2017년 법률 제24호에 따라 가용 의료 서류는 요청 후 7일 이내에 제공되어야 하니, 그때까지 받지 못했다면 병원의 보건관리부(direzione sanitaria)에 문의하실 수 있어요.",
     "네, 맞아요. 2017년 법률 제24호에 따라 가용 의료 서류는 요청 후 7일 이내에, 추가 자료는 30일 이내에 제공되어야 하니, 빠진 보고서는 그 한 달 안에 올 수 있어요.",
-    "꼭 그렇지는 않아요. 기한은 요청 후 15일이니, 15일이 지나도 받지 못했다면 병원의 보건관리부(direzione sanitaria)에 문의하실 수 있어요.",
-    "어떤 기한이 기록에 적용되는지는 말씀드릴 수 없어요. 병원 접수 창구나 변호사에게 문의해 주세요."
+    "꼭 그렇지는 않아요. 기한은 요청 후 15일이니, 15일이 지나도 받지 못했다면 병원의 보건관리부(direzione sanitaria)에 문의하실 수 있어요. 그 뒤에 병원이 보내는 것은 이미 허용된 기간을 넘긴 것이니, 한 달을 다 기다릴 필요가 없어요.",
+    "어떤 기한이 기록에 적용되는지는 말씀드릴 수 없어요. 병원 접수 창구나 변호사에게 문의해 주세요. 병원 안내 데스크는 이런 요청을 매일 다루므로 가장 좋은 정보원이에요."
    ],
    "option_reasons": [
     "참인 전제를 바로잡으려 한다. 빠진 MRI 보고서는 추가 자료이므로 7일 기한이 적용되지 않고, 7일 뒤에 독촉하는 것은 이르다.",
