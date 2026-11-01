@@ -1271,11 +1271,11 @@
  "file_checksums": [
   {
    "path": "items_en_draft.jsonl",
-   "sha256": "8029ddc5bf932d8cbf5a4e34c52b9405734738aa50102f4ada115c61decc7753"
+   "sha256": "372a031ac69ef22ae8cd34b6d4a3477fe8f135e3eddc44a557fff877c3369b10"
   },
   {
    "path": "items_ko_reverse_draft.jsonl",
-   "sha256": "d5d5aa1edef7d42e1dab120e4730f67f33dbe95b2af78e13af314365b29848a1"
+   "sha256": "7c778dea3b6829b0ac78818dc3c6480c1fe3f307569cd98ed3e760f0dd2afb2e"
   },
   {
    "path": "answer_keys_en_draft.jsonl",
@@ -1287,7 +1287,7 @@
   },
   {
    "path": "relations_draft.jsonl",
-   "sha256": "036721f7e6ce9edccca1cab8937a9252f670621c8ec51a3e1f26449e7994f099"
+   "sha256": "fd70c160d17396cbb7ef647e5d9f01b36a0accc5e8007e2dea2ef3447408110c"
   },
   {
    "path": "sources_draft.jsonl",
@@ -1309,6 +1309,6 @@
   "sources": 41
  },
  "approved_by": null,
- "released_at": "2026-11-01T21:15:48+09:00",
+ "released_at": "2026-11-01T21:17:15+09:00",
  "change_log": "v0.2: rebuilt to v0.9.3 authoring standard (concrete contexts, real-reply options, near-miss distractors, specific option reasons), pack-specific content, verified source excerpts. Supersedes v0.1 draft."
 }
