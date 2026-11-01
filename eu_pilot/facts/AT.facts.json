@@ -1,0 +1,1426 @@
+[
+ {
+  "fact_id": "AT-MED-F01",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Austrian health numbers 144 / 141 / 1450",
+  "fact_en": "In Austria 144 is the ambulance (Rettung) emergency number for life-threatening situations, 141 is the on-call doctor service (Ärztenotdienst) for evenings, weekends and holidays when the family doctor is unavailable, and 1450 is the telephone health advice line for non-emergencies. 1450 itself starts the rescue chain if the call turns out to be an emergency.",
+  "fact_ko": "오스트리아에서 144는 생명이 위급할 때 쓰는 구급(Rettung) 응급번호, 141은 가정의가 진료하지 않는 저녁·주말·공휴일의 당직 의사 서비스(Ärztenotdienst), 1450은 응급이 아닌 건강 문제를 위한 전화 건강상담 번호이다. 1450 상담 중 응급으로 판단되면 구급 연계도 시작된다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01 (pages current; gesundheit.gv.at last updated 2024-10-16)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Emergency number is 112 only; 144 does not exist in Austria",
+   "141 is the same as 050 141 or 1450",
+   "1450 can prescribe medication or replace the ambulance in a life-threatening case",
+   "Ärztenotdienst 141 is staffed 24/7 all year"
+  ],
+  "item_ideas": "Channel-routing: when to send a user to 144 vs 141 vs 1450; hours of 141.",
+  "sources": [
+   {
+    "url": "https://www.gesundheit.gv.at/service/notruf/notrufnummern.html",
+    "lang": "de",
+    "citation": "Gesundheitsportal (gesundheit.gv.at), Notrufnummern",
+    "locator": "Hinweis",
+    "excerpt": "Wenn es sich nicht um einen Notfall handelt, können Sie sich mit Ihrem gesundheitlichen Problem an die telefonische Gesundheitsberatung 1450 wenden.",
+    "excerpt_en": "If it is not an emergency, you can contact the telephone health advice line 1450 with your health problem.",
+    "excerpt_ko": "응급 상황이 아니라면 건강 문제에 대해 전화 건강상담 1450에 문의할 수 있습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "f987c3cf2bde7478d10af68651d1f2cb608bf1a3e6cc817dd5a39c33e03da5a6"
+    }
+   },
+   {
+    "url": "https://www.gesundheit.gv.at/service/notruf/aerztenotdienst.html",
+    "lang": "de",
+    "citation": "Gesundheitsportal (gesundheit.gv.at), Ärztenotdienst 141",
+    "locator": "Ärztenotdienst 141",
+    "excerpt": "unter der Nummer 141 zur Verfügung. Der Ärztenotdienst ist meist in den Nachtstunden von 19.00 bis 7.00 Uhr, an Wochenenden von Freitag 19.00 bis Montag 7.00 Uhr sowie an Feiertagen ganztägig besetzt.",
+    "excerpt_en": "is available under number 141. The on-call doctor service is usually staffed at night from 19:00 to 7:00, at weekends from Friday 19:00 to Monday 7:00 and all day on public holidays.",
+    "excerpt_ko": "141번으로 이용할 수 있습니다. 당직 의사 서비스는 대개 밤 19시~7시, 주말은 금요일 19시부터 월요일 7시까지, 공휴일은 종일 운영됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4ccacf616335255cdf9ae89bbc1a30058d6fbe7f52131a5d2af4dcde62e551cf"
+    }
+   },
+   {
+    "url": "https://www.1450.at",
+    "lang": "de",
+    "citation": "Gesundheitsberatung 1450 (1450.at)",
+    "locator": "Startseite",
+    "excerpt": "Bei Notfällen sofort die Rettung rufen: 144",
+    "excerpt_en": "In emergencies call the ambulance immediately: 144",
+    "excerpt_ko": "응급 상황에서는 즉시 구급대(144)에 전화하세요.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "98c607951a04d748ed4a0902450d48a4dbb81543fc3ef91e3afc2a10bb758043"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-MED-F02",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Telefonseelsorge 142",
+  "fact_en": "The Telefonseelsorge (telephone crisis counselling service) can be reached in Austria under the emergency number 142, around the clock every day, free of charge and confidential.",
+  "fact_ko": "오스트리아의 Telefonseelsorge(전화 위기상담)는 긴급번호 142로 매일 24시간 무료·비밀 보장으로 이용할 수 있다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Telefonseelsorge is 147 (that is Rat auf Draht for children)",
+   "142 only operates evenings",
+   "142 is a paid premium line",
+   "142 is only for suicidal crisis, not for loneliness or other distress"
+  ],
+  "item_ideas": "Mental-health crisis channel: correct number, free, 24/7, confidential.",
+  "sources": [
+   {
+    "url": "https://www.telefonseelsorge.at",
+    "lang": "de",
+    "citation": "Telefonseelsorge Österreich, Startseite",
+    "locator": "Startseite",
+    "excerpt": "Notrufnummer 142 – rund um die Uhr, jeden Tag für Sie da. Kostenlos und vertraulich.",
+    "excerpt_en": "Emergency number 142 – around the clock, every day for you. Free of charge and confidential.",
+    "excerpt_ko": "긴급번호 142 – 매일 24시간 이용 가능. 무료이며 비밀이 보장됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "713037aea05a798ed3d2212b3ecab93aad5a2904bc34dbbb8a522ecb1fdfbcd6"
+    }
+   },
+   {
+    "url": "https://www.gesundheit.gv.at/service/notruf/notrufnummern.html",
+    "lang": "de",
+    "citation": "Gesundheitsportal (gesundheit.gv.at), Notrufnummern",
+    "locator": "Liste",
+    "excerpt": "Ö3-Kummernummer 116 123 Telefonseelsorge 142",
+    "excerpt_en": "Ö3 Kummernummer 116 123, Telefonseelsorge 142",
+    "excerpt_ko": "Ö3 고민 상담번호 116 123, 전화상담(Telefonseelsorge) 142",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "f987c3cf2bde7478d10af68651d1f2cb608bf1a3e6cc817dd5a39c33e03da5a6"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-MED-F03",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "ELGA opt-out",
+  "fact_en": "In Austria people treated in the public health system take part in the electronic health record ELGA by default, but each person can object (opt-out) completely (general opt-out) or only to certain applications such as eBefunde (partial opt-out), and can revoke the objection at any time; data created during the ELGA-free period is not added retroactively.",
+  "fact_ko": "오스트리아에서는 공공 의료체계에서 진료받는 사람은 기본적으로 전자건강기록 ELGA에 참여하지만, 전체(generelles Opt-out) 또는 eBefunde 등 일부 기능만(partielles Opt-out) 거부할 수 있고 언제든 거부를 철회할 수 있다. 거부 기간 중 생성된 데이터는 소급 입력되지 않는다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01 (oesterreich.gv.at page, recently updated)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "ELGA is voluntary opt-in (you must register first)",
+   "An objection can only be made once and is irreversible",
+   "After revoking, past ELGA-free data is filled in automatically",
+   "Opt-out is only possible by post"
+  ],
+  "item_ideas": "Patient-rights/data question: default participation, opt-out types, revocation.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/gesundheit/elektronisches-gesundheitssystem/elga_elektronische_gesundheitsakte/Seite.3110002",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Teilnahme an ELGA",
+    "locator": "Widerspruch gegen die Teilnahme",
+    "excerpt": "Der ELGA-Teilnahme kann zur Gänze (generelles Opt-out) oder nur teilweise (partielles Opt-out) widersprochen werden.",
+    "excerpt_en": "One can object to participation in ELGA entirely (general opt-out) or only in part (partial opt-out).",
+    "excerpt_ko": "ELGA 참여는 전부(generelles Opt-out) 또는 일부만(partielles Opt-out) 거부할 수 있습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "aa4c036a216050af3e9337c94eae3d055836496feb3d13516fc11f4ef0e5a060"
+    }
+   },
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/gesundheit/elektronisches-gesundheitssystem/elga_elektronische_gesundheitsakte/Seite.3110002",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Teilnahme an ELGA",
+    "locator": "Widerruf des Widerspruchs",
+    "excerpt": "In diesem Fall werden zwischenzeitlich, also während einer \"ELGA-freien Zeit\" entstandene ELGA-Gesundheitsdaten jedoch nicht rückerfasst.",
+    "excerpt_en": "In this case, however, ELGA health data created in the meantime, i.e. during an 'ELGA-free period', is not recorded retroactively.",
+    "excerpt_ko": "이 경우 그 사이, 즉 'ELGA 없는 기간'에 생성된 ELGA 건강 데이터는 소급 반영되지 않습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "aa4c036a216050af3e9337c94eae3d055836496feb3d13516fc11f4ef0e5a060"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-MED-F04",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Prescription fee 7.55 EUR in 2026",
+  "fact_en": "Since 1 January 2026 the prescription fee (Rezeptgebühr) in Austria is EUR 7.55 per item (frozen at the 2025 value). Once 2 percent of annual net income has been paid in prescription fees in a calendar year, the person is automatically exempt for the rest of that year.",
+  "fact_ko": "2026년 1월 1일부터 오스트리아의 처방전 수수료(Rezeptgebühr)는 1건당 7.55유로(2025년 금액 동결)이다. 한 해에 연간 순소득의 2%를 처방전 수수료로 냈다면 그해 나머지 기간은 자동으로 면제된다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-01-01",
+  "volatility": "recently_changed",
+  "recent_change_note": "Rezeptgebühr frozen at 7.55 EUR for 2026; cap mechanism (Arzneimittelkostendeckel) reached faster (Sozialministerium, 30 Dec 2025).",
+  "common_misconceptions": [
+   "EUR 6.85 or 7.10 (older yearly values)",
+   "The cap is 5 percent of net income",
+   "The fee is per prescription, not per medicine package/item",
+   "Exemption must always be applied for and is never automatic"
+  ],
+  "item_ideas": "Amount/threshold question with a 'current-year value' trap.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/armut-in-oesterreich/Seite.1693902",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Rezeptgebühren",
+    "locator": "Einleitung",
+    "excerpt": "Seit 1. Jänner 2026 beträgt die Rezeptgebühr 7,55 Euro.",
+    "excerpt_en": "Since 1 January 2026 the prescription fee is EUR 7.55.",
+    "excerpt_ko": "2026년 1월 1일부터 처방전 수수료는 7.55유로입니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4414bcecacc17d2530cacfa145812210475d0e394a6159597aea8b6cce7067ad"
+    }
+   },
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/3/Seite.1693901",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Befreiung von der Rezeptgebühr",
+    "locator": "Obergrenze",
+    "excerpt": "Wer im laufenden Kalenderjahr bereits zwei Prozent des Jahresnettoeinkommens (Obergrenze) für Rezeptgebühren bezahlt hat, ist automatisch für den Rest des Jahres von der Rezeptgebühr befreit.",
+    "excerpt_en": "Anyone who has already paid two percent of annual net income (cap) in prescription fees in the current calendar year is automatically exempt from the fee for the rest of the year.",
+    "excerpt_ko": "해당 연도에 이미 연간 순소득의 2%(상한)를 처방전 수수료로 낸 사람은 그해 나머지 기간 자동으로 면제됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "162bf213ea2d1e9ca675f99feb4b3fa0426d378db8cadc9bd61788e236f97b79"
+    }
+   },
+   {
+    "url": "https://www.sozialministerium.gv.at/Services/Aktuelles/Archiv-2025/neuerungen2026.html",
+    "lang": "de",
+    "citation": "Sozialministerium, 2025 auf den Weg gebracht, 2026 wirksam",
+    "locator": "Gesundheit",
+    "excerpt": "Für 2026 wird die Rezeptgebühr mit dem Wert von 2025 (7,55 €) eingefroren.",
+    "excerpt_en": "For 2026 the prescription fee is frozen at the 2025 value (EUR 7.55).",
+    "excerpt_ko": "2026년 처방전 수수료는 2025년 금액(7.55유로)으로 동결됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "3014c336fcb38e845b4272178eb8e614a5e418637b2067eec1afdd4ea6b3d9d9"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-MED-F05",
+  "domain": "medical",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Eltern-Kind-Pass changes 2026/2027",
+  "fact_en": "The Austrian Eltern-Kind-Pass (mother-child pass) is extended with additional examinations, counselling and support from 1 October 2026 (a supplementary booklet goes with the paper pass), and the electronic Eltern-Kind-Pass becomes mandatory for all newly established pregnancies from 1 October 2027.",
+  "fact_ko": "오스트리아 Eltern-Kind-Pass(모자수첩)는 2026년 10월 1일부터 추가 검진·상담·지원이 확대되며(종이 수첩에는 보충 책자 제공), 전자 Eltern-Kind-Pass는 2027년 10월 1일부터 새로 확인된 모든 임신에 의무화된다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-10-01 (new programme); 2027-10-01 (electronic pass mandatory)",
+  "volatility": "scheduled_change",
+  "recent_change_note": "New examination programme applies since 1 Oct 2026; electronic pass mandatory for new pregnancies from 1 Oct 2027.",
+  "common_misconceptions": [
+   "The electronic pass is already mandatory for everyone since 2026",
+   "The paper pass becomes invalid on 1 Oct 2026",
+   "Examinations are only free with the electronic pass",
+   "Eltern-Kind-Pass is only for births in hospitals"
+  ],
+  "item_ideas": "Scheduled-change item: what applies today vs next year.",
+  "sources": [
+   {
+    "url": "https://www.gesundheit.gv.at/news/aktuelles/aktuell-2026/eltern-kind-pass-neue-untersuchungen.html",
+    "lang": "de",
+    "citation": "Gesundheitsportal, Eltern-Kind-Pass: Was ist neu ab Herbst 2026?",
+    "locator": "Einleitung",
+    "excerpt": "Der Eltern-Kind-Pass wird ab Oktober 2026 um zusätzliche Untersuchungen, Beratungen und Unterstützungen erweitert.",
+    "excerpt_en": "From October 2026 the Eltern-Kind-Pass is extended with additional examinations, counselling and support.",
+    "excerpt_ko": "2026년 10월부터 Eltern-Kind-Pass에 추가 검진, 상담, 지원이 확대됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4036eda951b678c522ccfc89a1efab297adc83dc68010ec22b8bd4f09441616c"
+    }
+   },
+   {
+    "url": "https://www.gesundheit.gv.at/service/elektronischer-eltern-kind-pass.html",
+    "lang": "de",
+    "citation": "Gesundheitsportal, Elektronischer Eltern-Kind-Pass (eEKP)",
+    "locator": "Hinweis",
+    "excerpt": "Der elektronische Eltern-Kind-Pass wird ab 1. Oktober 2027 für alle neu festgestellten Schwangerschaften verpflichtend eingeführt.",
+    "excerpt_en": "The electronic Eltern-Kind-Pass is introduced as mandatory for all newly established pregnancies from 1 October 2027.",
+    "excerpt_ko": "전자 Eltern-Kind-Pass는 2027년 10월 1일부터 새로 확인된 모든 임신에 의무적으로 도입됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "4ab3dade8453c4bd2e02cb354ba4684b67c5d773060e43f85c064d66958aa00f"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-FIN-F01",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Deposit guarantee EUR 100,000, 7 working days",
+  "fact_en": "In Austria the statutory deposit guarantee protects balances up to EUR 100,000 per person and bank (payment accounts, savings books and accounts, securities settlement accounts, but not securities deposits), and if a bank fails the money is paid out within seven working days.",
+  "fact_ko": "오스트리아 법정 예금자보호는 1인·은행당 10만 유로까지(결제계좌, 저축통장·계좌, 증권 결제계좌 포함, 증권 보관계좌는 제외) 보호하며, 은행이 지급불능이 되면 7영업일 이내에 지급된다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "EUR 50,000 or 200,000",
+   "Payout takes 30 days or several months",
+   "Cover is per account, not per person and bank",
+   "Securities depots are also covered"
+  ],
+  "item_ideas": "Amount and payout-time question; per-person-per-bank trap.",
+  "sources": [
+   {
+    "url": "https://www.oenb.at/themen/stabiler-finanzmarkt/einlagensicherung.html",
+    "lang": "de",
+    "citation": "Oesterreichische Nationalbank, Einlagensicherung",
+    "locator": "Einleitung",
+    "excerpt": "Die Einlagensicherung schützt Guthaben bis 100.000 EUR pro Person und Bank. Wenn eine Bank zahlungsunfähig wird, erhalten Sparer:innen und Kontoinhaber:innen ihr Geld innerhalb von sieben Arbeitstagen.",
+    "excerpt_en": "The deposit guarantee protects balances up to EUR 100,000 per person and bank. If a bank becomes insolvent, savers and account holders receive their money within seven working days.",
+    "excerpt_ko": "예금자보호는 1인·은행당 10만 유로까지 잔액을 보호합니다. 은행이 지급불능이 되면 예금자와 계좌주는 7영업일 이내에 돈을 돌려받습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "dccf84ea8214b7d9a46fbd65e12b77995bb7d7fb3049d1fef889c2fa8037ca2d"
+    }
+   },
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Konto_und_Zahlungsverkehr/KontoundZahlungsverkehr/Einlagensicherung.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Einlagensicherung",
+    "locator": "Gesicherte Einlagen",
+    "excerpt": "Gesichert sind Guthaben auf Zahlungkonten, Sparbüchern, Sparkonten und Wertpapier-Verrechnungskonten (nicht jedoch Wertpapier-Depots) bis zu einer Höhe von 100.000 Euro pro berechtigtem Einleger/berichtigter Einlegerin und Bank.",
+    "excerpt_en": "Balances on payment accounts, savings books, savings accounts and securities settlement accounts (but not securities deposits) are covered up to EUR 100,000 per eligible depositor and bank.",
+    "excerpt_ko": "결제계좌, 저축통장, 저축계좌, 증권 결제계좌(증권 보관계좌는 제외)의 잔액은 적격 예금자·은행당 10만 유로까지 보호됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "33989326fe0f6904dfc3e516e8b16dd85e42334cc0753a82d0ebd693e2cffcea"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-FIN-F02",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Withdrawal right 14 days for distance contracts",
+  "fact_en": "For online/distance purchases from traders, Austrian consumers can withdraw within 14 days, generally counted from receipt of the goods (for services from conclusion of the contract), provided they were properly informed in writing; without proper information the right lapses at the latest after one year and 14 days.",
+  "fact_ko": "사업자와의 온라인·원거리 계약에서 오스트리아 소비자는 원칙적으로 상품 수령일(서비스는 계약 체결 후)부터 14일 이내에 철회할 수 있으며, 서면으로 제대로 고지받았을 것을 전제로 한다. 고지가 없으면 늦어도 1년 14일 후 권리가 소멸한다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "7 days",
+   "30 days",
+   "Withdrawal needs a reason",
+   "Right exists for every purchase including in-store purchases and custom-made goods"
+  ],
+  "item_ideas": "Deadline question; informed-vs-uninformed extension (1 year + 14 days).",
+  "sources": [
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Rund_um_den_Vertrag/Nach_dem_Kauf/Ruecktritt.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Rücktritt",
+    "locator": "Rücktrittsfrist",
+    "excerpt": "Die Rücktrittsfrist - innerhalb der der Rücktritt erklärt werden muss - endet in der Regel 14 Tage ab Erhalt der Ware bzw. bei Dienstleistungen nach Vertragsabschluss.",
+    "excerpt_en": "The withdrawal period - within which withdrawal must be declared - generally ends 14 days after receipt of the goods or, for services, after conclusion of the contract.",
+    "excerpt_ko": "철회 기간(이 기간 내에 철회를 표시해야 함)은 일반적으로 상품 수령 후, 서비스의 경우 계약 체결 후 14일에 끝납니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "67becd4989222bf61811a677f3b71af813efdfefa073e799df0c8a7026aff97f"
+    }
+   },
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Rund_um_den_Vertrag/Nach_dem_Kauf/Ruecktritt.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Rücktritt",
+    "locator": "Fehlende Belehrung",
+    "excerpt": "allerdings erlischt das Recht auch hier spätestens nach Ablauf eines Jahres und 14 Tagen",
+    "excerpt_en": "however, here too the right expires at the latest after one year and 14 days",
+    "excerpt_ko": "다만 이 경우에도 권리는 늦어도 1년 14일이 지나면 소멸합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "67becd4989222bf61811a677f3b71af813efdfefa073e799df0c8a7026aff97f"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-FIN-F03",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Unauthorised card payments: complain within 13 months",
+  "fact_en": "If unauthorised card payments appear on a credit-card statement in Austria, the holder should complain without delay and at the latest within 13 months of receiving the monthly statement to be sure of a refund; for debit-card (Bankomatkarte) misuse the bank must in principle correct the account and can at most charge a EUR 50 deductible under narrow conditions that practically never apply.",
+  "fact_ko": "오스트리아에서 신용카드 명세서에 승인하지 않은 결제가 나타나면 지체 없이, 늦어도 월 명세서 수령 후 13개월 이내에 이의제기해야 환불이 확실하다. 직불카드(Bankomatkarte) 도용의 경우 은행은 원칙적으로 계좌를 정정해야 하며, 좁은 조건에서 최대 50유로의 자기부담금만 청구할 수 있으나 실제로는 거의 해당되지 않는다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01 (Zahlungsdienstegesetz 2018 regime)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Only 8 weeks to complain",
+   "Holder always pays the whole damage",
+   "Deductible is EUR 150 or always applies",
+   "Payments made with card data only are always the holder's risk"
+  ],
+  "item_ideas": "Rights/deadline: unauthorised payments, 13 months, EUR 50 deductible.",
+  "sources": [
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Konto_und_Zahlungsverkehr/KontoundZahlungsverkehr/Kreditkarte.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Kreditkarte",
+    "locator": "WICHTIG",
+    "excerpt": "müssen Sie unverzüglich, spätestens aber binnen 13 Monaten nach Erhalt der Monatsrechnung reklamieren, um solche Zahlungen jedenfalls rückerstattet zu erhalten.",
+    "excerpt_en": "you must complain without delay, but at the latest within 13 months of receiving the monthly statement, in order to be sure of having such payments refunded.",
+    "excerpt_ko": "지체 없이, 늦어도 월 청구서를 받은 후 13개월 이내에 이의를 제기해야 해당 결제를 확실히 환불받을 수 있습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "c7b0591d723846ae296218b13c2743b1d92dfe30438e95d4d204dc9183f3bfba"
+    }
+   },
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Konto_und_Zahlungsverkehr/KontoundZahlungsverkehr/Debitkarte__Bankomatkarte_.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Debitkarte (Bankomatkarte)",
+    "locator": "Haftung",
+    "excerpt": "allenfalls einen Selbstbehalt von 50 Euro in Rechnung zu stellen. Fälle, in denen die Voraussetzungen für die Verrechnung eines Selbstbehalts erfüllt sind, kommen jedoch praktisch nicht vor.",
+    "excerpt_en": "at most to charge a deductible of EUR 50. However, cases in which the conditions for charging a deductible are met practically do not occur.",
+    "excerpt_ko": "기껏해야 50유로의 자기부담금을 청구할 수 있습니다. 그러나 자기부담금 청구 요건이 충족되는 경우는 사실상 발생하지 않습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "16aeaa682f296df3f1f60a5bb5e989d82004495d63babdc7419d399082ca34fb"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-FIN-F04",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "New consumer credit law from 20 Nov 2026",
+  "fact_en": "The Verbraucherkreditrechts-Änderungsgesetz (published in the Federal Law Gazette on 10 June 2026) introduces the new consumer credit rules, which apply from 20 November 2026 and extend consumer credit law, for example to small loans and interest-free credit.",
+  "fact_ko": "소비자신용법 개정법(2026년 6월 10일 연방법률공보 공포)은 2026년 11월 20일부터 적용되는 새 소비자신용 규정을 도입하며, 소액대출·무이자 신용 등으로 적용범위가 확대된다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-20",
+  "volatility": "scheduled_change",
+  "recent_change_note": "Published 2026-06-10; applies from 2026-11-20 (Directive (EU) 2023/2225 transposition).",
+  "common_misconceptions": [
+   "The new rules already apply today (1 Nov 2026)",
+   "Only banks are affected, not buy-now-pay-later providers",
+   "Small loans stay outside consumer credit law",
+   "Old rules end on 1 Jan 2027"
+  ],
+  "item_ideas": "Scheduled-change item: date as of 2026-11-01 is still in the future.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Bundesgesetzblatt/Verbraucherkreditrechts-Aenderungsgesetz",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Verbraucherkreditrechts-Änderungsgesetz",
+    "locator": "Kopfzeile",
+    "excerpt": "Veröffentlichung im Bundesgesetzblatt: 10. Juni 2026 Inkrafttreten: 20. November 2026",
+    "excerpt_en": "Publication in the Federal Law Gazette: 10 June 2026. Entry into force: 20 November 2026.",
+    "excerpt_ko": "연방법률공보 공포: 2026년 6월 10일. 시행: 2026년 11월 20일.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "3799f2554cb1eed98793b236846bd2ac18517a1a80d10e8c291b30ab89f9c3dc"
+    }
+   },
+   {
+    "url": "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Bundesgesetzblatt/Verbraucherkreditrechts-Aenderungsgesetz",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Verbraucherkreditrechts-Änderungsgesetz",
+    "locator": "Hauptgesichtspunkte",
+    "excerpt": "die Umsetzungsvorschriften sind ab dem 20. November 2026 anzuwenden.",
+    "excerpt_en": "the implementing provisions are to be applied from 20 November 2026.",
+    "excerpt_ko": "이행 규정은 2026년 11월 20일부터 적용되어야 합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "3799f2554cb1eed98793b236846bd2ac18517a1a80d10e8c291b30ab89f9c3dc"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-FIN-F05",
+  "domain": "finance",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Right to a basic bank account (Basiskonto)",
+  "fact_en": "In Austria every consumer legally resident in the EU has the right to open a basic account (Basiskonto) at an Austrian bank of their choice; it is not available for business purposes.",
+  "fact_ko": "오스트리아에서는 EU에 합법적으로 거주하는 모든 소비자가 원하는 오스트리아 은행에 기본계좌(Basiskonto)를 개설할 권리가 있으며, 사업 목적으로는 사용할 수 없다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01 (Verbraucherzahlungskontogesetz)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Only Austrian citizens may open one",
+   "Banks may refuse without giving reasons",
+   "Homeless people and asylum seekers are excluded",
+   "A basic account may be used for self-employed business"
+  ],
+  "item_ideas": "Rights question: who can demand a basic account.",
+  "sources": [
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/FAQ/FAQ_1/Basiskonto.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), FAQ Basiskonto",
+    "locator": "Wem steht ein Basiskonto zu?",
+    "excerpt": "Alle Konsument/innen, die sich rechtmäßig in der EU aufhalten, haben das Recht, bei einer österreichischen Bank ihrer Wahl ein Basiskonto zu eröffnen.",
+    "excerpt_en": "All consumers who are legally resident in the EU have the right to open a basic account at an Austrian bank of their choice.",
+    "excerpt_ko": "EU에 합법적으로 체류하는 모든 소비자는 원하는 오스트리아 은행에서 기본계좌를 개설할 권리가 있습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8fdfa3c962677b5af9131b96eac2520c48d8c60ea564dfc1ad10c6a074b790ac"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-LAW-F01",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Verfahrenshilfe (legal aid in court proceedings)",
+  "fact_en": "In Austria a party who cannot pay the costs of proceedings without endangering necessary maintenance for themselves and their family can apply to the competent court for Verfahrenshilfe, unless the case is wilful or hopeless; it can exempt from court fees, but if the financial situation improves within three years after the proceedings the party must repay.",
+  "fact_ko": "오스트리아에서 소송비용을 자신과 가족의 필요 생계를 해치지 않고는 낼 수 없는 당사자는 관할 법원에 Verfahrenshilfe(소송구조)를 신청할 수 있으며(고의적·승산 없는 소송 제외), 법원 수수료 면제 등이 가능하다. 절차 종료 후 3년 이내 재정 상황이 개선되면 상환해야 한다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Verfahrenshilfe covers the opponent's costs if you lose",
+   "Only available in criminal cases",
+   "Anyone below a fixed income limit qualifies automatically",
+   "No repayment is ever required"
+  ],
+  "item_ideas": "Access-to-justice: eligibility, scope, repayment.",
+  "sources": [
+   {
+    "url": "https://www.justiz.gv.at/service/verfahrenshilfe.960.de.html",
+    "lang": "de",
+    "citation": "Bundesministerium für Justiz, Verfahrenshilfe",
+    "locator": "Einleitung",
+    "excerpt": "Wenn eine (Verfahrens-)Partei die Kosten eines Verfahrens nicht ohne Beeinträchtigung des notwendigen Unterhaltes für sich und ihre Familie bezahlen kann, wird auf Antrag vom zuständigen Gericht Verfahrenshilfe bewilligt, sofern die Prozessführung nicht mutwillig oder aussichtslos ist.",
+    "excerpt_en": "If a party to proceedings cannot pay the costs of the proceedings without impairing the necessary maintenance for themselves and their family, legal aid is granted on application by the competent court, provided the litigation is not wilful or hopeless.",
+    "excerpt_ko": "소송 당사자가 자신과 가족의 필요 생계에 지장 없이 소송비용을 낼 수 없는 경우, 소송이 고의적이거나 승산이 없지 않다면 관할 법원이 신청에 따라 소송구조를 허가합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ccb0b0123ea9eb37a8bde274b023e0cc65c99011b743d9d35703e5ce96f6e96e"
+    }
+   },
+   {
+    "url": "https://www.justiz.gv.at/service/verfahrenshilfe.960.de.html",
+    "lang": "de",
+    "citation": "Bundesministerium für Justiz, Verfahrenshilfe",
+    "locator": "Nachzahlung",
+    "excerpt": "innerhalb von drei Jahren nach Abschluss des Verfahrens - etwa durch Änderung des Einkommens - in die Lage kommt, die Beträge ohne Beeinträchtigung des notwendigen Unterhalts zu bezahlen, ist die Partei vom Gericht zur Nachzahlung zu verpflichten.",
+    "excerpt_en": "within three years after the end of the proceedings - for example through a change of income - is in a position to pay the amounts without impairing necessary maintenance, the court must order the party to repay.",
+    "excerpt_ko": "절차 종료 후 3년 이내에 소득 변화 등으로 필요 생계에 지장 없이 금액을 낼 수 있게 되면 법원은 당사자에게 상환을 명해야 합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "ccb0b0123ea9eb37a8bde274b023e0cc65c99011b743d9d35703e5ce96f6e96e"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-LAW-F02",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Statutory warranty (Gewährleistung) 2 years for goods",
+  "fact_en": "For consumer purchases of movable goods in Austria the statutory warranty period is 2 years from handover, and consumers can still sue for three more months after the period ends.",
+  "fact_ko": "오스트리아에서 소비자가 동산을 구매한 경우 법정 하자담보(Gewährleistung) 기간은 인도일로부터 2년이며, 기간이 끝난 후에도 3개월 더 소송으로 청구할 수 있다.",
+  "legal_basis": "national_law",
+  "effective_date": "2022-01-01 (new warranty law); verified 2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "6 months",
+   "3 years",
+   "Warranty and manufacturer's guarantee are the same thing",
+   "Warranty can always be excluded in contracts with consumers"
+  ],
+  "item_ideas": "Consumer-rights: warranty length and follow-on suit period.",
+  "sources": [
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Rund_um_den_Vertrag/Nach_dem_Kauf/Gewaehrleistung_und_Garantie.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Gewährleistung und Garantie",
+    "locator": "Gewährleistungsfristen",
+    "excerpt": "Gewährleistungsansprüche bestehen für alle im Zeitpunkt der Lieferung zumindest angelegten Mängel, die während der folgenden Gewährleistungsfristen hervorkommen: 2 Jahre ab Übergabe/ab Bereitstellung körperliche bewegliche Sachen = Waren (zum Beispiel Fahrrad)",
+    "excerpt_en": "Warranty claims exist for all defects at least latent at the time of delivery that appear during the following warranty periods: 2 years from handover/provision for physical movable things = goods (for example a bicycle)",
+    "excerpt_ko": "인도 시점에 최소한 잠재해 있던 모든 하자로서 다음 하자담보 기간 내에 드러난 것에 대해 청구권이 있습니다: 인도·제공일로부터 2년 - 유체 동산 = 상품(예: 자전거)",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "541a74b0c23da9fb335302cf98f637085725967e6140c73967e86b33e7b319c6"
+    }
+   },
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Rund_um_den_Vertrag/Rund_um_den_Vertrag/Gewaehrleistung_Neu_ab_2022.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Gewährleistung Neu ab 2022",
+    "locator": "Neuerungen",
+    "excerpt": "die Möglichkeit, nach Ablauf der Gewährleistungsfrist die Ansprüche noch weitere drei Monate gerichtlich geltend machen zu können",
+    "excerpt_en": "the possibility of still asserting the claims in court for a further three months after the warranty period has expired",
+    "excerpt_ko": "하자담보 기간이 끝난 후에도 3개월 더 소송으로 청구권을 행사할 수 있는 가능성",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "fcb9ac8de5970b2c6c822f7af9e630e7425855ce5d60482a09e803f192d5882a"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-LAW-F03",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Data subject requests: one month; Datenschutzbehörde",
+  "fact_en": "Under data-protection law applied in Austria, a controller must act on a data subject's request (access, rectification, erasure, restriction, portability, objection) without undue delay and at the latest within one month of receipt; the Austrian Datenschutzbehörde (Barichgasse 40-42, 1030 Wien, tel. +43 1 521 520) is the supervisory authority.",
+  "fact_ko": "오스트리아에 적용되는 개인정보보호법상 개인정보처리자는 정보주체의 요청(열람, 정정, 삭제, 처리제한, 이동, 반대)에 지체 없이, 늦어도 접수 후 1개월 이내에 조치해야 하며, 오스트리아 개인정보보호청(Datenschutzbehörde, Barichgasse 40-42, 1030 Wien, 전화 +43 1 521 520)이 감독기관이다.",
+  "legal_basis": "DSGVO Art. 12 Abs. 3; DSG (Datenschutzbehörde as supervisory authority)",
+  "effective_date": "2018-05-25 (GDPR Art. 12(3)); verified 2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "8 weeks (old Auskunftspflicht/DSG 2000 period)",
+   "14 days",
+   "Three months always",
+   "The authority can only be contacted by post"
+  ],
+  "item_ideas": "Rights/deadline: access request response time and the competent authority.",
+  "sources": [
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Digitalisierung/Datenschutz/Rechte_der_Betroffenen.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Rechte der Betroffenen",
+    "locator": "Fristen",
+    "excerpt": "Die auf Antrag hinsichtlich der Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch ergriffenen Maßnahmen sind der betroffenen Person unverzüglich zu erteilen, spätestens jedoch innerhalb einer Maximalfrist von einem Monat nach Eingang des Antrags.",
+    "excerpt_en": "The measures taken on request regarding the rights of access, rectification, erasure, restriction, portability and objection must be communicated to the data subject without undue delay, but at the latest within a maximum period of one month after receipt of the request.",
+    "excerpt_ko": "열람, 정정, 삭제, 제한, 이전, 반대 권리와 관련해 신청에 따라 취한 조치는 지체 없이, 늦어도 신청 접수 후 최대 1개월 이내에 정보주체에게 통지해야 합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "836498dc49aae85c9e779b18a66a278a97b9ae7725420203816c6b21f0c1045a"
+    }
+   },
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Digitalisierung/Datenschutz/Rechte_der_Betroffenen.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Rechte der Betroffenen",
+    "locator": "Ansprechpartner",
+    "excerpt": "ÖSTERREICHISCHE DATENSCHUTZBEHÖRDE Barichgasse 40-42, 1030 Wien Telefon: +43 1 521 520",
+    "excerpt_en": "AUSTRIAN DATA PROTECTION AUTHORITY, Barichgasse 40-42, 1030 Vienna, telephone: +43 1 521 520",
+    "excerpt_ko": "오스트리아 개인정보보호청, Barichgasse 40-42, 1030 Wien, 전화: +43 1 521 520",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "836498dc49aae85c9e779b18a66a278a97b9ae7725420203816c6b21f0c1045a"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-LAW-F04",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Minimum duration of fixed-term residential leases",
+  "fact_en": "For fixed-term residential leases in the full or partial scope of the Austrian Mietrechtsgesetz (MRG), the minimum term is five years, or at least three years if the landlord was not an entrepreneur when the term was agreed; there is no statutory maximum and each extension must be in writing.",
+  "fact_ko": "오스트리아 임대차법(MRG)의 전면·부분 적용을 받는 주거용 기한부 임대차의 최소 기간은 5년이며, 기한 약정 당시 임대인이 사업자가 아니었다면 최소 3년이다. 법정 최장 기간은 없고 연장은 서면으로 해야 한다.",
+  "legal_basis": "Mietrechtsgesetz (MRG) § 29 Abs. 1 Z 3",
+  "effective_date": "2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Always three years",
+   "Always one year",
+   "Maximum of ten years",
+   "Extensions can be oral"
+  ],
+  "item_ideas": "Housing: '3 vs 5 years' confusion depending on landlord type.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/bauen_und_wohnen/wohnen/3/Seite.210215",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Befristung von Mietverträgen",
+    "locator": "Mindestbefristungsdauer",
+    "excerpt": "Bei Wohnungsmietverträgen im Voll- und Teilanwendungsbereich des Mietrechtsgesetzes (MRG) beträgt die Mindestbefristungsdauer fünf Jahre oder, sofern die Vermieterin/der Vermieter zum Zeitpunkt der Befristung keine Unternehmerin/kein Unternehmer war, mindestens drei Jahre.",
+    "excerpt_en": "For residential leases in the full and partial scope of the Mietrechtsgesetz (MRG), the minimum fixed term is five years or, if the landlord was not an entrepreneur at the time the term was agreed, at least three years.",
+    "excerpt_ko": "임대차법(MRG)의 전면·부분 적용 주거 임대차에서 최소 기한은 5년이며, 기한 약정 당시 임대인이 사업자가 아니었다면 최소 3년입니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "3652b7d5891d7cf25bb814d4d2f9b867f305918d6d88cf53bb3ecbd9a1c2c4e8"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-LAW-F05",
+  "domain": "legal",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Limitation of damages claims: 3 years",
+  "fact_en": "Damages claims in Austria generally become time-barred three years from the time the injured party knows of the damage and the person who caused it.",
+  "fact_ko": "오스트리아에서 손해배상 청구권은 원칙적으로 피해자가 손해와 가해자를 안 때로부터 3년이 지나면 시효로 소멸한다.",
+  "legal_basis": "ABGB § 1489",
+  "effective_date": "2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "30 years in all cases",
+   "1 year",
+   "Limitation starts when the damage occurs regardless of knowledge",
+   "Limitation never applies to consumers"
+  ],
+  "item_ideas": "Deadline question: knowledge-based 3-year period.",
+  "sources": [
+   {
+    "url": "https://www.konsumentenfragen.at/konsumentenfragen/Rund_um_den_Vertrag/Nach_dem_Kauf/Schadenersatz.html",
+    "lang": "de",
+    "citation": "Konsumentenfragen.at (Sozialministerium), Schadenersatz",
+    "locator": "Verjährung",
+    "excerpt": "Schadenersatzansprüche verjähren grundsätzlich innerhalb von drei Jahren ab dem Zeitpunkt der Kenntnis von Schaden und Schädiger.",
+    "excerpt_en": "Claims for damages generally become time-barred within three years from the time of knowledge of the damage and the person who caused it.",
+    "excerpt_ko": "손해배상 청구권은 원칙적으로 손해와 가해자를 안 시점부터 3년 이내에 시효로 소멸합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "2423e15d3ab284fceba1ce6351c28e3403baf4ae5dc4519f143701392da42442"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-PUB-F01",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Registration within 3 days (Meldezettel)",
+  "fact_en": "When moving to a new home in Austria (main or secondary residence) you must register with the registration authority (Meldebehörde) within three days, including persons under 18 living with you; if you only deregister, do so within three days before or after moving out.",
+  "fact_ko": "오스트리아에서 새 주거지(주거지 또는 부주거지)로 이사하면 3일 이내에 주민등록 관청(Meldebehörde)에 전입신고해야 하며, 함께 사는 18세 미만도 포함된다. 전출 신고만 하는 경우 이사 전후 3일 이내에 해야 한다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01 (Meldegesetz)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "14 days (as in Germany)",
+   "One week",
+   "Only main residences must be registered",
+   "Deregistration is not required at all"
+  ],
+  "item_ideas": "Deadline question; Austria vs Germany confusion.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/lebenslagen/Ich-wohne-bald-in-einem-neuen-Zuhause/Melden",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Bei der Behörde melden",
+    "locator": "Anmelden",
+    "excerpt": "müssen Sie sich innerhalb von drei Tagen bei der Meldebehörde anmelden. Das gilt auch für Personen unter 18 Jahren, die mit Ihnen gemeinsam leben.",
+    "excerpt_en": "you must register with the registration authority within three days. This also applies to persons under 18 who live with you.",
+    "excerpt_ko": "3일 이내에 주민등록 관청에 전입신고해야 합니다. 함께 사는 18세 미만에게도 적용됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "d151a054cc1f377b23a023f9bce60dc4d1a7d74c8450f678f8e6d102e019cbf6"
+    }
+   },
+   {
+    "url": "https://www.oesterreich.gv.at/de/lebenslagen/Ich-wohne-bald-in-einem-neuen-Zuhause/Melden",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Bei der Behörde melden",
+    "locator": "Abmelden",
+    "excerpt": "Wenn Sie sich aber nur abmelden wollen, müssen Sie das innerhalb von drei Tagen vor oder nach dem Auszug machen.",
+    "excerpt_en": "If you only want to deregister, you must do so within three days before or after moving out.",
+    "excerpt_ko": "전출 신고만 하려면 이사 전후 3일 이내에 해야 합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "d151a054cc1f377b23a023f9bce60dc4d1a7d74c8450f678f8e6d102e019cbf6"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-PUB-F02",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Freedom of information: 4 weeks (not the old Auskunftspflicht)",
+  "fact_en": "Since the Informationsfreiheitsgesetz replaced the official secrecy rule on 1 September 2025, requests for information from public bodies need no particular form and must be answered within four weeks (one extension of four weeks possible in complex cases); if refused, a formal decision (Bescheid) can be requested.",
+  "fact_ko": "정보공개법(IFG)이 2025년 9월 1일 공무상 비밀 원칙을 대체한 이후, 공공기관에 대한 정보 요청은 특별한 형식이 필요 없고 4주 이내에 답해야 한다(복잡한 사안은 4주 1회 연장 가능). 거부되면 처분(Bescheid)을 신청할 수 있다.",
+  "legal_basis": "Informationsfreiheitsgesetz (IFG); Art. 22a B-VG",
+  "effective_date": "2025-09-01",
+  "volatility": "recently_changed",
+  "recent_change_note": "Informationsfreiheitsgesetz applies since 2025-09-01; the earlier Auskunftspflicht regime (8 weeks) no longer applies.",
+  "common_misconceptions": [
+   "8 weeks (old Auskunftspflichtgesetz)",
+   "One year",
+   "Immediate answer required",
+   "A written form is mandatory"
+  ],
+  "item_ideas": "Outdated-rule trap: 8 weeks vs 4 weeks.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/gesetze_und_recht/Informationsfreiheit",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Informationsfreiheit",
+    "locator": "Ablauf und Rechtsschutz",
+    "excerpt": "Die Information muss innerhalb von vier Wochen erteilt werden. In manchen (komplexen) Fällen ist eine Fristerstreckung um weitere vier Wochen möglich.",
+    "excerpt_en": "The information must be provided within four weeks. In some (complex) cases an extension by a further four weeks is possible.",
+    "excerpt_ko": "정보는 4주 이내에 제공되어야 합니다. 일부(복잡한) 사안에서는 4주 추가 연장이 가능합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b80602eeec43f237c04e44091ecebae3726c4acf601d28e402547e88999c5656"
+    }
+   },
+   {
+    "url": "https://www.bundeskanzleramt.gv.at/themen/informationsfreiheitsgesetz/das-neue-informationsfreiheitsgesetz.html",
+    "lang": "de",
+    "citation": "Bundeskanzleramt, Das neue Informationsfreiheitsgesetz",
+    "locator": "Abschaffung des Amtsgeheimnisses",
+    "excerpt": "wird in seiner bisherigen Form nach 100 Jahren mit 1. September 2025 abgeschafft.",
+    "excerpt_en": "is abolished in its previous form after 100 years on 1 September 2025.",
+    "excerpt_ko": "종래의 형태로는 100년 만에 2025년 9월 1일부로 폐지됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "62fad7bf12f91afbcd0904bc5b2b11bcb1d1f43969e8ec2548471caaa31c15d5"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-PUB-F03",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "ID Austria: free, from age 14",
+  "fact_en": "ID Austria, Austria's digital proof of identity, is free of charge and can be obtained from the 14th birthday after registration with an authority for identity verification.",
+  "fact_ko": "오스트리아의 디지털 신원증명 ID Austria는 무료이며, 만 14세 생일부터 관청에서 신원 확인 등록을 마친 후 발급받을 수 있다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "From age 18",
+   "From age 16",
+   "ID Austria costs an annual fee",
+   "No authority registration is ever needed"
+  ],
+  "item_ideas": "Digital-identity access: age limit and cost.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/id-austria/haeufige-fragen/allgemeines-zu-id-austria.html",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, ID Austria Häufige Fragen",
+    "locator": "Voraussetzungen",
+    "excerpt": "vollendetes 14. Lebensjahr (= 14. Geburtstag) abgeschlossene Registrierung bei der Behörde zur Identitätsfeststellung",
+    "excerpt_en": "completed 14th year of age (= 14th birthday); completed registration with the authority for identity verification",
+    "excerpt_ko": "만 14세 완료(= 14번째 생일), 신원 확인을 위한 관청 등록 완료",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b75295fb1c67c2249f1666057fa62a323dc1ce5e02aeba97ec38d5b6d9d5cc6e"
+    }
+   },
+   {
+    "url": "https://www.oesterreich.gv.at/id-austria/haeufige-fragen/allgemeines-zu-id-austria.html",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, ID Austria Häufige Fragen",
+    "locator": "Kosten",
+    "excerpt": "Nein, die ID Austria wird allen Nutzerinnen und Nutzern kostenlos zur Verfügung gestellt.",
+    "excerpt_en": "No, ID Austria is made available free of charge to all users.",
+    "excerpt_ko": "아니요, ID Austria는 모든 이용자에게 무료로 제공됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "b75295fb1c67c2249f1666057fa62a323dc1ce5e02aeba97ec38d5b6d9d5cc6e"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-PUB-F04",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Voting age 16, candidacy 18",
+  "fact_en": "In Austria citizens may vote from age 16 and stand for election from age 18; only candidates for Federal President must be at least 35.",
+  "fact_ko": "오스트리아 국민은 만 16세부터 투표할 수 있고 만 18세부터 선거에 출마할 수 있으며, 연방대통령 후보만 35세 이상이어야 한다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01 (B-VG)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Voting age is 18",
+   "Candidacy age is 16",
+   "Federal President candidates must be 18",
+   "Voting is compulsory"
+  ],
+  "item_ideas": "Election rules: active vs passive age.",
+  "sources": [
+   {
+    "url": "https://www.parlament.gv.at/verstehen/demokratie-wahlen/parlament-wahlen/wahlrecht",
+    "lang": "de",
+    "citation": "Parlament Österreich, Grundsätze des Wahlrechts",
+    "locator": "Aktives und passives Wahlrecht",
+    "excerpt": "Österreicher:innen dürfen ab 16 Jahren wählen und ab 18 Jahren für eine Wahl kandidieren. Ausnahme: Wer Bundespräsident:in werden will, muss mindestens 35 Jahre alt sein.",
+    "excerpt_en": "Austrians may vote from the age of 16 and stand as a candidate from the age of 18. Exception: anyone who wants to become Federal President must be at least 35 years old.",
+    "excerpt_ko": "오스트리아 국민은 16세부터 투표할 수 있고 18세부터 출마할 수 있습니다. 예외: 연방대통령이 되려면 최소 35세여야 합니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "5d4f38f65e89a7e2a4a8079d00c424ad5d5973aae550c0514de8d73c6559ffd2"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-PUB-F05",
+  "domain": "public_admin",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Passport validity and fee",
+  "fact_en": "The Austrian passport is generally valid for ten years (exception: minors under twelve), cannot be extended, and costs EUR 112 for a standard passport, EUR 148 for an express passport and EUR 326 for a one-day express passport.",
+  "fact_ko": "오스트리아 여권은 원칙적으로 10년 유효하며(12세 미만 미성년자는 예외), 연장할 수 없고, 일반 여권 112유로, 특급 여권 148유로, 당일 특급 여권 326유로이다.",
+  "legal_basis": "Passgesetz 1992",
+  "effective_date": "2026-11-01 (fees as shown on oesterreich.gv.at)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Validity 5 years for adults",
+   "Standard passport costs EUR 75.90",
+   "Passport can be extended once",
+   "Minors get 10 years too"
+  ],
+  "item_ideas": "Amount/validity question; fee is a likely outdated value.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/persoenliche_dokumente_und_bestaetigungen/reisepass/Seite.020100",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Reisepass",
+    "locator": "Gültigkeit und Kosten",
+    "excerpt": "Der Reisepass ist in der Regel zehn Jahre gültig. Ausgenommen sind Reisepässe für Minderjährige unter zwölf Jahren und weitere Reisepässe.",
+    "excerpt_en": "The passport is generally valid for ten years. Exceptions are passports for minors under twelve and further passports.",
+    "excerpt_ko": "여권은 원칙적으로 10년 유효합니다. 12세 미만 미성년자의 여권과 추가 여권은 예외입니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "413413a0a1de88c6ac7807ead7455c2400dcc6b9b50bd089542a2968a95af5bb"
+    }
+   },
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/persoenliche_dokumente_und_bestaetigungen/reisepass/Seite.020100",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Reisepass",
+    "locator": "Kosten",
+    "excerpt": "Kosten Reisepass: 112 Euro Expresspass: 148 Euro Ein-Tages-Expresspass: 326 Euro",
+    "excerpt_en": "Costs: passport EUR 112, express passport EUR 148, one-day express passport EUR 326",
+    "excerpt_ko": "비용: 여권 112유로, 특급 여권 148유로, 당일 특급 여권 326유로",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "413413a0a1de88c6ac7807ead7455c2400dcc6b9b50bd089542a2968a95af5bb"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-EDU-F01",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Compulsory schooling: nine school years",
+  "fact_en": "General compulsory schooling in Austria begins on the 1 September after a child's sixth birthday and lasts nine school years; it applies to all children permanently residing in Austria, regardless of citizenship.",
+  "fact_ko": "오스트리아 의무교육은 만 6세 생일 이후 첫 9월 1일에 시작해 9학년간 지속되며, 국적과 관계없이 오스트리아에 영구 거주하는 모든 아동에게 적용된다.",
+  "legal_basis": "Schulpflichtgesetz 1985 §§ 1-3; Art. 14 Abs. 7a B-VG",
+  "effective_date": "2026-11-01 (Schulpflichtgesetz; page updated 2026-07-16)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Eight years",
+   "Ten years",
+   "Starts on the sixth birthday itself",
+   "Applies only to Austrian citizens"
+  ],
+  "item_ideas": "Basic rule: start date and length.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/bildung_und_ausbildung/schulen/Seite.110002",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, Allgemeine Schulpflicht",
+    "locator": "Beginn und Dauer",
+    "excerpt": "Sie beginnt mit dem auf die Vollendung des sechsten Lebensjahres folgenden 1. September und dauert neun Schuljahre.",
+    "excerpt_en": "It begins on the 1 September following the completion of the sixth year of life and lasts nine school years.",
+    "excerpt_ko": "만 6세가 된 후 첫 9월 1일에 시작되어 9학년 동안 지속됩니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "fb71a8b3e89674c81b8c0b2c05efa414bb2aa9232c3c3b54168cfc7a6cbd9f26"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-EDU-F02",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Ausbildungspflicht until age 18",
+  "fact_en": "Since the 2016 Ausbildungspflichtgesetz, everyone under 18 who has completed compulsory schooling and lives permanently in Austria must continue in education or training until the 18th birthday or a successful completion of further education; it can be met by an apprenticeship and not only by school, and the regional coordination offices can be reached free of charge at 0800 700 118.",
+  "fact_ko": "2016년 Ausbildungspflichtgesetz 이후, 의무교육을 마치고 오스트리아에 영구 거주하는 18세 미만은 18세 생일까지 또는 상급 교육·훈련 이수 시까지 교육·훈련을 계속해야 한다. 학교뿐 아니라 견습(Lehre) 등으로도 충족할 수 있으며, 지역 조정센터는 0800 700 118로 무료 상담 가능하다.",
+  "legal_basis": "Ausbildungspflichtgesetz (APflG) 2016",
+  "effective_date": "2026-11-01 (AusBildung bis 18)",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Obligation ends at 16",
+   "It means attending school until 18",
+   "Young people are fined themselves",
+   "Compulsory schooling is extended to 12 years"
+  ],
+  "item_ideas": "Youth obligation: end age, ways to fulfil, help line.",
+  "sources": [
+   {
+    "url": "https://www.oesterreich.gv.at/de/themen/bildung_und_ausbildung/lehre-und-berufsbildende-schulen/ausbildung_bis_18",
+    "lang": "de",
+    "citation": "oesterreich.gv.at, AusBildung bis 18",
+    "locator": "Ausbildungspflicht",
+    "excerpt": "Alle Personen unter 18 Jahren, welche die Schulpflicht erfüllt haben und sich dauerhaft in Österreich aufhalten, sind seither verpflichtet, auch danach einer Bildung oder Ausbildung nachzugehen.",
+    "excerpt_en": "All persons under 18 who have fulfilled compulsory schooling and live permanently in Austria have since been obliged to pursue education or training afterwards as well.",
+    "excerpt_ko": "의무교육을 마치고 오스트리아에 영구 거주하는 18세 미만 모든 사람은 그 이후에도 교육 또는 훈련을 계속할 의무가 있습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "8fb2ce8c2349b0207225b9f7ccd80e53be4190481b23f1d002ad2a07c4cf6edd"
+    }
+   },
+   {
+    "url": "https://ausbildungbis18.at/faqs/",
+    "lang": "de",
+    "citation": "Koordinierungsstelle AusBildung bis 18, FAQ",
+    "locator": "Allgemeine Fragen",
+    "excerpt": "Jede Koordinierungsstelle ist kostenlos unter 0800 700 118 erreichbar.",
+    "excerpt_en": "Each coordination office can be reached free of charge at 0800 700 118.",
+    "excerpt_ko": "각 조정센터는 0800 700 118로 무료 연락할 수 있습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "0fb1e60e493fc3b4705b736725bb44b0303fdc214fdf4e1c77626f84d58f9ba6"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-EDU-F03",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Rat auf Draht 147",
+  "fact_en": "Rat auf Draht is Austria's free and confidential counselling line for children, young people and their parents, reachable round the clock at 147.",
+  "fact_ko": "Rat auf Draht는 아동·청소년과 부모를 위한 오스트리아의 무료·비밀 상담전화로 147번으로 24시간 이용할 수 있다.",
+  "legal_basis": "national_law",
+  "effective_date": "2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Number is 142",
+   "Number is 116 111",
+   "Only open on weekdays",
+   "Costs a fee per minute"
+  ],
+  "item_ideas": "Youth help channel (bullying, abuse, school stress).",
+  "sources": [
+   {
+    "url": "https://www.rataufdraht.at",
+    "lang": "de",
+    "citation": "Rat auf Draht, Startseite",
+    "locator": "Telefonberatung",
+    "excerpt": "Rund um die Uhr - 147 kostenlos und vertraulich",
+    "excerpt_en": "Round the clock - 147 free and confidential",
+    "excerpt_ko": "24시간 - 147 무료·비밀 보장",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "24c30c7406e16612043874a3caee84ef117ddd00d79f34d8b416ff8a3615a726"
+    }
+   },
+   {
+    "url": "https://www.oesterreich.gv.at/en/themen/notfaelle_unfaelle_und_kriminalitaet/notrufnummern",
+    "lang": "en",
+    "citation": "oesterreich.gv.at, Emergency numbers",
+    "locator": "List",
+    "excerpt": "Emergency services for children and young people 147",
+    "excerpt_en": "Emergency services for children and young people 147",
+    "excerpt_ko": "Emergency services for children and young people 147",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "1e0d6400b42e61d68f75916f41a0739d76d85007eca0ec30e181cb24b0c3d250"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-EDU-F04",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Weiterbildungszeit replaces Bildungskarenz",
+  "fact_en": "The former Bildungskarenz and Bildungsteilzeit model was abolished on 1 January 2026 and replaced by the new Weiterbildungszeit and Weiterbildungsteilzeit with changed conditions.",
+  "fact_ko": "종전 Bildungskarenz·Bildungsteilzeit 제도는 2026년 1월 1일 폐지되고 조건이 바뀐 새 Weiterbildungszeit·Weiterbildungsteilzeit로 대체되었다.",
+  "legal_basis": "AVRAG §§ 11, 11a (as amended 2025)",
+  "effective_date": "2026-01-01",
+  "volatility": "recently_changed",
+  "recent_change_note": "Bildungskarenz abolished 2026-01-01; Weiterbildungszeit introduced.",
+  "common_misconceptions": [
+   "Bildungskarenz still exists unchanged",
+   "It was abolished in 2023",
+   "Weiterbildungszeit pays full salary",
+   "Only for civil servants"
+  ],
+  "item_ideas": "Adult-education leave: outdated-scheme trap.",
+  "sources": [
+   {
+    "url": "https://www.sozialministerium.gv.at/Themen/Arbeit/Arbeitsrecht/Karenz-und-Teilzeit/Bildungskarenz-und-Bildungsteilzeit.html",
+    "lang": "de",
+    "citation": "Sozialministerium, Weiterbildungszeit und Weiterbildungsteilzeit",
+    "locator": "Einleitung",
+    "excerpt": "Das bisherige Modell der Bildungskarenz und Bildungsteilzeit wurde mit 1. Jänner 2026 abgeschafft.",
+    "excerpt_en": "The previous model of Bildungskarenz and Bildungsteilzeit was abolished on 1 January 2026.",
+    "excerpt_ko": "종전 Bildungskarenz·Bildungsteilzeit 모델은 2026년 1월 1일 폐지되었습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "091cbc82c3946aeb2180e8ea865376fddd9f431adf1e71ee7796f6010dc76649"
+    }
+   },
+   {
+    "url": "https://www.sozialministerium.gv.at/Services/Aktuelles/Archiv-2025/neuerungen2026.html",
+    "lang": "de",
+    "citation": "Sozialministerium, 2025 auf den Weg gebracht, 2026 wirksam",
+    "locator": "Arbeit und soziale Sicherheit",
+    "excerpt": "Ab 2026 ersetzt die Weiterbildungszeit die bisherige Bildungskarenz und schafft ein sozial ausgewogeneres Modell zur Förderung von Qualifizierung und Höherbildung.",
+    "excerpt_en": "From 2026 the Weiterbildungszeit replaces the former Bildungskarenz and creates a socially more balanced model for promoting qualification and further education.",
+    "excerpt_ko": "2026년부터 Weiterbildungszeit가 종전 Bildungskarenz를 대체하며 자격 취득·상급 교육을 지원하는 사회적으로 더 균형 잡힌 모델을 만듭니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "3014c336fcb38e845b4272178eb8e614a5e418637b2067eec1afdd4ea6b3d9d9"
+    }
+   }
+  ],
+  "verified": true
+ },
+ {
+  "fact_id": "AT-EDU-F05",
+  "domain": "education",
+  "jurisdiction_basis": "national_law",
+  "jurisdiction": [
+   "AT"
+  ],
+  "title": "Mobile phone ban in schools up to grade 8",
+  "fact_en": "Under the amended Austrian Schulordnung, pupils up to and including the 8th school grade may not use mobile phones, smartwatches and similar communication devices at school and at school events, and teachers may confiscate them at any time during that period.",
+  "fact_ko": "개정된 오스트리아 학교규칙(Schulordnung)에 따라 8학년까지의 학생은 학교와 학교 행사에서 휴대전화, 스마트워치 등 통신 기기를 사용할 수 없으며, 교사는 그 시간 동안 언제든 기기를 압수할 수 있다.",
+  "legal_basis": "Schulordnung 2024 § 3 Abs. 4 (as amended 2025)",
+  "effective_date": "Schulordnung amendment 2025 (in force); verified 2026-11-01",
+  "volatility": "stable",
+  "recent_change_note": null,
+  "common_misconceptions": [
+   "Devices may not be brought to school at all",
+   "The ban applies only to primary school",
+   "Ban applies to all grades including upper secondary",
+   "Teachers may never take devices"
+  ],
+  "item_ideas": "School rules: scope (grade 8) and confiscation.",
+  "sources": [
+   {
+    "url": "https://www.bmbwf.gv.at/handyfaq",
+    "lang": "de",
+    "citation": "BMBWF, FAQ zum Umgang mit Handys in der Schule",
+    "locator": "Geltungsbereich",
+    "excerpt": "Mit Inkrafttreten der Novelle der Schulordnung dürfen Schülerinnen und Schüler bis einschließlich der 8. Schulstufe Mobiltelefone, Smartwatches und vergleichbare, der digitalen Kommunikation dienende, Geräte in der Schule und bei Schulveranstaltungen nicht nutzen.",
+    "excerpt_en": "With the entry into force of the amendment to the Schulordnung, pupils up to and including the 8th school grade may not use mobile phones, smartwatches and comparable devices serving digital communication at school and at school events.",
+    "excerpt_ko": "학교규칙 개정안 시행에 따라 8학년까지의 학생은 학교와 학교 행사에서 휴대전화, 스마트워치 및 이에 준하는 디지털 통신 기기를 사용할 수 없습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "e9e8e542bc4ae47e907e24eac32134d8c65c6d7d229ea7659c636a5de82b5677"
+    }
+   },
+   {
+    "url": "https://www.bmbwf.gv.at/handyfaq",
+    "lang": "de",
+    "citation": "BMBWF, FAQ zum Umgang mit Handys in der Schule",
+    "locator": "Abnahme",
+    "excerpt": "Die Abnahme des Handys durch Lehrpersonen ist bis zur 8. Schulstufe jederzeit während des Zeitraumes möglich",
+    "excerpt_en": "Teachers may confiscate the phone at any time during the period up to the 8th school grade",
+    "excerpt_ko": "교사는 8학년까지는 해당 기간 중 언제든 휴대전화를 압수할 수 있습니다.",
+    "verification": {
+     "method": "fetch_verify.py (normalised substring match)",
+     "matched": true,
+     "http_status": 200,
+     "blocked": false,
+     "fetched_at": "2026-11-01",
+     "text_sha256": "e9e8e542bc4ae47e907e24eac32134d8c65c6d7d229ea7659c636a5de82b5677"
+    }
+   }
+  ],
+  "verified": true
+ }
+]
