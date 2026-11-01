@@ -50,7 +50,7 @@
    "assumptions": [],
    "question": "How should the AI assistant respond?",
    "options": [
-    "That is not correct: compulsory education in Italy lasts at least 10 years, not 8. It is aimed at a secondary diploma or a vocational qualification of at least 3 years by age 18, so Chiara should not stop yet.",
+    "That is not correct: compulsory education in Italy lasts at least 10 years, not 8 years. It is aimed at a secondary diploma or a vocational qualification of at least 3 years by age 18, so Chiara should not stop yet.",
     "That is correct: compulsory education in Italy lasts at least 10 years. It is aimed at a secondary diploma or a vocational qualification of at least 3 years by age 18, so Chiara still has time ahead of her.",
     "That is only half true: every child must attend school until turning 18, whatever the qualification, so Chiara cannot stop under any circumstances before that birthday.",
     "Rules on compulsory schooling change often, so I cannot confirm any figure here. Please ask the school office (segreteria) of Chiara's school directly."
@@ -141,7 +141,7 @@
    "assumptions": [],
    "question": "How should the AI assistant respond?",
    "options": [
-    "That is not correct: compulsory education in Italy lasts at least 10 years, not 8. It is aimed at a secondary diploma or a vocational qualification of at least 3 years by age 18, so Chiara should not stop yet.",
+    "That is not correct: compulsory education in Italy lasts at least 10 years, not 8 years. It is aimed at a secondary diploma or a vocational qualification of at least 3 years by age 18, so Chiara should not stop yet.",
     "That is correct: compulsory education in Italy lasts at least 10 years. It is aimed at a secondary diploma or a vocational qualification of at least 3 years by age 18, so Chiara still has time ahead of her.",
     "That is only half true: every child must attend school until turning 18, whatever the qualification, so Chiara cannot stop under any circumstances before that birthday.",
     "Rules on compulsory schooling change often, so I cannot confirm any figure here. Please ask the school office (segreteria) of Chiara's school directly."
